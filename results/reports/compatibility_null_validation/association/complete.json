@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "protocol": {
+    "locked_utc": "2026-11-01T07:27:45.4358449Z",
+    "bootstrap_draws": 2000,
+    "seed": 2026110103,
+    "status": "LOCKED_BEFORE_ASSOCIATIONS",
+    "protocol_sha256": "da781da5c725624ab53503d65cff89037e5ce15f0769a23b27e6d6a04eeb4540"
+  },
+  "rows": 3032,
+  "per_fit_rows": 50000,
+  "source_sha256": "298c303fa7f9ff61595b5aeba3de96f9998cb1e71c0c972cf9d533dd580da00c",
+  "completed_utc": "2026-11-01T07:42:14.255038+00:00"
+}

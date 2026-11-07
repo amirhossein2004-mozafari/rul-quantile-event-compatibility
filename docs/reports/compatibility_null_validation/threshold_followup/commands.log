@@ -1,0 +1,3 @@
+All commands including read-only Step 0 and edits are archived verbatim in exact_tool_calls.jsonl. Protocol locked before new analyses.
+RUN: python scripts/threshold_compatibility_followup.py > reports/compatibility_null_validation/threshold_followup/run.log 2>&1
+FORMAT/ARCHIVE: python scripts/format_threshold_followup.py; formats existing estimates and refreshes only new-folder outputs. Checks PASS, 19918 earlier files unchanged.

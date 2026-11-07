@@ -1,0 +1,211 @@
+{
+  "fits": {
+    "Temp": {
+      "T": 0.6580436819607375,
+      "NLL": 0.04505383936020345,
+      "at_boundary": false,
+      "status": "bounded_nll_optimum"
+    },
+    "ShiftTemp": {
+      "T": 0.1,
+      "NLL": 7.660452971495893e-07,
+      "at_boundary": true,
+      "status": "bounded_nll_optimum"
+    }
+  },
+  "n_splits": 4,
+  "cv_status": "reduced_folds_minority_count",
+  "folds": [
+    {
+      "fold": 0,
+      "train_engine_ids": [
+        5,
+        9,
+        23,
+        27,
+        29,
+        31,
+        36,
+        37,
+        42,
+        54,
+        71,
+        73,
+        74,
+        79,
+        94
+      ],
+      "validation_engine_ids": [
+        34,
+        38,
+        60,
+        65,
+        75
+      ],
+      "train_positive": 3,
+      "train_negative": 12,
+      "validation_positive": 1,
+      "validation_negative": 4,
+      "Temp": {
+        "T": 0.1,
+        "NLL": 1.4915274263839246e-13,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.1,
+        "NLL": 9.37821043293467e-07,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      }
+    },
+    {
+      "fold": 1,
+      "train_engine_ids": [
+        9,
+        23,
+        27,
+        29,
+        31,
+        34,
+        36,
+        38,
+        42,
+        54,
+        60,
+        65,
+        71,
+        74,
+        75
+      ],
+      "validation_engine_ids": [
+        5,
+        37,
+        73,
+        79,
+        94
+      ],
+      "train_positive": 3,
+      "train_negative": 12,
+      "validation_positive": 1,
+      "validation_negative": 4,
+      "Temp": {
+        "T": 0.6882517403221288,
+        "NLL": 0.059536598892136,
+        "at_boundary": false,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.1,
+        "NLL": 1.0213937295327855e-06,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      }
+    },
+    {
+      "fold": 2,
+      "train_engine_ids": [
+        5,
+        23,
+        34,
+        36,
+        37,
+        38,
+        54,
+        60,
+        65,
+        71,
+        73,
+        74,
+        75,
+        79,
+        94
+      ],
+      "validation_engine_ids": [
+        9,
+        27,
+        29,
+        31,
+        42
+      ],
+      "train_positive": 3,
+      "train_negative": 12,
+      "validation_positive": 1,
+      "validation_negative": 4,
+      "Temp": {
+        "T": 0.7228091625639086,
+        "NLL": 0.05870612553187666,
+        "at_boundary": false,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.1,
+        "NLL": 8.357625335479456e-08,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      }
+    },
+    {
+      "fold": 3,
+      "train_engine_ids": [
+        5,
+        9,
+        27,
+        29,
+        31,
+        34,
+        37,
+        38,
+        42,
+        60,
+        65,
+        73,
+        75,
+        79,
+        94
+      ],
+      "validation_engine_ids": [
+        23,
+        36,
+        54,
+        71,
+        74
+      ],
+      "train_positive": 3,
+      "train_negative": 12,
+      "validation_positive": 1,
+      "validation_negative": 4,
+      "Temp": {
+        "T": 0.7436950167522758,
+        "NLL": 0.05882646018804249,
+        "at_boundary": false,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.1,
+        "NLL": 1.02139016241731e-06,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      }
+    }
+  ],
+  "test_rule": "final refit on all calibration engines; no fold ensemble",
+  "subset": "FD001",
+  "seed": 404,
+  "training_weight": 4.787096977233887,
+  "ln_training_weight": 1.5659241686622198,
+  "temperature_bounds": [
+    0.1,
+    10.0
+  ],
+  "fourth_formula": "sigmoid((raw_logit - ln_training_weight) / T_shift)",
+  "input_sha256": {
+    "results\\final_evaluation_v3_exact_conformal\\FD001_seed_404_predictions.csv": "65b024ef81e93037c6cc2f0bde242b5b5088ba81c6dfc32111d0a39b3da81e93",
+    "results\\final_evaluation_v3_exact_conformal\\calibration\\FD001_seed_404_calibration.csv": "c6e5da856743df27dfa0a6cecd419bebcd2ea1fecd2196baa2c063b25be486be",
+    "results\\final_evaluation_v3\\checkpoints\\FD001_seed_404_model.pt": "6e26c61bf8e3ab7aabf8355f817606a143d76e166fd52a33b9c1cd3bf45c8d6a",
+    "results\\final_evaluation_v3\\checkpoints\\FD001_seed_404_preprocessing.joblib": "297c8a6758fb7e0abf59cebea77c85bfa9801501649d14eeaf15227f2602d145",
+    "data\\raw\\cmapss\\train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+    "data\\raw\\cmapss\\test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+    "data\\raw\\cmapss\\RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca"
+  }
+}

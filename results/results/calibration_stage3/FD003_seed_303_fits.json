@@ -1,0 +1,254 @@
+{
+  "fits": {
+    "Temp": {
+      "T": 0.1,
+      "NLL": 4.229106940989207e-06,
+      "at_boundary": true,
+      "status": "bounded_nll_optimum"
+    },
+    "ShiftTemp": {
+      "T": 0.837471414211287,
+      "NLL": 0.09610508774321588,
+      "at_boundary": false,
+      "status": "bounded_nll_optimum"
+    }
+  },
+  "n_splits": 5,
+  "cv_status": "five_fold",
+  "folds": [
+    {
+      "fold": 0,
+      "train_engine_ids": [
+        5,
+        8,
+        16,
+        35,
+        40,
+        42,
+        44,
+        45,
+        51,
+        54,
+        56,
+        72,
+        74,
+        78,
+        86,
+        96
+      ],
+      "validation_engine_ids": [
+        9,
+        29,
+        88,
+        91
+      ],
+      "train_positive": 6,
+      "train_negative": 10,
+      "validation_positive": 1,
+      "validation_negative": 3,
+      "Temp": {
+        "T": 0.1,
+        "NLL": 5.285973847718628e-06,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.8782894539699699,
+        "NLL": 0.11910861878861197,
+        "at_boundary": false,
+        "status": "bounded_nll_optimum"
+      }
+    },
+    {
+      "fold": 1,
+      "train_engine_ids": [
+        5,
+        9,
+        16,
+        29,
+        35,
+        40,
+        42,
+        44,
+        45,
+        51,
+        54,
+        56,
+        78,
+        88,
+        91,
+        96
+      ],
+      "validation_engine_ids": [
+        8,
+        72,
+        74,
+        86
+      ],
+      "train_positive": 6,
+      "train_negative": 10,
+      "validation_positive": 1,
+      "validation_negative": 3,
+      "Temp": {
+        "T": 0.1,
+        "NLL": 5.286383674778449e-06,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.852928480592782,
+        "NLL": 0.11982590647158371,
+        "at_boundary": false,
+        "status": "bounded_nll_optimum"
+      }
+    },
+    {
+      "fold": 2,
+      "train_engine_ids": [
+        5,
+        8,
+        9,
+        29,
+        35,
+        40,
+        45,
+        51,
+        56,
+        72,
+        74,
+        78,
+        86,
+        88,
+        91,
+        96
+      ],
+      "validation_engine_ids": [
+        16,
+        42,
+        44,
+        54
+      ],
+      "train_positive": 6,
+      "train_negative": 10,
+      "validation_positive": 1,
+      "validation_negative": 3,
+      "Temp": {
+        "T": 0.1,
+        "NLL": 4.1087007104684597e-10,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.1,
+        "NLL": 6.522017141631925e-05,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      }
+    },
+    {
+      "fold": 3,
+      "train_engine_ids": [
+        8,
+        9,
+        16,
+        29,
+        35,
+        40,
+        42,
+        44,
+        45,
+        54,
+        72,
+        74,
+        86,
+        88,
+        91,
+        96
+      ],
+      "validation_engine_ids": [
+        5,
+        51,
+        56,
+        78
+      ],
+      "train_positive": 5,
+      "train_negative": 11,
+      "validation_positive": 2,
+      "validation_negative": 2,
+      "Temp": {
+        "T": 0.1,
+        "NLL": 5.286382636561569e-06,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 0.973997855950005,
+        "NLL": 0.09599508061850688,
+        "at_boundary": false,
+        "status": "bounded_nll_optimum"
+      }
+    },
+    {
+      "fold": 4,
+      "train_engine_ids": [
+        5,
+        8,
+        9,
+        16,
+        29,
+        42,
+        44,
+        51,
+        54,
+        56,
+        72,
+        74,
+        78,
+        86,
+        88,
+        91
+      ],
+      "validation_engine_ids": [
+        35,
+        40,
+        45,
+        96
+      ],
+      "train_positive": 5,
+      "train_negative": 11,
+      "validation_positive": 2,
+      "validation_negative": 2,
+      "Temp": {
+        "T": 0.1,
+        "NLL": 5.286383675816339e-06,
+        "at_boundary": true,
+        "status": "bounded_nll_optimum"
+      },
+      "ShiftTemp": {
+        "T": 1.110060049099489,
+        "NLL": 0.10372477136287238,
+        "at_boundary": false,
+        "status": "bounded_nll_optimum"
+      }
+    }
+  ],
+  "test_rule": "final refit on all calibration engines; no fold ensemble",
+  "subset": "FD003",
+  "seed": 303,
+  "training_weight": 6.022177219390869,
+  "ln_training_weight": 1.7954488582865855,
+  "temperature_bounds": [
+    0.1,
+    10.0
+  ],
+  "fourth_formula": "sigmoid((raw_logit - ln_training_weight) / T_shift)",
+  "input_sha256": {
+    "results\\final_evaluation_v3_exact_conformal\\FD003_seed_303_predictions.csv": "07fb7296eb18b1444b783dc3a1b54a6bb1828d0443ed04754497b95d78bd350c",
+    "results\\final_evaluation_v3_exact_conformal\\calibration\\FD003_seed_303_calibration.csv": "7e2e908aac10e28ac1639a4e4e0313a1c09661585456d03bd04b71c8bdf88eb5",
+    "results\\final_evaluation_v3\\checkpoints\\FD003_seed_303_model.pt": "08e97db27f9b8ec32b366fb215282a2d2e036fe71686fb22eec13955086cfb41",
+    "results\\final_evaluation_v3\\checkpoints\\FD003_seed_303_preprocessing.joblib": "182ec8b562d12cb4e237a3e400b87a690713d2aa38d746b1da1028c3b8acfee8",
+    "data\\raw\\cmapss\\train_FD003.txt": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+    "data\\raw\\cmapss\\test_FD003.txt": "299babd63c8d987cef079c4a425429f33b3a34797d803bbe2ad48c29dbd0d790",
+    "data\\raw\\cmapss\\RUL_FD003.txt": "df1e0566306b174a2de41c67a3e7a51877889598b78643fc3e5685259091b7cb"
+  }
+}

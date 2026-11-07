@@ -1,0 +1,36 @@
+| Subset | Model | Method | 1101 | 1202 | 1303 | 1404 | 1505 |
+| -------- | -------- | ------------------ | ---------- | ---------- | ---------- | ---------- | ---------- |
+| FD001 | LSTM | Raw | 5/10 | 5/10 | 6/10 | 5/10 | 6/10 |
+| FD001 | LSTM | FirstVisitExact | 5/10 | 5/10 | 6/10 | 5/10 | 6/10 |
+| FD001 | LSTM | BlockExact | 10/10 | 10/10 | 10/10 | 10/10 | 8/10 |
+| FD001 | LSTM | BlockNormalized | 8/10 | 9/10 | 9/10 | 9/10 | 8/10 |
+| FD001 | Hybrid | Raw | 5/10 | 1/10 | 5/10 | 4/10 | 4/10 |
+| FD001 | Hybrid | FirstVisitExact | 5/10 | 1/10 | 5/10 | 4/10 | 6/10 |
+| FD001 | Hybrid | BlockExact | 9/10 | 9/10 | 10/10 | 8/10 | 10/10 |
+| FD001 | Hybrid | BlockNormalized | 9/10 | 8/10 | 9/10 | 9/10 | 8/10 |
+| FD002 | LSTM | Raw | 13/26 | 13/26 | 14/26 | 10/26 | 9/26 |
+| FD002 | LSTM | FirstVisitExact | 13/26 | 13/26 | 14/26 | 10/26 | 9/26 |
+| FD002 | LSTM | BlockExact | 24/26 | 25/26 | 24/26 | 24/26 | 24/26 |
+| FD002 | LSTM | BlockNormalized | 24/26 | 25/26 | 26/26 | 24/26 | 25/26 |
+| FD002 | Hybrid | Raw | 14/26 | 12/26 | 10/26 | 10/26 | 13/26 |
+| FD002 | Hybrid | FirstVisitExact | 14/26 | 12/26 | 10/26 | 10/26 | 13/26 |
+| FD002 | Hybrid | BlockExact | 24/26 | 25/26 | 25/26 | 25/26 | 25/26 |
+| FD002 | Hybrid | BlockNormalized | 25/26 | 26/26 | 26/26 | 26/26 | 26/26 |
+| FD003 | LSTM | Raw | 6/10 | 4/10 | 5/10 | 6/10 | 5/10 |
+| FD003 | LSTM | FirstVisitExact | 8/10 | 9/10 | 10/10 | 9/10 | 7/10 |
+| FD003 | LSTM | BlockExact | 8/10 | 9/10 | 10/10 | 9/10 | 10/10 |
+| FD003 | LSTM | BlockNormalized | 8/10 | 9/10 | 10/10 | 9/10 | 10/10 |
+| FD003 | Hybrid | Raw | 4/10 | 3/10 | 2/10 | 3/10 | 0/10 |
+| FD003 | Hybrid | FirstVisitExact | 9/10 | 7/10 | 10/10 | 3/10 | 6/10 |
+| FD003 | Hybrid | BlockExact | 10/10 | 10/10 | 10/10 | 9/10 | 9/10 |
+| FD003 | Hybrid | BlockNormalized | 10/10 | 9/10 | 7/10 | 9/10 | 9/10 |
+| FD004 | LSTM | Raw | 12/25 | 13/25 | 10/25 | 11/25 | 10/25 |
+| FD004 | LSTM | FirstVisitExact | 14/25 | 13/25 | 10/25 | 11/25 | 10/25 |
+| FD004 | LSTM | BlockExact | 24/25 | 23/25 | 20/25 | 23/25 | 20/25 |
+| FD004 | LSTM | BlockNormalized | 22/25 | 24/25 | 21/25 | 22/25 | 19/25 |
+| FD004 | Hybrid | Raw | 4/25 | 10/25 | 9/25 | 10/25 | 8/25 |
+| FD004 | Hybrid | FirstVisitExact | 19/25 | 16/25 | 12/25 | 10/25 | 8/25 |
+| FD004 | Hybrid | BlockExact | 21/25 | 19/25 | 19/25 | 19/25 | 22/25 |
+| FD004 | Hybrid | BlockNormalized | 23/25 | 20/25 | 18/25 | 19/25 | 22/25 |
+
+: Fully covered/evaluated engine paths for every monitoring method and initialization seed. Columns 1101-1505 are seed identifiers. Each subset uses the same evaluation-engine identifiers across models and seeds: 10, 26, 10 and 25 engines for FD001-FD004. A path counts as covered only when every scheduled visit is covered. Counts across seeds must not be pooled as independent engines. Mean and seed sample SD remain in Table S14; neither is a population confidence interval.

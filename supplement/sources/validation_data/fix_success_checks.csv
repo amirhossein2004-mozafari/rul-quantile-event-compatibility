@@ -1,0 +1,5 @@
+subset,architecture,objective,fitting_engines,classification_engines,evaluation_engines,planned_fits,completed_fits,failed_fits,collapsed_fits,literal_collapse_removed,oracle_q_MAE_change,oracle_q_MAE_change_lo,oracle_q_MAE_change_hi,passes_gap_and_quality_safeguard
+FD001,lstm,weighted,60,10000,10000,30,30,0,0,True,-14.511866640174045,-14.535566878930766,-14.487827913172012,True
+FD001,lstm,unweighted,60,10000,10000,30,30,0,0,True,-14.608429322454793,-14.632172348203264,-14.58410057828307,True
+FD001,hybrid,weighted,60,10000,10000,30,30,0,0,True,-12.626953191928342,-12.663561780344525,-12.588310602764087,True
+FD001,hybrid,unweighted,60,10000,10000,30,30,0,0,True,-12.698105074615812,-12.749633949689695,-12.644764692408467,True

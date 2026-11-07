@@ -1,0 +1,11 @@
+{
+  "temperatures": {
+    "Temp": 1.5763149355749893,
+    "ShiftTemp": 1.3503053643505647
+  },
+  "cutoffs": {
+    "Exact": 0.0,
+    "Normalized": 0.0
+  },
+  "ln_pos_weight": 1.520547975679838
+}

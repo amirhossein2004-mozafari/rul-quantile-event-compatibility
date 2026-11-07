@@ -1,0 +1,3 @@
+# Existing reference runtime plus the HDF5 reader used only for the external study.
+-r requirements-lock-win-py311.txt
+h5py==3.16.0

@@ -1,0 +1,14 @@
+{
+  "tool": "Codex desktop assistant",
+  "configured_model_identifier": "gpt-6.1-sol",
+  "configured_reasoning_effort": "medium",
+  "model_identifier_source": "Current chat turn_context metadata at2026-10-31T17:19:18.308Z",
+  "served_model_checkpoint_identifier": "UNAVAILABLE: requested/configured model alias does not expose exact served weights/build",
+  "exposed_runtime_version": "0.166.0-alpha.5.1",
+  "external_reviewer": "REVIEW_UNAVAILABLE",
+  "assistant_role": "Protocol/code authoring and tool orchestration",
+  "reference_source": "Declared analytic lifetime law and deterministic numerical inversion",
+  "experimental_prediction_source": "Fitted research-model forward passes and separately fitted parametric controls",
+  "desktop_app_build": "26.1027.3384.0",
+  "runtime_executable_sha256": "3097c909fb6d5cd63510d44aceb1d42df9f6e85722a3e447e477def1ecf60e16"
+}

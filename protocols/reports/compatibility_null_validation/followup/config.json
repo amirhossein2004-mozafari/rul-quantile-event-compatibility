@@ -1,0 +1,58 @@
+{
+  "collapse_gap_cycles": 1.25,
+  "collapse_cap_fraction": 0.01,
+  "collapse_operator": "strict_less_than",
+  "null_classification_policy": "uniform",
+  "null_classification_engines": 10000,
+  "real_classification_role": "calibration",
+  "bootstrap_draws": 2000,
+  "real_calibration_bootstrap_seed": 2026110101,
+  "real_test_bootstrap_seed": 2026110102,
+  "factorial_subset": "FD001",
+  "factorial_replicates": [
+    0,
+    1,
+    2
+  ],
+  "factorial_factors": {
+    "initialization": [
+      "paper",
+      "fixed_gap_bias"
+    ],
+    "pinball_scale": [
+      1,
+      0.008
+    ],
+    "learning_rate_multiplier": [
+      1,
+      3
+    ],
+    "gradient_clip": [
+      1,
+      null
+    ]
+  },
+  "gap_bias_cycles": [
+    20,
+    80
+  ],
+  "fix_subset": "FD001",
+  "fix_replicates": 30,
+  "real_retrain_subset": "FD001",
+  "real_retrain_seeds": [
+    1101,
+    1202,
+    1303,
+    1404,
+    1505
+  ],
+  "real_retrain_architectures": [
+    "lstm",
+    "hybrid"
+  ],
+  "real_retrain_device": "cpu",
+  "epochs_inherited": true,
+  "no_model_source_changes": true,
+  "instrumented_baseline_replays": 6,
+  "new_synthetic_training_executions": 210
+}

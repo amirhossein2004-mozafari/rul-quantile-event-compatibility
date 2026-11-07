@@ -1,0 +1,21 @@
+{
+  "files": {
+    "scripts/external_ncmapss_step13.py": "5e345d979de49f690b46d2afb0d7ac290f07ed899293ba890c66f9950890de46",
+    "src/models/simple_quantile_risk.py": "e5c5502e66813b183628d0515586a21b471236bd31b21aa2f748c4f09f075d51",
+    "src/models/hybrid_lstm_tcn.py": "2c15b5071b70633f5d0d59b349c5665b196339443fe0eea72e0d1e5a8485dba2",
+    "reports/external_step13_protocol.md": "630a37139be21fcfcb4f84d3e0b83895d27e7b7311ff088f18e283c5cf6a8ffa",
+    "tests/test_external_ncmapss_step13.py": "5568c7ca37333aeef8c77ff24ae746f9f30a7e5bd1470e25cdd596951047efe1",
+    "requirements-external-step13.txt": "5baec425990e28222f5b71cf30744506ffbf147700f703e139854b7fc19e15ae"
+  },
+  "created_unix": 1793286278.6509244,
+  "protocol": {
+    "protocol_sha256": "630a37139be21fcfcb4f84d3e0b83895d27e7b7311ff088f18e283c5cf6a8ffa",
+    "locked_unix": 1793284940.6138353,
+    "version": 2,
+    "previous_lock": "protocol_lock_v1.json",
+    "scope": "Local prospective specification amended before any HDF5 arrays opened; not public preregistration"
+  },
+  "implementation_amendment_unix": 1793286378.1922808,
+  "previous_source_lock": "source_lock_v1.json",
+  "scope": "Thread setup/resume fix only, before test evaluation; prior three weights and histories preserved."
+}

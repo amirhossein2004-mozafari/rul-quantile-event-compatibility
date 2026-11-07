@@ -1,0 +1,15 @@
+{
+  "fits": 10,
+  "files": {
+    "real_unweighted\\FD001\\hybrid\\seed_1101\\final.pt": "13544bcc752039ce42094f3375002ebd2e0f0248a40239eab34c4dd406b14f7e",
+    "real_unweighted\\FD001\\hybrid\\seed_1202\\final.pt": "49243f8e8c31f941f7d739513b67adf74a73231efd1e9615cd252e48a2000a36",
+    "real_unweighted\\FD001\\hybrid\\seed_1303\\final.pt": "fd69acf5b81ca558f68a79cce3a7fb1f8d0d066aeea20d81e0c8dc77db63b9cd",
+    "real_unweighted\\FD001\\hybrid\\seed_1404\\final.pt": "be3a3da4a884aa0e4fce07fa97fd4b0eee712db3af6b230535f3bab4f84cd27a",
+    "real_unweighted\\FD001\\hybrid\\seed_1505\\final.pt": "8ea3be4c4929e5b742a4da97490b0eec254ed908d487d281bc27088701782000",
+    "real_unweighted\\FD001\\lstm\\seed_1101\\final.pt": "9f37a27f6de6c03c5a72573a29abbf4e6421f8127bb3a8420552363d88611485",
+    "real_unweighted\\FD001\\lstm\\seed_1202\\final.pt": "907e91bd7c417cb32583540c4f03c1716ebe9fa9b393a8a93293a3fad1fc29c9",
+    "real_unweighted\\FD001\\lstm\\seed_1303\\final.pt": "ee53c01201c1f212fcd32b11521e61a335f9a41bcd9bb1785bd696f32950f600",
+    "real_unweighted\\FD001\\lstm\\seed_1404\\final.pt": "d91bc1b8cbafb99860fe450bb68d7f4e3e8ee4b2756a8fdcff5f2fa0e4ab2a63",
+    "real_unweighted\\FD001\\lstm\\seed_1505\\final.pt": "e802e9d3a107241a4d81e146b9aea8921a5fea3819408d987db1c75999adb917"
+  }
+}

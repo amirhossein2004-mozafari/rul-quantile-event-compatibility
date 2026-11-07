@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "independent_engines": 3,
+  "duplicated_models": 7,
+  "confidence_interval_unchanged": true,
+  "interpretation": "Synthetic bookkeeping fixture only; not an experimental model result"
+}

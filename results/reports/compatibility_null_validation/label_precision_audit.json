@@ -1,0 +1,5 @@
+{
+  "independent_training_engines_checked": 85750,
+  "event_boundary_disagreements": [],
+  "scope": "Same locked fitting fleets; architecture/objective duplicates not counted as new engines"
+}

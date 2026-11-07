@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "python": "3.11.9",
+  "manifest_entries_checked": 1281,
+  "validation_history_rows": 384,
+  "validation_candidate_minima": 24,
+  "frozen_selections": 8,
+  "equal_search_point_runs": 40,
+  "probability_method_results": 240,
+  "positive_Brier_skill": 240,
+  "monitoring_method_run_counts": 160,
+  "scope": "CSV/JSON arithmetic and input checks only; no training, forward replay, full table-by-table verification, scientific validation or independent review",
+  "public_release_adaptations": [
+    "Original input names resolved through docs/file_index.csv",
+    "Input manifest checks verify the indexed release bytes",
+    "Saved-label consistency replaces comparison with excluded official NASA labels"
+  ],
+  "independent_official_label_verification": false
+}

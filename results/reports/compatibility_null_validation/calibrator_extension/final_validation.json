@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "score_rows": 2520,
+  "consistency_rows": 88,
+  "dose_rows": 176,
+  "mechanism_rows": 396,
+  "association_rows": 264,
+  "fixed_bin_membership_counts_partition_engine_fit_rows": true,
+  "all_588_inputs_unchanged": true,
+  "protocol_unchanged": true,
+  "bootstrap_counts_saved": true,
+  "independent_human_review": "MISSING"
+}

@@ -1,0 +1,28 @@
+{
+  "main": {
+    "outside_page_words": [],
+    "locations": {
+      "Table 1:": 4,
+      "Table 4:": 9
+    }
+  },
+  "supplement": {
+    "outside_page_words": [],
+    "locations": {
+      "Table S13b.": 45,
+      "Table S14.": 49
+    },
+    "raw_bbox_flags_on_rotated_page": [
+      {
+        "page": 33,
+        "count": 34,
+        "examples": [
+          "benchmark.",
+          "97.5",
+          "Max"
+        ]
+      }
+    ],
+    "review": "Page 33 has PDF rotation 90 degrees. Its landscape table fits the rotated page viewport; raw bbox flags used unrotated page dimensions. All 50 supplement pages and all 11 manuscript pages were reviewed on contact sheets, with page 33 inspected separately."
+  }
+}

@@ -1,0 +1,13 @@
+family,architecture,weighted,policy,fitting_engines,evaluation_engines,max_abs_difference
+temporal,lstm,True,final,60,10000,3.0517578125e-05
+temporal,lstm,True,uniform,60,10000,3.0517578125e-05
+temporal,lstm,False,final,60,10000,3.0517578125e-05
+temporal,lstm,False,uniform,60,10000,3.0517578125e-05
+temporal,hybrid,True,final,60,10000,4.57763671875e-05
+temporal,hybrid,True,uniform,60,10000,4.57763671875e-05
+temporal,hybrid,False,final,60,10000,4.57763671875e-05
+temporal,hybrid,False,uniform,60,10000,6.103515625e-05
+covariate,covariate,True,final,60,10000,0.0
+covariate,covariate,True,uniform,60,10000,0.0
+covariate,covariate,False,final,60,10000,0.0
+covariate,covariate,False,uniform,60,10000,0.0

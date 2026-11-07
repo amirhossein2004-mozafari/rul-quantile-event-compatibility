@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "real_groups": 8,
+  "real_rows": 152,
+  "synthetic_rows": 2880,
+  "synthetic_per_fit_rows": 49920,
+  "real_engine_runs": 7070,
+  "real_unique_engines": 707,
+  "all_bins": 48,
+  "protocol_hash_verified": true,
+  "raw_rates_reproduced": true,
+  "regression_direct_lstsq_checks": "passed in analysis worker",
+  "no_training_or_selection": true
+}

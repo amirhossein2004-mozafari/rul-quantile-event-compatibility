@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "A_rows": 65,
+  "B_rows": 130,
+  "C_rows": 26,
+  "earlier_claim_artifacts_unchanged": 9,
+  "experimental_inputs_unchanged": 89,
+  "test_clusters": 707,
+  "calibration_clusters": 142,
+  "all_projection_flags_zero": true,
+  "all_required_results_retained": true,
+  "protocol_hash": "940943607cfd3cd971a17e9d5dcd3f94474a93724a717f391af1dda374a950ff",
+  "independent_human_review": "MISSING"
+}

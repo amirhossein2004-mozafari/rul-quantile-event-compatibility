@@ -1,0 +1,13 @@
+{
+  "locked_at_utc": "2026-10-25T18:29:50.067470+00:00",
+  "scope": "Supplemental evaluation-file hashes recorded during training, before any new test scoring; no protocol or training change",
+  "sha256": {
+    "data/raw/cmapss/test_FD003.txt": "299babd63c8d987cef079c4a425429f33b3a34797d803bbe2ad48c29dbd0d790",
+    "data/raw/cmapss/RUL_FD003.txt": "df1e0566306b174a2de41c67a3e7a51877889598b78643fc3e5685259091b7cb",
+    "results/final_evaluation_v3_exact_conformal/calibration/FD003_seed_101_calibration.csv": "0dbe98c9976ce27f5ccdd4e66c80a48d4bf4f04637b06585f554fc87f6ca1046",
+    "results/final_evaluation_v3_exact_conformal/calibration/FD003_seed_202_calibration.csv": "bba07e7978463416faa1c87d6cce6fe3a26ac120415f6391a699a3fc7ee9688a",
+    "results/final_evaluation_v3_exact_conformal/calibration/FD003_seed_303_calibration.csv": "7e2e908aac10e28ac1639a4e4e0313a1c09661585456d03bd04b71c8bdf88eb5",
+    "results/final_evaluation_v3_exact_conformal/calibration/FD003_seed_404_calibration.csv": "07c623ed66f2beb3013aa77f165a236b19b43e5550fa007919475a61b0e9b578",
+    "results/final_evaluation_v3_exact_conformal/calibration/FD003_seed_505_calibration.csv": "b4128949a9aadbaa03ffdf7404d2080f430661cc87f05b11594ac574bc43d7b0"
+  }
+}

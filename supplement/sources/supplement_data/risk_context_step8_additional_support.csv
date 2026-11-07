@@ -1,0 +1,101 @@
+study,subset,model,seed,calibration_n,calibration_positive,calibration_negative,test_n,test_positive,test_negative,notes
+FixedSchedule,FD001,hybrid,101,20,6,14,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,lstm,101,20,6,14,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,tcn,101,20,6,14,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,hybrid,202,20,5,15,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,lstm,202,20,5,15,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,tcn,202,20,5,15,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,hybrid,303,20,7,13,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,lstm,303,20,7,13,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,tcn,303,20,7,13,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,hybrid,404,20,4,16,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,lstm,404,20,4,16,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,tcn,404,20,4,16,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,hybrid,505,20,6,14,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,lstm,505,20,6,14,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD001,tcn,505,20,6,14,100,25,75,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,hybrid,101,52,14,38,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,lstm,101,52,14,38,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,tcn,101,52,14,38,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,hybrid,202,52,10,42,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,lstm,202,52,10,42,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,tcn,202,52,10,42,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,hybrid,303,52,14,38,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,lstm,303,52,14,38,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,tcn,303,52,14,38,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,hybrid,404,52,10,42,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,lstm,404,52,10,42,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,tcn,404,52,10,42,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,hybrid,505,52,15,37,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,lstm,505,52,15,37,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD002,tcn,505,52,15,37,259,61,198,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,hybrid,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,lstm,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,tcn,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,hybrid,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,lstm,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,tcn,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,hybrid,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,lstm,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,tcn,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,hybrid,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,lstm,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,tcn,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,hybrid,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,lstm,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD003,tcn,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,hybrid,101,50,12,38,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,lstm,101,50,12,38,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,tcn,101,50,12,38,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,hybrid,202,50,10,40,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,lstm,202,50,10,40,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,tcn,202,50,10,40,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,hybrid,303,50,14,36,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,lstm,303,50,14,36,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,tcn,303,50,14,36,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,hybrid,404,50,9,41,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,lstm,404,50,9,41,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,tcn,404,50,9,41,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,hybrid,505,50,14,36,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,lstm,505,50,14,36,248,53,195,Reused controls remain study records; not independent models/fleets
+FixedSchedule,FD004,tcn,505,50,14,36,248,53,195,Reused controls remain study records; not independent models/fleets
+Components,FD003,full,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_fusion,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_temporal_pool,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_lstm_context,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_sensor_attention,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_tcn_context,101,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,full,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_fusion,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_temporal_pool,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_lstm_context,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_sensor_attention,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_tcn_context,202,20,5,15,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,full,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_fusion,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_temporal_pool,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_lstm_context,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_sensor_attention,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_tcn_context,303,20,7,13,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,full,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_fusion,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_temporal_pool,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_lstm_context,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_sensor_attention,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_tcn_context,404,20,4,16,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,full,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_fusion,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,mean_temporal_pool,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_lstm_context,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_sensor_attention,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+Components,FD003,no_tcn_context,505,20,6,14,100,20,80,Reused controls remain study records; not independent models/fleets
+PCGrad,FD001,naive_mt,101,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,pcgrad,101,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,naive_mt,202,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,pcgrad,202,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,naive_mt,303,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,pcgrad,303,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,naive_mt,404,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,pcgrad,404,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,naive_mt,505,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded
+PCGrad,FD001,pcgrad,505,,,,100,25,75,Raw discrimination arms; no probability post-calibrator assessed here; RUL-only excluded

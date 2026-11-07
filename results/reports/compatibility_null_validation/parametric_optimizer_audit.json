@@ -1,0 +1,6 @@
+{
+  "configurations": 1200,
+  "boundary_grid_minima": 148,
+  "unsuccessful_optimizers": 0,
+  "scope": "All boundary outputs retained. Correct family does not prove global numerical optimum."
+}

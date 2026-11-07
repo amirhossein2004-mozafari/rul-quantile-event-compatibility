@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-28T07:21:56.552422+00:00",
+  "scope": "Retrospective exploratory; previously examined data",
+  "models": [
+    "lstm",
+    "hybrid"
+  ],
+  "subsets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "learning_rates": [
+    0.0002,
+    0.0005,
+    0.001
+  ],
+  "maximum_epochs": 16,
+  "tuning_seed": 101,
+  "final_seeds": [
+    1101,
+    1202,
+    1303,
+    1404,
+    1505
+  ],
+  "split_seed": 271828,
+  "batch_size": 128,
+  "source_sha256": {
+    "scripts/fair_comparison_step2.py": "7332d869ac52efa1bae6b5db2d2b2ece785c961a9408fdc1f94c5f0f33091073",
+    "reports/fair_comparison_step2_design.md": "35f019f9d7ce90b6017c67544b6508e67e1d95fd9928b460d6c01d22e4626acb",
+    "src/data/preprocessing.py": "b3a38e8e56b6eab9b76b24f0476ed7f3c0d6b5404ccabb66411a6dacc21e3de1",
+    "src/models/simple_quantile_risk.py": "e5c5502e66813b183628d0515586a21b471236bd31b21aa2f748c4f09f075d51",
+    "src/models/hybrid_lstm_tcn.py": "2c15b5071b70633f5d0d59b349c5665b196339443fe0eea72e0d1e5a8485dba2",
+    "src/training/pcgrad_ablation.py": "cfe39c0e100d3cf8e6e4d02b719bc86d5c332cc9f819645edfd48b167a3ec389",
+    "src/evaluation/conformal_adaptive.py": "e48b313e07b4ac53b4b3c2f08e61eb670e9ea6b49945baf39d8dd937e1216d21",
+    "tests/test_fair_comparison_step2.py": "6ea9683681f0502327ad62a4633faf79c634fbd3335d62f837be40e080d184ab"
+  },
+  "raw_sha256": {
+    "data/raw/cmapss/train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+    "data/raw/cmapss/test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+    "data/raw/cmapss/RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+    "data/raw/cmapss/train_FD002.txt": "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f",
+    "data/raw/cmapss/test_FD002.txt": "de7b5bf7e998a985c378488480528b7c02cff1406a46740def362dda8d9b4e02",
+    "data/raw/cmapss/RUL_FD002.txt": "c851dd96a6ea6998d3c4a8f834d3c8013aa90e93a6ed950dc826ad0655b2906b",
+    "data/raw/cmapss/train_FD003.txt": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+    "data/raw/cmapss/test_FD003.txt": "299babd63c8d987cef079c4a425429f33b3a34797d803bbe2ad48c29dbd0d790",
+    "data/raw/cmapss/RUL_FD003.txt": "df1e0566306b174a2de41c67a3e7a51877889598b78643fc3e5685259091b7cb",
+    "data/raw/cmapss/train_FD004.txt": "27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218",
+    "data/raw/cmapss/test_FD004.txt": "1dc675fff0624bac10786927c6715b37d1297657137400d2b1a3138d777a3ba5",
+    "data/raw/cmapss/RUL_FD004.txt": "196b836b85a95ac7fdbbf29c5fdf1657382eafa445644d114ffaaf50dc2975e1"
+  },
+  "prepared_sha256": {
+    "results\\fair_comparison_step2\\data\\FD001\\calibration_endpoints.csv": "37c74ebc582c27fef275283974bea7c36a1c6f38de0e84cffb8606fd1ef20501",
+    "results\\fair_comparison_step2\\data\\FD001\\preprocessor.joblib": "16541fd6b9371c134b2996b25230350ab28cd14b77c982a01aaeaeb13271f2c5",
+    "results\\fair_comparison_step2\\data\\FD001\\roles.json": "09d468d580aa9988756b950f7be74f0787fbc80ac3f2f5edb51059acaa876cc7",
+    "results\\fair_comparison_step2\\data\\FD001\\tensors.pt": "ad3220844a873ac0ac0e01c0fd25651eea5c5a84821ff51c00723f91da6e4eca",
+    "results\\fair_comparison_step2\\data\\FD001\\validation_endpoints.csv": "58b8db6a4a05a80d573b641f1e15f5abb530557649076daa66cd43b5042493e2",
+    "results\\fair_comparison_step2\\data\\FD002\\calibration_endpoints.csv": "7fba74c15189f50f5d4c6a96e12aa49e9decfe2bb9e9a4e01b57909c01e55a83",
+    "results\\fair_comparison_step2\\data\\FD002\\preprocessor.joblib": "2efa3189426722c99ec25ce7fbceb6468c14b8b27b5d282870f3c87e26e667cb",
+    "results\\fair_comparison_step2\\data\\FD002\\roles.json": "9ed8449c129f47aa8ba650ee6fd142cdc8b19f320a74adc9292ba1ad37eef61c",
+    "results\\fair_comparison_step2\\data\\FD002\\tensors.pt": "97a2c78611dbdb70eefd591c39916750f81fb30ce3e56d0d19ba5c968e4f32e0",
+    "results\\fair_comparison_step2\\data\\FD002\\validation_endpoints.csv": "759b202533c796c9de76429de2c56e3813fd88c22e25d0e02f3100e0596070af",
+    "results\\fair_comparison_step2\\data\\FD003\\calibration_endpoints.csv": "ba7c2821e4d749b653db125edc65ebb0b1c2723e4437e79c26f0cb58e80072f5",
+    "results\\fair_comparison_step2\\data\\FD003\\preprocessor.joblib": "1067b24116203bbdffaf3e5b9bb431cae6574e5fd9b7dd79829e881313154075",
+    "results\\fair_comparison_step2\\data\\FD003\\roles.json": "09d468d580aa9988756b950f7be74f0787fbc80ac3f2f5edb51059acaa876cc7",
+    "results\\fair_comparison_step2\\data\\FD003\\tensors.pt": "24de86af937af3f758cfd9f5fc5220905a45e630596d5444b9be3edc709239b3",
+    "results\\fair_comparison_step2\\data\\FD003\\validation_endpoints.csv": "bae0634cec2cadd2135ef96e0cc26f6307630e10a883daf789649d7e5cf6d976",
+    "results\\fair_comparison_step2\\data\\FD004\\calibration_endpoints.csv": "9cf007a6905c6bf6d9fdb376233814615b12e3e768cff66aee4c256f9f01eb5b",
+    "results\\fair_comparison_step2\\data\\FD004\\preprocessor.joblib": "34badaab8761c01292db5b1c44c4302b3bd7003553a48e7c4a509b7a24502f9a",
+    "results\\fair_comparison_step2\\data\\FD004\\roles.json": "e30501702459820914934ae23f17309f8fe36799550122d4f987951d0039405a",
+    "results\\fair_comparison_step2\\data\\FD004\\tensors.pt": "ac91f0328761c16be854b4e4ccc39d0ca28f5498a6a92caac2066ce90699517b",
+    "results\\fair_comparison_step2\\data\\FD004\\validation_endpoints.csv": "146c002434654015bc7bb907e698a142fe2e3b13fa2d55c965f8c34387841b8a"
+  },
+  "selection": "Minimum capped validation RMSE, candidate order then earliest epoch",
+  "expected_searches": 24,
+  "expected_final_models": 40,
+  "external_review": "NOT_PERFORMED"
+}

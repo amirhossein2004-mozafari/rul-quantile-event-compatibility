@@ -1,0 +1,14 @@
+{
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "2.3.4",
+    "pandas": "3.0.0",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.10.7"
+  },
+  "operation": "Public release rendering and arithmetic checks only",
+  "independent_human_review": "MISSING",
+  "AI_assistance": "OpenAI Codex; the same AI tool prepared the release and ran checks",
+  "exact_served_checkpoint": "Unavailable"
+}

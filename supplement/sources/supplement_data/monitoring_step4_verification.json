@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "model_replays": 40,
+  "method_results": 160,
+  "metric_values_checked": 27848,
+  "schedule_roles_windows_ground_truth": "reconstructed",
+  "cutoffs_and_all_strata": "reconstructed",
+  "source_and_input_hashes": "pass",
+  "independent_review": "REVIEW_UNAVAILABLE",
+  "verifier_sha256": "b4a15a1e5991d85a6804398dde45fdbd1fb5f05f15566a78a3c6dc6fdd780665",
+  "scope": "Deterministic executor reconstruction; no independent scientific review or coverage guarantee"
+}

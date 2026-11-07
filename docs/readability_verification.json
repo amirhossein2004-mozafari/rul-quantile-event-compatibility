@@ -1,0 +1,15 @@
+{
+  "original_sha256": "78069355a292d8d0daadc2141c771b0eadf86d2678e6625a83a61c4070d1057c",
+  "readable_sha256": "086bad7f62d92ba423a3d7012be0af3d566f4434e3ade91390287456b32588d1",
+  "numeric_literals_identical_in_order": true,
+  "numeric_literals": 672,
+  "table_lines_unchanged": true,
+  "equations_unchanged": true,
+  "citations_unchanged": true,
+  "headings_unchanged": true,
+  "figure_caption_unchanged": true,
+  "protocol_hash_unchanged": true,
+  "AI_declaration_verbatim": true,
+  "changed_sentences": 55,
+  "claim_review": "Editorial comparison preserved effect directions, roster scope, uncertainty qualifications, hypotheses and conclusions; no new statistical analysis."
+}

@@ -1,0 +1,5 @@
+subset,architecture,cohort,fitting_engines,evaluation_engines,fixed_fits,mean_RMSE_capped,mean_event_AUC,event_base_rate,mean_fit_median_width
+FD003,lstm,synthetic_noncollapsed,60,10000,28,41.7355824193034,0.6186197724444507,0.408,123.7540101323809
+FD003,lstm,real,60,100,5,17.91375931126172,0.993625,0.2,46.79260940551758
+FD003,hybrid,synthetic_noncollapsed,60,10000,17,44.256745489287354,0.6425217419787868,0.408,84.43692069895127
+FD003,hybrid,real,60,100,5,15.237905991336806,0.996875,0.2,31.24686965942383

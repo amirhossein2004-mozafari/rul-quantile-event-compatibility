@@ -1,0 +1,13 @@
+{
+  "decision": "not informative",
+  "real_groups_both_positive": 0,
+  "required": 6,
+  "synthetic_confirmation": false,
+  "protocol": {
+    "locked_utc": "2026-11-01T07:27:45.4358449Z",
+    "bootstrap_draws": 2000,
+    "seed": 2026110103,
+    "status": "LOCKED_BEFORE_ASSOCIATIONS",
+    "protocol_sha256": "da781da5c725624ab53503d65cff89037e5ce15f0769a23b27e6d6a04eeb4540"
+  }
+}

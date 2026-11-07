@@ -1,0 +1,17 @@
+{
+  "protocol": {
+    "protocol_sha256": "9d769fd8a7a22f112654dea1d7723bbe20f11e3df31c8337d97a3f73401d4e9d",
+    "locked_utc": "2026-11-02T06:48:29.842688+00:00"
+  },
+  "groups": 44,
+  "fits": 220,
+  "test_distinct_engines": 707,
+  "unchanged_input_files": 588,
+  "calibrator_failures": 0,
+  "missing": [],
+  "all_exploratory": true,
+  "independent_human_review": "MISSING",
+  "existing_eight_groups_64_scores_reproduced": true,
+  "nonidentifiable_association_point_rows": 0,
+  "association_rows_with_undefined_draws": 44
+}

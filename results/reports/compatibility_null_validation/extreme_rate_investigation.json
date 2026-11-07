@@ -1,0 +1,17 @@
+{
+  "temporal_fits_checked": 480,
+  "fits_with_gap_below_001_on_over99percent_engines": 144,
+  "fitting_engines_by_subset": {
+    "FD001": 60,
+    "FD002": 156,
+    "FD003": 60,
+    "FD004": 149
+  },
+  "evaluation_engines_per_fit": 10000,
+  "gradient_probe_fits": 4,
+  "gradient_probe_fitting_engines": 60,
+  "gradient_probe_windows": 4209,
+  "no_optimizer_steps": true,
+  "source_sha256": "7491341cad158c8794b66c1f16414221f72ec6072df355d22410d8dc3528c7f4",
+  "scope": "Post-hoc deterministic checkpoint investigation; original results retained; no convergence-control refit run"
+}

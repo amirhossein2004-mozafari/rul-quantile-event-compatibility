@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "row_counts": {
+    "null_stratified_summary.csv": 576,
+    "null_per_replication.csv": 22080,
+    "null_collapse_labels.csv": 5520,
+    "comparison_temporal.csv": 24,
+    "comparison_covariate.csv": 24,
+    "comparison_parametric.csv": 24,
+    "real_collapse_labels.csv": 40,
+    "real_collapse_fractions.csv": 8,
+    "real_weighting_attribution.csv": 12,
+    "real_variant_summary.csv": 18,
+    "real_probability_variant_per_seed.csv": 90,
+    "fixed_init_summary.csv": 72,
+    "fixed_init_per_replication.csv": 720,
+    "fix_success_checks.csv": 4,
+    "fix_per_quantile_quality.csv": 12,
+    "factorial_all_runs.csv": 96,
+    "factorial_cell_summary.csv": 32,
+    "factorial_all_interactions.csv": 270,
+    "checkpoint_derivative_diagnostics.csv": 210
+  },
+  "paper_model_source_unchanged": true,
+  "initialization_changed_only": {
+    "lstm": [
+      "lower_delta_head.2.weight",
+      "lower_delta_head.2.bias",
+      "upper_delta_head.2.weight",
+      "upper_delta_head.2.bias"
+    ],
+    "hybrid": [
+      "lower_delta_head.2.weight",
+      "lower_delta_head.2.bias",
+      "upper_delta_head.2.weight",
+      "upper_delta_head.2.bias"
+    ]
+  },
+  "initialization_RNG_unchanged": true,
+  "baseline_replays": 6,
+  "max_baseline_forward_difference": 0.0,
+  "new_synthetic_executions": 210,
+  "new_real_refits": 10,
+  "no_failures": true,
+  "protocol": {
+    "protocol_sha256": "145fcf5a3ec9e4c2c0a9658c9f4bbd1fe33ac61dd4a57afd9674deb2af1d157e",
+    "config_sha256": "f7a9d522085da317a3c11d4f80dbe387bef61d1c1eda7f6366ba7730f27e55da",
+    "parent_protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+    "status": "LOCKED_BEFORE_FOLLOWUP_CALCULATIONS",
+    "locked_utc": "2026-10-31T19:56:18.2961551Z"
+  }
+}

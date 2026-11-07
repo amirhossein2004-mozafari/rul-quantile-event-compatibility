@@ -1,0 +1,117 @@
+{
+  "study_id": "FD003-component-round6-v1",
+  "created_at_utc": "2026-10-25T18:24:01.904684+00:00",
+  "classification": "Retrospective exploratory component intervention; fixed FD003 scope",
+  "subset": "FD003",
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "arms": [
+    "full",
+    "no_sensor_attention",
+    "mean_temporal_pool",
+    "no_lstm_context",
+    "no_tcn_context",
+    "mean_fusion"
+  ],
+  "active_parameters": {
+    "full": 115095,
+    "no_sensor_attention": 113893,
+    "mean_temporal_pool": 112982,
+    "no_lstm_context": 91478,
+    "no_tcn_context": 58039,
+    "mean_fusion": 90327
+  },
+  "stored_parameters": 115095,
+  "scope_reason": "FD003 was the only subset with lower hybrid than LSTM mean RMSE in the prior matched study. This outcome-informed scope is disclosed; no all-subset confirmation is claimed.",
+  "interventions": {
+    "no_sensor_attention": "Use raw features instead of feature attention.",
+    "mean_temporal_pool": "Replace temporal attention by mean of all LSTM states.",
+    "no_lstm_context": "Zero 64-d LSTM context before unchanged 128-d fusion; freeze LSTM and temporal-attention parameters.",
+    "no_tcn_context": "Zero 64-d TCN context before unchanged fusion; freeze TCN parameters.",
+    "mean_fusion": "Replace learned fusion by (LSTM_context+TCN_context)/2; freeze fusion parameters. This also removes its active dropout contribution.",
+    "full": "Reuse five verified stage-9 FD003 full controls; replay first-step witnesses and final inference."
+  },
+  "preservation": "Keep all modules stored and execute their forward/dropout calls in all arms. Freeze inactive parameters and exclude them from optimizer. This matches RNG draws, not minimal architecture size or latency.",
+  "matching": "Same full initialized tensors, saved model/calibration split, training-only preprocessing, complete windows, minibatch order and dropout RNG streams. Compare all sixteen epoch stream hashes to full control.",
+  "loss": "Sum mean pinball(.05,.5,.95)+0.5*weighted BCE; float32 N_neg_train/N_pos_train.",
+  "optimizer": {
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08
+  },
+  "epochs": 16,
+  "batch_size": 128,
+  "clip_norm": 1.0,
+  "gradient_aggregation": "Naive unprojected task sum with the existing wrapper; no PCGrad.",
+  "checkpoint_selection": "Final epoch16, all 25 new models before official-test scoring. No validation-based early stopping, tuning or seed exclusion.",
+  "evaluation": "Same saved calibration endpoints and official test as stage9. These were previously examined. Original calibration/test sampling mismatch remains; no conformal guarantee.",
+  "primary_metrics": [
+    "RMSE",
+    "MAE",
+    "Pinball_sum",
+    "Brier_Raw"
+  ],
+  "secondary_metrics": [
+    "NASA_sum",
+    "Risk_F1",
+    "Risk_AUC",
+    "Risk_AP",
+    "Coverage/Width/Winkler for Raw, Exact, Normalized"
+  ],
+  "statistics": "All seeds, mean/sample SD, paired ablated-minus-full differences and win counts. No p-values or independent-fleet CI; do not choose a new best model for confirmatory claims.",
+  "limitations": "One-component removals with unequal active capacity; no interaction factorial, no causal mechanism proof. Branch masking is representation removal, not a compact single-branch architecture. Mean fusion changes nonlinear processing and active regularization.",
+  "compute": "CPU float32, five worker processes, one thread each, deterministic algorithms; checkpoint each epoch; resume only with identical source/input/protocol hashes.",
+  "source_sha256": {
+    "src/models/component_ablation.py": "80a360f0a442c3f448c396dfec1ee57529a1c98487f6c68adca60d7694be7370",
+    "src/training/component_campaign.py": "c832aca3d99f0856e58d0c855285eb7635e72cc29d17ec02d32d0c70d1741c50",
+    "src/evaluation/component_ablation_eval.py": "882115f98ccb6e37816ae8b505fd145288d0675de2aa57ae734f8feac3638ad5",
+    "scripts/verify_component_round6.py": "6c32075d6c3405f71d6b33cbd6efc7c2b4669b3198e0ce06aa3f997316c811b8",
+    "tests/test_component_ablation.py": "ea4ef05b0b173013185cece152677478d586ddbf2d81e603b0848ebc416f0469",
+    "reports/component_design_round6_fa.md": "4decf96625f5e87fa0fe1ade2775f48783363ed9b0ad078a892de1ee96a34b3b",
+    "src/data/matched_benchmark.py": "64c63519880b8fd2f9e7037edbbf68b8b4ddc0411f00505aee8e3ad25d71c1e1",
+    "src/data/preprocessing.py": "b3a38e8e56b6eab9b76b24f0476ed7f3c0d6b5404ccabb66411a6dacc21e3de1",
+    "src/models/hybrid_lstm_tcn.py": "2c15b5071b70633f5d0d59b349c5665b196339443fe0eea72e0d1e5a8485dba2",
+    "src/training/pcgrad_ablation.py": "cfe39c0e100d3cf8e6e4d02b719bc86d5c332cc9f819645edfd48b167a3ec389",
+    "src/training/pcgrad.py": "dbc6831cf129daaddcee15f699c287ba71182668b5e743a1f9013eef9ce7714a",
+    "src/utils/metrics.py": "713c59d7ac6c6e6577e1b33f82f327e99868e2af7794d99f5407b7a957d9396f",
+    "src/evaluation/conformal_adaptive.py": "e48b313e07b4ac53b4b3c2f08e61eb670e9ea6b49945baf39d8dd937e1216d21",
+    "requirements-lock-win-py311.txt": "c2f1b8e3b3f9ecb88875ff76476881c487875b1e1ab2754eb2c0ab7dcd5e6bda"
+  },
+  "input_sha256": {
+    "data/raw/cmapss/train_FD003.txt": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+    "results/baselines_stage9/FD003/seed_101/hybrid/initial.pt": "6771c5a7d7eda4d2b8a48bd878d4683ac5a74df797ca10bab8f9d864cf20b7b7",
+    "results/baselines_stage9/FD003/seed_101/hybrid/final.pt": "88ed6fa3ca70c2f7bedac05060fed8985bbab1dc1d7440ac5ac2eaa2d49138ed",
+    "results/baselines_stage9/FD003/seed_101/hybrid/history.csv": "b942dfb69f8a3c5c9407dbf5787d5d1a579978dee4b4a2655efce7b66b67ae5e",
+    "results/baselines_stage9/FD003/seed_101/hybrid/first_step_gradients.pt": "dbb440e5d5034328ee9990716e075d2badd324869d055300701be0fbe9c03672",
+    "results/final_evaluation_v3/checkpoints/FD003_seed_101_preprocessing.joblib": "9fba82df686b2a80218cb379292352d2a27c0aac5f76f3f25df8910a55f9e702",
+    "results/baselines_stage9/FD003/seed_202/hybrid/initial.pt": "0c9d13bd9dfbd3e0f8c1702a517002c6d298162acaea4aee4d2c87bdfb125665",
+    "results/baselines_stage9/FD003/seed_202/hybrid/final.pt": "3cef6eb17e4661255c6a59dd3e80e8b441bc1c0bc5caa77fc04c24a0f3abccb7",
+    "results/baselines_stage9/FD003/seed_202/hybrid/history.csv": "87fdfa72d8524a8d7d31d40044d000fd7aa0f15f057046122cc97ca9109d7a13",
+    "results/baselines_stage9/FD003/seed_202/hybrid/first_step_gradients.pt": "bcc31142bb2724d80471c453115eb22856ab3c36d96cfb7e63b8f6e47ae36982",
+    "results/final_evaluation_v3/checkpoints/FD003_seed_202_preprocessing.joblib": "dfd300d3177942c5408eb2e3c9cabe699ec398abbdaf0491316081767dec5c35",
+    "results/baselines_stage9/FD003/seed_303/hybrid/initial.pt": "d435987b8dc6f6b484ac400a991df8764e602c664f549d65351982db641ede41",
+    "results/baselines_stage9/FD003/seed_303/hybrid/final.pt": "228945d5ece4ab006daee3a67446bdb86be0be29eb5480260e2cc4599a085004",
+    "results/baselines_stage9/FD003/seed_303/hybrid/history.csv": "5edfae35b37ef22aba513fa8b6302f09f56feb46399ce81e625dd7edd51580f8",
+    "results/baselines_stage9/FD003/seed_303/hybrid/first_step_gradients.pt": "5760011ccf99de8d14f3fd6a979757a1bd1ed64517fa989765d1fe9fa1080b68",
+    "results/final_evaluation_v3/checkpoints/FD003_seed_303_preprocessing.joblib": "182ec8b562d12cb4e237a3e400b87a690713d2aa38d746b1da1028c3b8acfee8",
+    "results/baselines_stage9/FD003/seed_404/hybrid/initial.pt": "8c0d62722fd598e3fc628ac5fcf7996cf094a4f0f2a62608d36f519a047254ba",
+    "results/baselines_stage9/FD003/seed_404/hybrid/final.pt": "8a5fb49ac591490639601834c4d5b096a9eaeba07f8b58dacd9ce85b88b2b4b7",
+    "results/baselines_stage9/FD003/seed_404/hybrid/history.csv": "2a3079b4a6bd26e4cc1f8ee23d94ff074823fa763f42ea2dc24e84378a1b7406",
+    "results/baselines_stage9/FD003/seed_404/hybrid/first_step_gradients.pt": "93d2e3d66e0bbd30cc78794c3863cc6045217abb8b1abae22355f33df6b48e98",
+    "results/final_evaluation_v3/checkpoints/FD003_seed_404_preprocessing.joblib": "6ad2647c6229fadf9422668997d8f3af617ba268145bf62024781b25f437d986",
+    "results/baselines_stage9/FD003/seed_505/hybrid/initial.pt": "f15cd4fe08d6e0941094ae2b08dc92b676dd679b2cf0894334f31c0b2de1155f",
+    "results/baselines_stage9/FD003/seed_505/hybrid/final.pt": "6bd7e10ce50da350be14d47564fabddd55a3b9e6124993f1007b31fd85cee1aa",
+    "results/baselines_stage9/FD003/seed_505/hybrid/history.csv": "884f649db21770dd1469a542ce33d9f77fa5a9abf5ab3837db0ca54bf0037c56",
+    "results/baselines_stage9/FD003/seed_505/hybrid/first_step_gradients.pt": "9fdcec3bb0cf087f247daea5ae7ec4624a0c8ce2379df45add035c902f6b93ca",
+    "results/final_evaluation_v3/checkpoints/FD003_seed_505_preprocessing.joblib": "1084567158ccf4ccda5e9805fbc9bcfc1f657cab77755a207dba5473a4593b5a"
+  }
+}

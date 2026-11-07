@@ -1,0 +1,6 @@
+{
+  "scope": "random-input compute timing only; no scientific fit or metric",
+  "device": "cpu",
+  "seconds_100_steps": 0.8739288000001579,
+  "torch": "2.14.0+cpu"
+}

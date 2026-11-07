@@ -1,0 +1,48 @@
+{
+  "tool": "Codex desktop",
+  "observed_session_identifiers": [
+    {
+      "timestamp": "2026-10-31T17:07:15.844Z",
+      "cli_version": "0.166.0-alpha.5.1",
+      "originator": "codex_work_desktop"
+    },
+    {
+      "timestamp": "2026-10-31T17:07:20.916Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T17:13:31.680Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T17:19:18.308Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T19:45:04.316Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T20:56:54.248Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T07:25:41.014Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T07:27:17.098Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    }
+  ],
+  "exact_served_checkpoint": "UNAVAILABLE",
+  "role": "Protocol/code authoring; numerical outputs from executed code",
+  "independent_review": "REVIEW_UNAVAILABLE"
+}

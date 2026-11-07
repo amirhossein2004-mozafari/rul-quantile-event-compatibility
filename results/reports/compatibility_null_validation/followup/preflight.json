@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "real_initial_states": [
+    {
+      "architecture": "lstm",
+      "seed": 1101,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1202,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1303,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1404,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1505,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1101,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1202,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1303,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1404,
+      "initial_state_exact_match": true
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1505,
+      "initial_state_exact_match": true
+    }
+  ],
+  "model_source_unchanged": true,
+  "initial_gap_check": true
+}

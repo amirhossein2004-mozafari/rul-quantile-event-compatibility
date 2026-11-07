@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "models": 40,
+  "method_runs": 160,
+  "engine_method_records": 28280,
+  "summary_groups": 32,
+  "boundary_cases": 10,
+  "raw_mean_fraction_range": [
+    0.0888030888030888,
+    0.20400000000000001
+  ],
+  "Temp_increases_group_mean": 8,
+  "max_fraction_change_at_1e_4": 0.010000000000000009,
+  "scope": "Arithmetic and nominal implications only; no fitting, selection, full distribution validation, scientific novelty assessment or independent review",
+  "public_release_adaptations": [
+    "Original input names resolved through docs/file_index.csv",
+    "Input manifest checks verify the indexed release bytes",
+    "Saved-label consistency replaces comparison with excluded official NASA labels"
+  ],
+  "independent_official_label_verification": false,
+  "optional_extremal_example_verification": "Not run: example CSV was not in the approved copy list"
+}

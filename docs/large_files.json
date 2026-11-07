@@ -1,0 +1,7 @@
+{
+  "over_50_MB": [],
+  "over_100_MB": [],
+  "GitHub_verified_limits": "Warning above 50 MiB; blocked above 100 MiB for regular Git files",
+  "source": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+  "action": "No oversized payload file needs a Zenodo alternative"
+}

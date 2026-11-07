@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24",
+  "scope": "Stage 3; fixed before running the revised calibration evaluation",
+  "methods": {
+    "Raw": "stored raw sigmoid probability, checked against replayed checkpoint logits",
+    "Bayes": "sigmoid(logit - log(float32 training positive-class loss weight))",
+    "Temp": "sigmoid(logit / T_raw)",
+    "ShiftTemp": "sigmoid((logit - log(float32 training positive-class loss weight)) / T_shift)"
+  },
+  "fourth_method": "One fitted temperature after a fixed training-weight offset; not unrestricted two-parameter affine Platt scaling",
+  "logit_source": "CPU float32 canonical checkpoint replay with saved preprocessing; no inverse of clipped CSV probabilities",
+  "temperature_bounds": [0.1, 10.0],
+  "bounds_reason": "Retain pre-existing bounds, report boundary solutions explicitly; do not tune against official tests",
+  "objective": "unweighted calibration binary cross entropy, evaluated stably directly on logits",
+  "cross_validation": {
+    "splitter": "StratifiedKFold, shuffle=true, random_state=run seed",
+    "group_unit": "engine; require exactly one calibration endpoint per engine",
+    "folds": "min(5, minority class count)",
+    "fallback": "if minority count < 2, no CV estimate; report unavailable. Single-class calibration fails explicitly",
+    "purpose": "out-of-fold calibration diagnostics only; no method or hyperparameter selection",
+    "official_test_probabilities": "refit each temperature once on all calibration engines; do not average fold calibrators"
+  },
+  "metrics": "per-run Brier and 10 equal-width-bin ECE including p=1; subset mean and sample SD (ddof=1)",
+  "selection": "Report all four methods in all 20 runs; no per-subset choice from official-test scores",
+  "limitation": "Retrospective remediation of a benchmark whose test scores have already been inspected; CV does not prove absence of overfitting or erase prior test exposure"
+}

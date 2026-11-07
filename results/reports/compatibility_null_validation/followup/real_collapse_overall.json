@@ -1,0 +1,11 @@
+{
+  "fits": 40,
+  "collapsed_fits": 0,
+  "fraction": 0.0,
+  "calibration_engines": 142,
+  "test_engines": 707,
+  "fraction_ci_low": 0.0,
+  "fraction_ci_high": 0.0,
+  "classification_role": "fixed calibration endpoints only",
+  "scope": "Descriptive fitted-state fraction; CI resamples calibration engines, preserving all model dependencies"
+}

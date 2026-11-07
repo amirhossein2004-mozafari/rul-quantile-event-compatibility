@@ -1,0 +1,41 @@
+| Subset | Control | Selection | LR | Epochs | Parameters |
+| --- | --- | --- | --- | --- | --- |
+| FD001 | TCN-last | single | 0.0005 | 12 | 69668 |
+| FD001 | Transformer | single | 0.0005 | 13 | 80772 |
+| FD001 | Gaussian-GRU | single | 0.001 | 6 | 24514 |
+| FD001 | LSTM-CV | 3fold | 0.001 | 9 | 34116 |
+| FD001 | Hybrid-CV | 3fold | 0.0005 | 15 | 115095 |
+| FD002 | TCN-last | single | 0.001 | 9 | 69668 |
+| FD002 | Transformer | single | 0.0005 | 5 | 80772 |
+| FD002 | Gaussian-GRU | single | 0.001 | 7 | 24514 |
+| FD002 | LSTM-CV | 3fold | 0.001 | 12 | 34116 |
+| FD002 | Hybrid-CV | 3fold | 0.001 | 5 | 115095 |
+| FD003 | TCN-last | single | 0.001 | 14 | 69668 |
+| FD003 | Transformer | single | 0.001 | 3 | 80772 |
+| FD003 | Gaussian-GRU | single | 0.0005 | 14 | 24514 |
+| FD003 | LSTM-CV | 3fold | 0.0005 | 7 | 34116 |
+| FD003 | Hybrid-CV | 3fold | 0.001 | 16 | 115095 |
+| FD004 | TCN-last | single | 0.0005 | 12 | 69668 |
+| FD004 | Transformer | single | 0.001 | 11 | 80772 |
+| FD004 | Gaussian-GRU | single | 0.001 | 9 | 24514 |
+| FD004 | LSTM-CV | 3fold | 0.001 | 14 | 34116 |
+| FD004 | Hybrid-CV | 3fold | 0.001 | 12 | 115095 |
+| FD001 | TCN-GPU | inherited | 0.001 | 14 | 69668 |
+| FD001 | LSTM-GPU | inherited | 0.0002 | 10 | 34116 |
+| FD001 | Hybrid-GPU | inherited | 0.001 | 7 | 115095 |
+| FD001 | GRU-GPU | inherited | 0.001 | 6 | 28740 |
+| FD002 | TCN-GPU | inherited | 0.0005 | 12 | 69668 |
+| FD002 | LSTM-GPU | inherited | 0.0005 | 9 | 34116 |
+| FD002 | Hybrid-GPU | inherited | 0.001 | 5 | 115095 |
+| FD002 | GRU-GPU | inherited | 0.0002 | 16 | 28740 |
+| FD003 | TCN-GPU | inherited | 0.001 | 16 | 69668 |
+| FD003 | LSTM-GPU | inherited | 0.0005 | 11 | 34116 |
+| FD003 | Hybrid-GPU | inherited | 0.001 | 15 | 115095 |
+| FD003 | GRU-GPU | inherited | 0.0005 | 15 | 28740 |
+| FD004 | TCN-GPU | inherited | 0.0002 | 10 | 69668 |
+| FD004 | LSTM-GPU | inherited | 0.0005 | 9 | 34116 |
+| FD004 | Hybrid-GPU | inherited | 0.0005 | 10 | 115095 |
+| FD004 | GRU-GPU | inherited | 0.001 | 11 | 28740 |
+
+: Selected final configurations and inherited references. Single uses the existing external validation role; threefold uses only the existing fitting engines, with preprocessing refitted inside each fold. Inherited GPU references reuse earlier selected settings and add no search opportunity. Three rates and all 16 epochs remain in search_scores.csv for new selections. Selection minimizes pooled held-out engine MSE, with candidate-order/earlier-epoch ties. All final models use the same CUDA setup and exclude both original validation and calibration engines. This is internal engine CV, not nested outer CV or exhaustive tuning.
+

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "paper/manuscript_v4.md",
+    "output": "paper/manuscript_v4_readable.pdf",
+    "source_sha256": "086bad7f62d92ba423a3d7012be0af3d566f4434e3ade91390287456b32588d1",
+    "pdf_sha256": "43a0d94c1fa1fdfd57b99a26cc2068902255a720404b2c891cb8f0ac94ecc91d"
+  },
+  {
+    "source": "supplement/validation_supplement.md",
+    "output": "supplement/validation_supplement.pdf",
+    "source_sha256": "57a30889bbc7a47fb904edadffbffb3bf0ff365f20fe110327a9f1b8f3914a4c",
+    "pdf_sha256": "018a6592e5ce5a7ae06dbde874c35c48b4b5343be3b409bfbb3db4d9eb386193"
+  }
+]

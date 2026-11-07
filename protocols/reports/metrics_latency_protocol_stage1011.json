@@ -1,0 +1,31 @@
+{
+  "registered_date": "2026-10-25",
+  "scope": "Original 20-run NASA aggregates and canonical trained-model CPU forward latency; no retraining or model selection.",
+  "nasa": {
+    "subsets": ["FD001", "FD002", "FD003", "FD004"],
+    "seeds": [101, 202, 303, 404, 505],
+    "error": "prediction minus target; negative: expm1(-error/13), nonnegative: expm1(error/10)",
+    "primary": "sum of per-engine penalties: target min(raw_RUL,125), prediction clip(q50,0,125)",
+    "secondary": "primary/N_engines explicitly labeled per-engine mean; uncapped target and raw q50 separately labeled sensitivity",
+    "aggregation": "arithmetic mean and sample SD (ddof=1) over five seed-level scores within each subset",
+    "historical_tolerance": "float32 per-run totals rtol=1e-5, atol=0.002; rounded manuscript mean/SD atol=0.00051"
+  },
+  "latency": {
+    "checkpoint": "results/final_evaluation_v3/checkpoints/FD001_seed_101_model.pt",
+    "inputs": "100 official FD001 last-window inputs reconstructed from saved preprocessing, cycling in engine order",
+    "shape": [1, 30, 18],
+    "dtype": "float32",
+    "device": "cpu",
+    "threads": [1, 4],
+    "interop_threads": 1,
+    "repetitions_per_thread_setting": 3,
+    "warmup_per_repetition": 200,
+    "timed_calls_per_repetition": 500,
+    "execution": "fresh subprocess per repetition; eval() and torch.inference_mode(); perf_counter_ns around forward only",
+    "summaries": "raw durations, mean, sample SD, median, p95, p99, repeat means and inverse-mean serial forward rate",
+    "excluded": "checkpoint loading, input preprocessing, IO, tensor slicing, conformal intervals and probability calibration",
+    "parity": "all 100 inputs, four outputs before timing; quantile atol=1e-3, probability atol=1e-5, rtol=1e-5",
+    "interpretation": "this host only; no end-to-end, worst-case, real-time avionics, certification or edge feasibility claim; report both thread settings"
+  },
+  "external_review": "REVIEW_UNAVAILABLE; executor reconstruction is not independent scientific review"
+}

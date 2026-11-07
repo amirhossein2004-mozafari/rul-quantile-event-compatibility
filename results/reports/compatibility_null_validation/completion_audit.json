@@ -1,0 +1,8 @@
+{
+  "status": "EXECUTOR_CHECKS_PASS_NOT_INDEPENDENT_REVIEW",
+  "planned_neural_fits": 1680,
+  "auxiliary_complete_fits": 11,
+  "auxiliary_interrupted_fits": 1,
+  "source_sha256": "18052911a8eea53ea43dd34270edf32d5f11be06781841604710693880d42fea",
+  "interpretation": "Budget/units/classes/source/parameter checks and selected full-fleet forward replay. Finite-budget underfitting remains possible; no extra epochs selected from outcomes."
+}

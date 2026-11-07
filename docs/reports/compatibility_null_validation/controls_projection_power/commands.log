@@ -1,0 +1,3 @@
+RUN: python scripts/frozen_controls_projection_power.py > reports/compatibility_null_validation/controls_projection_power/run.log 2>&1; protocol/hash and exact tool inputs retained.
+REPORT/CHECK: python scripts/report_controls_projection_power.py; no changes to analysis definitions or earlier claims.
+Per-seed metadata correction recorded in implementation_notes.md: 1 fixed fit per seed row, cohort size 5 retained; no scientific definition changes. RUN python scripts/frozen_controls_projection_power.py, verify primary A/B/C hashes unchanged.

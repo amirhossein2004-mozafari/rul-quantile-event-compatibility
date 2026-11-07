@@ -1,0 +1,3 @@
+# Optional PDF inspection. Pandoc, XeLaTeX and Poppler are external tools.
+pypdf==6.10.0
+pdfplumber==0.11.9

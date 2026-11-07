@@ -1,0 +1,1264 @@
+{
+  "subset": "FD004",
+  "seed": 303,
+  "model_engines": [
+    49,
+    54,
+    143,
+    45,
+    98,
+    199,
+    202,
+    90,
+    52,
+    105,
+    53,
+    5,
+    162,
+    6,
+    69,
+    146,
+    148,
+    26,
+    206,
+    94,
+    80,
+    25,
+    231,
+    16,
+    55,
+    73,
+    8,
+    124,
+    63,
+    51,
+    67,
+    43,
+    194,
+    59,
+    233,
+    187,
+    9,
+    61,
+    71,
+    211,
+    122,
+    152,
+    170,
+    64,
+    95,
+    198,
+    240,
+    65,
+    86,
+    200,
+    171,
+    18,
+    109,
+    74,
+    118,
+    183,
+    173,
+    145,
+    174,
+    101,
+    144,
+    78,
+    131,
+    188,
+    230,
+    159,
+    10,
+    215,
+    204,
+    134,
+    235,
+    244,
+    129,
+    96,
+    153,
+    140,
+    38,
+    120,
+    36,
+    44,
+    113,
+    3,
+    164,
+    72,
+    172,
+    33,
+    128,
+    46,
+    136,
+    48,
+    42,
+    108,
+    58,
+    83,
+    62,
+    93,
+    225,
+    191,
+    79,
+    85,
+    123,
+    226,
+    68,
+    121,
+    21,
+    13,
+    99,
+    151,
+    234,
+    228,
+    222,
+    192,
+    84,
+    209,
+    156,
+    127,
+    66,
+    249,
+    14,
+    47,
+    77,
+    138,
+    207,
+    186,
+    223,
+    116,
+    17,
+    1,
+    34,
+    100,
+    154,
+    7,
+    158,
+    82,
+    119,
+    210,
+    92,
+    216,
+    112,
+    155,
+    147,
+    75,
+    160,
+    196,
+    220,
+    217,
+    193,
+    246,
+    195,
+    248,
+    28,
+    97,
+    161,
+    175,
+    91,
+    32,
+    214,
+    190,
+    189,
+    88,
+    218,
+    241,
+    76,
+    103,
+    243,
+    132,
+    213,
+    117,
+    169,
+    239,
+    87,
+    106,
+    180,
+    221,
+    238,
+    178,
+    229,
+    167,
+    224,
+    245,
+    50,
+    219,
+    208,
+    181,
+    114,
+    12,
+    31,
+    115,
+    201,
+    107,
+    39,
+    102,
+    237,
+    22,
+    165,
+    130,
+    19,
+    125,
+    60
+  ],
+  "calibration_engines": [
+    23,
+    29,
+    142,
+    20,
+    30,
+    89,
+    27,
+    35,
+    104,
+    81,
+    41,
+    141,
+    2,
+    110,
+    149,
+    37,
+    242,
+    135,
+    185,
+    227,
+    157,
+    205,
+    163,
+    236,
+    232,
+    137,
+    182,
+    166,
+    11,
+    126,
+    197,
+    24,
+    179,
+    133,
+    184,
+    247,
+    4,
+    111,
+    168,
+    56,
+    139,
+    150,
+    15,
+    177,
+    70,
+    203,
+    212,
+    40,
+    57,
+    176
+  ],
+  "window_size": 30,
+  "risk_threshold": 30,
+  "n_positive": 6169,
+  "n_negative": 36768,
+  "w_pos_train": 5.960123196628302,
+  "w_pos_train_float32": 5.960123062133789,
+  "per_engine": [
+    {
+      "engine_id": 1,
+      "n_positive": 31,
+      "n_negative": 261
+    },
+    {
+      "engine_id": 3,
+      "n_positive": 31,
+      "n_negative": 247
+    },
+    {
+      "engine_id": 5,
+      "n_positive": 31,
+      "n_negative": 133
+    },
+    {
+      "engine_id": 6,
+      "n_positive": 31,
+      "n_negative": 271
+    },
+    {
+      "engine_id": 7,
+      "n_positive": 31,
+      "n_negative": 161
+    },
+    {
+      "engine_id": 8,
+      "n_positive": 31,
+      "n_negative": 170
+    },
+    {
+      "engine_id": 9,
+      "n_positive": 31,
+      "n_negative": 274
+    },
+    {
+      "engine_id": 10,
+      "n_positive": 31,
+      "n_negative": 294
+    },
+    {
+      "engine_id": 12,
+      "n_positive": 31,
+      "n_negative": 212
+    },
+    {
+      "engine_id": 13,
+      "n_positive": 31,
+      "n_negative": 196
+    },
+    {
+      "engine_id": 14,
+      "n_positive": 31,
+      "n_negative": 193
+    },
+    {
+      "engine_id": 16,
+      "n_positive": 31,
+      "n_negative": 124
+    },
+    {
+      "engine_id": 17,
+      "n_positive": 31,
+      "n_negative": 91
+    },
+    {
+      "engine_id": 18,
+      "n_positive": 31,
+      "n_negative": 283
+    },
+    {
+      "engine_id": 19,
+      "n_positive": 31,
+      "n_negative": 150
+    },
+    {
+      "engine_id": 21,
+      "n_positive": 31,
+      "n_negative": 167
+    },
+    {
+      "engine_id": 22,
+      "n_positive": 31,
+      "n_negative": 151
+    },
+    {
+      "engine_id": 25,
+      "n_positive": 31,
+      "n_negative": 90
+    },
+    {
+      "engine_id": 26,
+      "n_positive": 31,
+      "n_negative": 237
+    },
+    {
+      "engine_id": 28,
+      "n_positive": 31,
+      "n_negative": 142
+    },
+    {
+      "engine_id": 31,
+      "n_positive": 31,
+      "n_negative": 203
+    },
+    {
+      "engine_id": 32,
+      "n_positive": 31,
+      "n_negative": 159
+    },
+    {
+      "engine_id": 33,
+      "n_positive": 31,
+      "n_negative": 141
+    },
+    {
+      "engine_id": 34,
+      "n_positive": 31,
+      "n_negative": 216
+    },
+    {
+      "engine_id": 36,
+      "n_positive": 31,
+      "n_negative": 83
+    },
+    {
+      "engine_id": 38,
+      "n_positive": 31,
+      "n_negative": 117
+    },
+    {
+      "engine_id": 39,
+      "n_positive": 31,
+      "n_negative": 142
+    },
+    {
+      "engine_id": 42,
+      "n_positive": 31,
+      "n_negative": 220
+    },
+    {
+      "engine_id": 43,
+      "n_positive": 31,
+      "n_negative": 163
+    },
+    {
+      "engine_id": 44,
+      "n_positive": 31,
+      "n_negative": 143
+    },
+    {
+      "engine_id": 45,
+      "n_positive": 31,
+      "n_negative": 117
+    },
+    {
+      "engine_id": 46,
+      "n_positive": 31,
+      "n_negative": 261
+    },
+    {
+      "engine_id": 47,
+      "n_positive": 31,
+      "n_negative": 315
+    },
+    {
+      "engine_id": 48,
+      "n_positive": 31,
+      "n_negative": 262
+    },
+    {
+      "engine_id": 49,
+      "n_positive": 31,
+      "n_negative": 386
+    },
+    {
+      "engine_id": 50,
+      "n_positive": 31,
+      "n_negative": 112
+    },
+    {
+      "engine_id": 51,
+      "n_positive": 31,
+      "n_negative": 225
+    },
+    {
+      "engine_id": 52,
+      "n_positive": 31,
+      "n_negative": 297
+    },
+    {
+      "engine_id": 53,
+      "n_positive": 31,
+      "n_negative": 244
+    },
+    {
+      "engine_id": 54,
+      "n_positive": 31,
+      "n_negative": 137
+    },
+    {
+      "engine_id": 55,
+      "n_positive": 31,
+      "n_negative": 284
+    },
+    {
+      "engine_id": 58,
+      "n_positive": 31,
+      "n_negative": 221
+    },
+    {
+      "engine_id": 59,
+      "n_positive": 31,
+      "n_negative": 117
+    },
+    {
+      "engine_id": 60,
+      "n_positive": 31,
+      "n_negative": 158
+    },
+    {
+      "engine_id": 61,
+      "n_positive": 31,
+      "n_negative": 184
+    },
+    {
+      "engine_id": 62,
+      "n_positive": 31,
+      "n_negative": 237
+    },
+    {
+      "engine_id": 63,
+      "n_positive": 31,
+      "n_negative": 110
+    },
+    {
+      "engine_id": 64,
+      "n_positive": 31,
+      "n_negative": 124
+    },
+    {
+      "engine_id": 65,
+      "n_positive": 31,
+      "n_negative": 291
+    },
+    {
+      "engine_id": 66,
+      "n_positive": 31,
+      "n_negative": 115
+    },
+    {
+      "engine_id": 67,
+      "n_positive": 31,
+      "n_negative": 107
+    },
+    {
+      "engine_id": 68,
+      "n_positive": 31,
+      "n_negative": 103
+    },
+    {
+      "engine_id": 69,
+      "n_positive": 31,
+      "n_negative": 166
+    },
+    {
+      "engine_id": 71,
+      "n_positive": 31,
+      "n_negative": 252
+    },
+    {
+      "engine_id": 72,
+      "n_positive": 31,
+      "n_negative": 248
+    },
+    {
+      "engine_id": 73,
+      "n_positive": 31,
+      "n_negative": 121
+    },
+    {
+      "engine_id": 74,
+      "n_positive": 31,
+      "n_negative": 184
+    },
+    {
+      "engine_id": 75,
+      "n_positive": 31,
+      "n_negative": 170
+    },
+    {
+      "engine_id": 76,
+      "n_positive": 31,
+      "n_negative": 92
+    },
+    {
+      "engine_id": 77,
+      "n_positive": 31,
+      "n_negative": 88
+    },
+    {
+      "engine_id": 78,
+      "n_positive": 31,
+      "n_negative": 190
+    },
+    {
+      "engine_id": 79,
+      "n_positive": 31,
+      "n_negative": 158
+    },
+    {
+      "engine_id": 80,
+      "n_positive": 31,
+      "n_negative": 245
+    },
+    {
+      "engine_id": 82,
+      "n_positive": 31,
+      "n_negative": 137
+    },
+    {
+      "engine_id": 83,
+      "n_positive": 31,
+      "n_negative": 124
+    },
+    {
+      "engine_id": 84,
+      "n_positive": 31,
+      "n_negative": 99
+    },
+    {
+      "engine_id": 85,
+      "n_positive": 31,
+      "n_negative": 217
+    },
+    {
+      "engine_id": 86,
+      "n_positive": 31,
+      "n_negative": 172
+    },
+    {
+      "engine_id": 87,
+      "n_positive": 31,
+      "n_negative": 199
+    },
+    {
+      "engine_id": 88,
+      "n_positive": 31,
+      "n_negative": 328
+    },
+    {
+      "engine_id": 90,
+      "n_positive": 31,
+      "n_negative": 152
+    },
+    {
+      "engine_id": 91,
+      "n_positive": 31,
+      "n_negative": 294
+    },
+    {
+      "engine_id": 92,
+      "n_positive": 31,
+      "n_negative": 131
+    },
+    {
+      "engine_id": 93,
+      "n_positive": 31,
+      "n_negative": 136
+    },
+    {
+      "engine_id": 94,
+      "n_positive": 31,
+      "n_negative": 189
+    },
+    {
+      "engine_id": 95,
+      "n_positive": 31,
+      "n_negative": 179
+    },
+    {
+      "engine_id": 96,
+      "n_positive": 31,
+      "n_negative": 210
+    },
+    {
+      "engine_id": 97,
+      "n_positive": 31,
+      "n_negative": 202
+    },
+    {
+      "engine_id": 98,
+      "n_positive": 31,
+      "n_negative": 185
+    },
+    {
+      "engine_id": 99,
+      "n_positive": 31,
+      "n_negative": 107
+    },
+    {
+      "engine_id": 100,
+      "n_positive": 31,
+      "n_negative": 201
+    },
+    {
+      "engine_id": 101,
+      "n_positive": 31,
+      "n_negative": 200
+    },
+    {
+      "engine_id": 102,
+      "n_positive": 31,
+      "n_negative": 134
+    },
+    {
+      "engine_id": 103,
+      "n_positive": 31,
+      "n_negative": 164
+    },
+    {
+      "engine_id": 105,
+      "n_positive": 31,
+      "n_negative": 110
+    },
+    {
+      "engine_id": 106,
+      "n_positive": 31,
+      "n_negative": 206
+    },
+    {
+      "engine_id": 107,
+      "n_positive": 31,
+      "n_negative": 123
+    },
+    {
+      "engine_id": 108,
+      "n_positive": 31,
+      "n_negative": 244
+    },
+    {
+      "engine_id": 109,
+      "n_positive": 31,
+      "n_negative": 265
+    },
+    {
+      "engine_id": 112,
+      "n_positive": 31,
+      "n_negative": 280
+    },
+    {
+      "engine_id": 113,
+      "n_positive": 31,
+      "n_negative": 124
+    },
+    {
+      "engine_id": 114,
+      "n_positive": 31,
+      "n_negative": 101
+    },
+    {
+      "engine_id": 115,
+      "n_positive": 31,
+      "n_negative": 71
+    },
+    {
+      "engine_id": 116,
+      "n_positive": 31,
+      "n_negative": 284
+    },
+    {
+      "engine_id": 117,
+      "n_positive": 31,
+      "n_negative": 282
+    },
+    {
+      "engine_id": 118,
+      "n_positive": 31,
+      "n_negative": 483
+    },
+    {
+      "engine_id": 119,
+      "n_positive": 31,
+      "n_negative": 127
+    },
+    {
+      "engine_id": 120,
+      "n_positive": 31,
+      "n_negative": 117
+    },
+    {
+      "engine_id": 121,
+      "n_positive": 31,
+      "n_negative": 134
+    },
+    {
+      "engine_id": 122,
+      "n_positive": 31,
+      "n_negative": 114
+    },
+    {
+      "engine_id": 123,
+      "n_positive": 31,
+      "n_negative": 166
+    },
+    {
+      "engine_id": 124,
+      "n_positive": 31,
+      "n_negative": 110
+    },
+    {
+      "engine_id": 125,
+      "n_positive": 31,
+      "n_negative": 179
+    },
+    {
+      "engine_id": 127,
+      "n_positive": 31,
+      "n_negative": 175
+    },
+    {
+      "engine_id": 128,
+      "n_positive": 31,
+      "n_negative": 188
+    },
+    {
+      "engine_id": 129,
+      "n_positive": 31,
+      "n_negative": 130
+    },
+    {
+      "engine_id": 130,
+      "n_positive": 31,
+      "n_negative": 106
+    },
+    {
+      "engine_id": 131,
+      "n_positive": 31,
+      "n_negative": 310
+    },
+    {
+      "engine_id": 132,
+      "n_positive": 31,
+      "n_negative": 194
+    },
+    {
+      "engine_id": 134,
+      "n_positive": 31,
+      "n_negative": 187
+    },
+    {
+      "engine_id": 136,
+      "n_positive": 31,
+      "n_negative": 145
+    },
+    {
+      "engine_id": 138,
+      "n_positive": 31,
+      "n_negative": 118
+    },
+    {
+      "engine_id": 140,
+      "n_positive": 31,
+      "n_negative": 238
+    },
+    {
+      "engine_id": 143,
+      "n_positive": 31,
+      "n_negative": 124
+    },
+    {
+      "engine_id": 144,
+      "n_positive": 31,
+      "n_negative": 237
+    },
+    {
+      "engine_id": 145,
+      "n_positive": 31,
+      "n_negative": 168
+    },
+    {
+      "engine_id": 146,
+      "n_positive": 31,
+      "n_negative": 243
+    },
+    {
+      "engine_id": 147,
+      "n_positive": 31,
+      "n_negative": 174
+    },
+    {
+      "engine_id": 148,
+      "n_positive": 31,
+      "n_negative": 133
+    },
+    {
+      "engine_id": 151,
+      "n_positive": 31,
+      "n_negative": 291
+    },
+    {
+      "engine_id": 152,
+      "n_positive": 31,
+      "n_negative": 202
+    },
+    {
+      "engine_id": 153,
+      "n_positive": 31,
+      "n_negative": 108
+    },
+    {
+      "engine_id": 154,
+      "n_positive": 31,
+      "n_negative": 143
+    },
+    {
+      "engine_id": 155,
+      "n_positive": 31,
+      "n_negative": 235
+    },
+    {
+      "engine_id": 156,
+      "n_positive": 31,
+      "n_negative": 79
+    },
+    {
+      "engine_id": 158,
+      "n_positive": 31,
+      "n_negative": 339
+    },
+    {
+      "engine_id": 159,
+      "n_positive": 31,
+      "n_negative": 228
+    },
+    {
+      "engine_id": 160,
+      "n_positive": 31,
+      "n_negative": 127
+    },
+    {
+      "engine_id": 161,
+      "n_positive": 31,
+      "n_negative": 243
+    },
+    {
+      "engine_id": 162,
+      "n_positive": 31,
+      "n_negative": 253
+    },
+    {
+      "engine_id": 164,
+      "n_positive": 31,
+      "n_negative": 320
+    },
+    {
+      "engine_id": 165,
+      "n_positive": 31,
+      "n_negative": 195
+    },
+    {
+      "engine_id": 167,
+      "n_positive": 31,
+      "n_negative": 203
+    },
+    {
+      "engine_id": 169,
+      "n_positive": 31,
+      "n_negative": 167
+    },
+    {
+      "engine_id": 170,
+      "n_positive": 31,
+      "n_negative": 101
+    },
+    {
+      "engine_id": 171,
+      "n_positive": 31,
+      "n_negative": 339
+    },
+    {
+      "engine_id": 172,
+      "n_positive": 31,
+      "n_negative": 213
+    },
+    {
+      "engine_id": 173,
+      "n_positive": 31,
+      "n_negative": 397
+    },
+    {
+      "engine_id": 174,
+      "n_positive": 31,
+      "n_negative": 310
+    },
+    {
+      "engine_id": 175,
+      "n_positive": 31,
+      "n_negative": 96
+    },
+    {
+      "engine_id": 178,
+      "n_positive": 31,
+      "n_negative": 110
+    },
+    {
+      "engine_id": 180,
+      "n_positive": 31,
+      "n_negative": 284
+    },
+    {
+      "engine_id": 181,
+      "n_positive": 31,
+      "n_negative": 74
+    },
+    {
+      "engine_id": 183,
+      "n_positive": 31,
+      "n_negative": 130
+    },
+    {
+      "engine_id": 186,
+      "n_positive": 31,
+      "n_negative": 103
+    },
+    {
+      "engine_id": 187,
+      "n_positive": 31,
+      "n_negative": 213
+    },
+    {
+      "engine_id": 188,
+      "n_positive": 31,
+      "n_negative": 194
+    },
+    {
+      "engine_id": 189,
+      "n_positive": 31,
+      "n_negative": 179
+    },
+    {
+      "engine_id": 190,
+      "n_positive": 31,
+      "n_negative": 321
+    },
+    {
+      "engine_id": 191,
+      "n_positive": 31,
+      "n_negative": 237
+    },
+    {
+      "engine_id": 192,
+      "n_positive": 31,
+      "n_negative": 130
+    },
+    {
+      "engine_id": 193,
+      "n_positive": 31,
+      "n_negative": 137
+    },
+    {
+      "engine_id": 194,
+      "n_positive": 31,
+      "n_negative": 85
+    },
+    {
+      "engine_id": 195,
+      "n_positive": 31,
+      "n_negative": 99
+    },
+    {
+      "engine_id": 196,
+      "n_positive": 31,
+      "n_negative": 114
+    },
+    {
+      "engine_id": 198,
+      "n_positive": 31,
+      "n_negative": 104
+    },
+    {
+      "engine_id": 199,
+      "n_positive": 31,
+      "n_negative": 116
+    },
+    {
+      "engine_id": 200,
+      "n_positive": 31,
+      "n_negative": 165
+    },
+    {
+      "engine_id": 201,
+      "n_positive": 31,
+      "n_negative": 318
+    },
+    {
+      "engine_id": 202,
+      "n_positive": 31,
+      "n_negative": 181
+    },
+    {
+      "engine_id": 204,
+      "n_positive": 31,
+      "n_negative": 151
+    },
+    {
+      "engine_id": 206,
+      "n_positive": 31,
+      "n_negative": 203
+    },
+    {
+      "engine_id": 207,
+      "n_positive": 31,
+      "n_negative": 319
+    },
+    {
+      "engine_id": 208,
+      "n_positive": 31,
+      "n_negative": 230
+    },
+    {
+      "engine_id": 209,
+      "n_positive": 31,
+      "n_negative": 101
+    },
+    {
+      "engine_id": 210,
+      "n_positive": 31,
+      "n_negative": 107
+    },
+    {
+      "engine_id": 211,
+      "n_positive": 31,
+      "n_negative": 86
+    },
+    {
+      "engine_id": 213,
+      "n_positive": 31,
+      "n_negative": 137
+    },
+    {
+      "engine_id": 214,
+      "n_positive": 31,
+      "n_negative": 68
+    },
+    {
+      "engine_id": 215,
+      "n_positive": 31,
+      "n_negative": 301
+    },
+    {
+      "engine_id": 216,
+      "n_positive": 31,
+      "n_negative": 184
+    },
+    {
+      "engine_id": 217,
+      "n_positive": 31,
+      "n_negative": 140
+    },
+    {
+      "engine_id": 218,
+      "n_positive": 31,
+      "n_negative": 176
+    },
+    {
+      "engine_id": 219,
+      "n_positive": 31,
+      "n_negative": 130
+    },
+    {
+      "engine_id": 220,
+      "n_positive": 31,
+      "n_negative": 142
+    },
+    {
+      "engine_id": 221,
+      "n_positive": 31,
+      "n_negative": 214
+    },
+    {
+      "engine_id": 222,
+      "n_positive": 31,
+      "n_negative": 142
+    },
+    {
+      "engine_id": 223,
+      "n_positive": 31,
+      "n_negative": 187
+    },
+    {
+      "engine_id": 224,
+      "n_positive": 31,
+      "n_negative": 208
+    },
+    {
+      "engine_id": 225,
+      "n_positive": 31,
+      "n_negative": 358
+    },
+    {
+      "engine_id": 226,
+      "n_positive": 31,
+      "n_negative": 134
+    },
+    {
+      "engine_id": 228,
+      "n_positive": 31,
+      "n_negative": 219
+    },
+    {
+      "engine_id": 229,
+      "n_positive": 31,
+      "n_negative": 220
+    },
+    {
+      "engine_id": 230,
+      "n_positive": 31,
+      "n_negative": 190
+    },
+    {
+      "engine_id": 231,
+      "n_positive": 31,
+      "n_negative": 134
+    },
+    {
+      "engine_id": 233,
+      "n_positive": 31,
+      "n_negative": 229
+    },
+    {
+      "engine_id": 234,
+      "n_positive": 31,
+      "n_negative": 147
+    },
+    {
+      "engine_id": 235,
+      "n_positive": 31,
+      "n_negative": 139
+    },
+    {
+      "engine_id": 237,
+      "n_positive": 31,
+      "n_negative": 152
+    },
+    {
+      "engine_id": 238,
+      "n_positive": 31,
+      "n_negative": 127
+    },
+    {
+      "engine_id": 239,
+      "n_positive": 31,
+      "n_negative": 305
+    },
+    {
+      "engine_id": 240,
+      "n_positive": 31,
+      "n_negative": 89
+    },
+    {
+      "engine_id": 241,
+      "n_positive": 31,
+      "n_negative": 272
+    },
+    {
+      "engine_id": 243,
+      "n_positive": 31,
+      "n_negative": 267
+    },
+    {
+      "engine_id": 244,
+      "n_positive": 31,
+      "n_negative": 207
+    },
+    {
+      "engine_id": 245,
+      "n_positive": 31,
+      "n_negative": 145
+    },
+    {
+      "engine_id": 246,
+      "n_positive": 31,
+      "n_negative": 101
+    },
+    {
+      "engine_id": 248,
+      "n_positive": 31,
+      "n_negative": 124
+    },
+    {
+      "engine_id": 249,
+      "n_positive": 31,
+      "n_negative": 195
+    }
+  ],
+  "checkpoint_sha256": "684b29db14a051f0d527072be694885cc9289dab700287a568d765138ac8b534",
+  "preprocessing_sha256": "62b5a25ada59e8b8f67bb5673ddc7b0f8bd0117f6fac60748191bee5785389f1",
+  "training_data_sha256": "27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218",
+  "weight_provenance": "reconstructed from saved split/config and historical notebook loss; not stored in checkpoint"
+}

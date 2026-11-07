@@ -1,0 +1,39 @@
+{
+  "scope": "Only metadata for current chat; model field is requested/configured identifier, not proof of served checkpoint",
+  "records": [
+    {
+      "timestamp": "2026-10-31T17:07:15.844Z",
+      "type": "session_meta",
+      "fields": {
+        "model_provider": "openai",
+        "cli_version": "0.166.0-alpha.5.1",
+        "originator": "codex_work_desktop",
+        "source": "vscode"
+      }
+    },
+    {
+      "timestamp": "2026-10-31T17:07:20.916Z",
+      "type": "turn_context",
+      "fields": {
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      }
+    },
+    {
+      "timestamp": "2026-10-31T17:13:31.680Z",
+      "type": "turn_context",
+      "fields": {
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      }
+    },
+    {
+      "timestamp": "2026-10-31T17:19:18.308Z",
+      "type": "turn_context",
+      "fields": {
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      }
+    }
+  ]
+}

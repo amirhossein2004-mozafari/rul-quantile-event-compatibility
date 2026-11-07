@@ -1,0 +1,3 @@
+RUN: python scripts/check_null_distribution_difficulty.py > reports/compatibility_null_validation/difficulty_check/run.log 2>&1; all tool inputs archived verbatim.
+FORMAT: python scripts/format_null_difficulty_per_fit.py; per-fit display confirmed by user; no statistical changes.
+Final presentation check: primary tables have 200 per-fit rows; source line ranges recorded without generator execution. python scripts/format_null_difficulty_per_fit.py

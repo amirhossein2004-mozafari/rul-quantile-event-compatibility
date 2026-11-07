@@ -1,0 +1,1 @@
+{"device_setup":"Reuse previously installed CUDA torch via workspace junction","package_path":"[EXTERNAL_PATH]","torch":"2.14.0+cu130","torch_git_version":"08187d9e0fba026dc8217405802ab5381dc88d90","prior_download":"Stopped before install after locating retained identical version; log preserved","fit_budget_changed":false}

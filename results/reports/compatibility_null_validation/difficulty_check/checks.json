@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "groups": 8,
+  "difficulty_rows": 200,
+  "difficulty_summary_rows": 16,
+  "inputs_unchanged": 58,
+  "protocol": {
+    "protocol_sha256": "c5682eb82daac149437eaa71ac31f1c4eb171459cc4ab09aa75afba8c7957676",
+    "locked_utc": "2026-11-01T08:16:52.1040512Z",
+    "status": "LOCKED_BEFORE_CALCULATIONS"
+  },
+  "source_sha256": "ee3f74e13be3156302c6239faf0b3d69294ff14c85a0b5456289893867d6dc41",
+  "training": false,
+  "inference": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "oracle": "E1 verified against independent numerical quadrature",
+  "tensor_shapes": "PASS",
+  "cycle_target_units": "PASS",
+  "disjoint_head_parameters": "PASS",
+  "source_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef",
+  "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764"
+}

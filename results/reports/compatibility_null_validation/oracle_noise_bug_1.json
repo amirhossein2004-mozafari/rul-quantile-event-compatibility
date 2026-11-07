@@ -1,0 +1,1 @@
+{"failure":"Oracle-noise collector used a length-N zero array alongside 100-by-N distances in NumPy maximum.reduce","effect":"Raised before any rate or confidence interval was computed; no learned fit affected","correction":"Explicitly broadcast true p to replicate-by-engine shape at call site","design_change":false,"seeds_changed":false,"failed_log":"oracle_noise_failure_1.log"}

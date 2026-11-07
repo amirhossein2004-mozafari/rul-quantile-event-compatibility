@@ -1,0 +1,24 @@
+{
+  "protocol": {
+    "status": "LOCKED_BEFORE_ANALYSIS",
+    "locked_utc": "2026-11-01T07:48:36.6686660Z",
+    "protocol_sha256": "85b017765d300244e024aef8259c9c71fc4d552b6e7ef8d430f223812ff2430c"
+  },
+  "files": {
+    "reports/compatibility_null_validation/threshold_followup/ai_provenance.json": "bfbfb8c10f688f6731ed7a549a6c787807d86ce9674c33998307fcfceb9c2e5d",
+    "reports/compatibility_null_validation/threshold_followup/checks.json": "4d4b32cd58bef4f630955d7980a4f43f8a39b586b90397dea805f9a3f70d6c25",
+    "reports/compatibility_null_validation/threshold_followup/commands.log": "e8ebbac3424054aa1bd25164fe1af59227e92895b96b129cf6f963e20069ea83",
+    "reports/compatibility_null_validation/threshold_followup/earlier_files_before.json": "13aff8aa7a3cdd43bf5ab48afc56eb06d17842bb0e06c74768e48107fa06e536",
+    "reports/compatibility_null_validation/threshold_followup/exact_tool_calls.jsonl": "a5292a35a318166d7145339f5d782a518c9a20de7bbe40eafa1d2a4700bd9a40",
+    "reports/compatibility_null_validation/threshold_followup/protocol.md": "85b017765d300244e024aef8259c9c71fc4d552b6e7ef8d430f223812ff2430c",
+    "reports/compatibility_null_validation/threshold_followup/protocol_lock.json": "e0dcae06a6affb60ae2f8862ac8888768e7327b4dd43ebec8e299acce000ffa8",
+    "reports/compatibility_null_validation/threshold_followup/real_Brier_adjusted.csv": "a151b334792d8b1409385e95231f18e786dc1743a8647aedcc3921ebc0ad5dfe",
+    "reports/compatibility_null_validation/threshold_followup/report.md": "d97b6f1f6e6001f05fbbee6819c586b7dbdf9f6f241ad374d14b23de4c153932",
+    "reports/compatibility_null_validation/threshold_followup/run.log": "8f2b3b47239ef64b272bcbb89089ede3e6bc6bf5abcc5b15e6c80bbaab66b085",
+    "reports/compatibility_null_validation/threshold_followup/step0_consistency.md": "00b9aff1c5ca9c444643138ff2fa61dad00edb021f6f031c0212ce3c9b13253c",
+    "reports/compatibility_null_validation/threshold_followup/synthetic_band_rates.csv": "62e07e7e199098c6dede1eddd27004e11975d79ab70991428fbfc9c82d571c05",
+    "reports/compatibility_null_validation/threshold_followup/synthetic_band_rates_wide.csv": "af98e7e0838bb9256f9c6c418c0f555fb5ac1f7ecd7daa1d8466b359d1493f3b",
+    "scripts/format_threshold_followup.py": "1058292d02572be8c69fa07fdac9a2f9707b0bb9ac4f90b8bbda9b7d9be71805",
+    "scripts/threshold_compatibility_followup.py": "14477156a0f1546e1e1619f4b5919a2de6561a99e9acf09a6787221ec2a765e5"
+  }
+}

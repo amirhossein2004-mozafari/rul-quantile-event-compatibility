@@ -1,0 +1,266 @@
+[
+  {
+    "path": "synthetic\\covariate\\FD001\\covariate\\rep_000\\unweighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD001",
+      "architecture": "covariate",
+      "replication": 0,
+      "weighted": false,
+      "fitting_engines": 60,
+      "data_seed": 32415926,
+      "initial_seed": 34415927,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD001\\covariate\\rep_000\\weighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD001",
+      "architecture": "covariate",
+      "replication": 0,
+      "weighted": true,
+      "fitting_engines": 60,
+      "data_seed": 32415926,
+      "initial_seed": 34415927,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD001\\covariate\\rep_001\\unweighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD001",
+      "architecture": "covariate",
+      "replication": 1,
+      "weighted": false,
+      "fitting_engines": 60,
+      "data_seed": 32415936,
+      "initial_seed": 34415937,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD001\\covariate\\rep_001\\weighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD001",
+      "architecture": "covariate",
+      "replication": 1,
+      "weighted": true,
+      "fitting_engines": 60,
+      "data_seed": 32415936,
+      "initial_seed": 34415937,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD002\\covariate\\rep_000\\unweighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD002",
+      "architecture": "covariate",
+      "replication": 0,
+      "weighted": false,
+      "fitting_engines": 156,
+      "data_seed": 32515926,
+      "initial_seed": 34515927,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD002\\covariate\\rep_000\\weighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD002",
+      "architecture": "covariate",
+      "replication": 0,
+      "weighted": true,
+      "fitting_engines": 156,
+      "data_seed": 32515926,
+      "initial_seed": 34515927,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD002\\covariate\\rep_001\\unweighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD002",
+      "architecture": "covariate",
+      "replication": 1,
+      "weighted": false,
+      "fitting_engines": 156,
+      "data_seed": 32515936,
+      "initial_seed": 34515937,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD002\\covariate\\rep_001\\weighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD002",
+      "architecture": "covariate",
+      "replication": 1,
+      "weighted": true,
+      "fitting_engines": 156,
+      "data_seed": 32515936,
+      "initial_seed": 34515937,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD004\\covariate\\rep_000\\unweighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD004",
+      "architecture": "covariate",
+      "replication": 0,
+      "weighted": false,
+      "fitting_engines": 149,
+      "data_seed": 32615926,
+      "initial_seed": 34615927,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD004\\covariate\\rep_000\\weighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD004",
+      "architecture": "covariate",
+      "replication": 0,
+      "weighted": true,
+      "fitting_engines": 149,
+      "data_seed": 32615926,
+      "initial_seed": 34615927,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD004\\covariate\\rep_001\\unweighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD004",
+      "architecture": "covariate",
+      "replication": 1,
+      "weighted": false,
+      "fitting_engines": 149,
+      "data_seed": 32615936,
+      "initial_seed": 34615937,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "interrupted_compute_amendment",
+    "checkpoint_retained": true
+  },
+  {
+    "path": "synthetic\\covariate\\FD004\\covariate\\rep_001\\weighted",
+    "identity": {
+      "family": "covariate",
+      "subset": "FD004",
+      "architecture": "covariate",
+      "replication": 1,
+      "weighted": true,
+      "fitting_engines": 149,
+      "data_seed": 32615936,
+      "initial_seed": 34615937,
+      "choice": {
+        "lr": 0.0005,
+        "epochs": 16
+      },
+      "device": "cuda",
+      "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+      "script_sha256": "a419d20ec95d5d2bfc70fa7a4e31692989659eaa546a7805ce1d17f4dc4799ef"
+    },
+    "status": "complete",
+    "checkpoint_retained": true
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "fits": 10,
+  "reconstruction_checks": [
+    {
+      "architecture": "lstm",
+      "seed": 1101,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1101,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1202,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1202,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1303,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1303,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1404,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1404,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1505,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "lstm",
+      "seed": 1505,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1101,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1101,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1202,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1202,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1303,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1303,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1404,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1404,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1505,
+      "role": "test",
+      "engines": 100,
+      "max_abs_difference": 0.0
+    },
+    {
+      "architecture": "hybrid",
+      "seed": 1505,
+      "role": "calibration",
+      "engines": 20,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "prepared_tensor_sha256": "ad3220844a873ac0ac0e01c0fd25651eea5c5a84821ff51c00723f91da6e4eca"
+}

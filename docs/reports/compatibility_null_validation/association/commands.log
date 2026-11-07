@@ -1,0 +1,8 @@
+Protocol/schema inspection, clarification, protocol finalization and hash: exact tool inputs will be archived; no association calculations before this lock.
+RUN: python scripts/analyze_compatibility_association.py > reports/compatibility_null_validation/association/run.log 2>&1
+Read-only progress/result inspections recorded in exact_tool_calls.jsonl; finalization command planned: python scripts/report_compatibility_association.py
+Investigate undefined synthetic adjusted coefficients: oracle nuisance-design rank check, no fit filtering.
+Initial partial run interrupted; partial outputs preserved. Numerical addendum hashed before rank-handling correction/re-run.
+CORRECTED RUN: python scripts/analyze_compatibility_association.py > reports/compatibility_null_validation/association/run_corrected.log 2>&1
+FINALIZE: python scripts/report_compatibility_association.py; all prior execution/edit inputs archived by this command.
+Final QA: scientific plot visually inspected; all planned rows/counts PASS; synthetic family contrasts inspected. Archive exact execution/edit inputs and refresh hashes.

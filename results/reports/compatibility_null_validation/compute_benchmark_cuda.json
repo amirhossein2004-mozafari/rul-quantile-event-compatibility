@@ -1,0 +1,6 @@
+{
+  "scope": "random-input compute timing only; no scientific fit or metric",
+  "device": "cuda",
+  "seconds_100_steps": 1.5326315000002069,
+  "torch": "2.14.0+cu130"
+}

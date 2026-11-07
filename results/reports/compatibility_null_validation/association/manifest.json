@@ -1,0 +1,457 @@
+{
+  "created_utc": "2026-11-01T07:42:27.647404+00:00",
+  "protocol": {
+    "locked_utc": "2026-11-01T07:27:45.4358449Z",
+    "bootstrap_draws": 2000,
+    "seed": 2026110103,
+    "status": "LOCKED_BEFORE_ASSOCIATIONS",
+    "protocol_sha256": "da781da5c725624ab53503d65cff89037e5ce15f0769a23b27e6d6a04eeb4540"
+  },
+  "files": {
+    "reports/compatibility_null_validation/association/ai_provenance.json": {
+      "bytes": 1229,
+      "sha256": "286ca838d60ebf3c88bdfa7bfaa3c1aaf62a5244f57c3fe5c194c5fc0f0439f9"
+    },
+    "reports/compatibility_null_validation/association/all_associations.csv": {
+      "bytes": 591870,
+      "sha256": "2dce5a860321275f28a9b1c5e59368c3a56da77bc7f09b2cc0ac6eed94059d59"
+    },
+    "reports/compatibility_null_validation/association/bootstrap_effects.npz": {
+      "bytes": 17504894,
+      "sha256": "9e337d2d403e29f404029e94da51d629578c9012668ea7e55dc0d8a4e3568e02"
+    },
+    "reports/compatibility_null_validation/association/bootstrap_keys.json": {
+      "bytes": 189555,
+      "sha256": "7b89d84595e7dfc24d838b614d752f19d76254fafb21e7c0484d36eda8753709"
+    },
+    "reports/compatibility_null_validation/association/checks.json": {
+      "bytes": 379,
+      "sha256": "db9e0aab732ba512a20f92537fc3f702efb909210747f305325ae98bfbc440ba"
+    },
+    "reports/compatibility_null_validation/association/commands.log": {
+      "bytes": 1108,
+      "sha256": "76b7cfe0b822b3f43f67b1e0c4740a73122966248f64ffe554d52a992e50b893"
+    },
+    "reports/compatibility_null_validation/association/complete.json": {
+      "bytes": 480,
+      "sha256": "dca45fab7dea1c3ec335be8254cc894a54840c7c114cbff455eae731438fda0a"
+    },
+    "reports/compatibility_null_validation/association/decision.json": {
+      "bytes": 391,
+      "sha256": "05c671c4548edf650ba26bc806858e04b2fdd8a6d93ce0b7de6a6b40789449ad"
+    },
+    "reports/compatibility_null_validation/association/exact_tool_calls.jsonl": {
+      "bytes": 383986,
+      "sha256": "089ddf0e97690176b60d624adabd7e3302491ee03b26ddeb59aa3c814130ee13"
+    },
+    "reports/compatibility_null_validation/association/incremental_Brier_table.csv": {
+      "bytes": 1862,
+      "sha256": "7989a5d9ca43bcc731edd731581312bc7ed22d516d93d114522900f52706b227"
+    },
+    "reports/compatibility_null_validation/association/near_threshold_table.csv": {
+      "bytes": 2427,
+      "sha256": "0ccb95fd1bbb59a2e1ae86d6c89a90878145a805aeb7652c3c1f15026991d29c"
+    },
+    "reports/compatibility_null_validation/association/numerical_addendum.md": {
+      "bytes": 1595,
+      "sha256": "6f7a51a2ba7ec3080e96cf71475307def3070719ed313392a753b5d2a4af3e50"
+    },
+    "reports/compatibility_null_validation/association/numerical_addendum_lock.json": {
+      "bytes": 179,
+      "sha256": "496c7f6c7517da19788b709288b576928e3df83a5af6a499914e90c4e6bf3b49"
+    },
+    "reports/compatibility_null_validation/association/protocol.md": {
+      "bytes": 7950,
+      "sha256": "da781da5c725624ab53503d65cff89037e5ce15f0769a23b27e6d6a04eeb4540"
+    },
+    "reports/compatibility_null_validation/association/protocol_lock.json": {
+      "bytes": 238,
+      "sha256": "d0d8b32cb102460e262fefc2558729978d6f233b28701aee5e95c101d6d8619c"
+    },
+    "reports/compatibility_null_validation/association/real_adjusted_associations.pdf": {
+      "bytes": 21404,
+      "sha256": "1744975d6b2859d71acd5d2084527b4d1737877a6a7d210d2e79f52540cbf93e"
+    },
+    "reports/compatibility_null_validation/association/real_adjusted_associations.png": {
+      "bytes": 90150,
+      "sha256": "90a157ec6ef68167f18cc8ec69fa4369d7e72850c747b3b334f1d462a42cdac4"
+    },
+    "reports/compatibility_null_validation/association/real_associations.csv": {
+      "bytes": 24782,
+      "sha256": "e21d3ec5bb5f097a3056a6c62b1f95125532bdb1e6c449770b51cf4462b1b8d2"
+    },
+    "reports/compatibility_null_validation/association/real_decision_components.csv": {
+      "bytes": 287,
+      "sha256": "85c534e433a7fa206f1ba2f5818990cb968dbe328b69ba1ee73b8e2615a26ca4"
+    },
+    "reports/compatibility_null_validation/association/real_engine_run.csv": {
+      "bytes": 1138372,
+      "sha256": "76340af52ede166cdf4ed385411f9ccf8341306710e8cf563dd68496fc813091"
+    },
+    "reports/compatibility_null_validation/association/real_per_seed.csv": {
+      "bytes": 10337,
+      "sha256": "4d819a2e6d6c836f460312914d0ecb0983156a0095917c4cd9700d777d51a50d"
+    },
+    "reports/compatibility_null_validation/association/real_primary_table.csv": {
+      "bytes": 1713,
+      "sha256": "780e89257657625d8067b8d2d7d2d8f61a9b38a811169a0b51d1dc252a298a92"
+    },
+    "reports/compatibility_null_validation/association/real_RUL_bins.csv": {
+      "bytes": 8908,
+      "sha256": "72cb8cab011e1ee68dee70bdaceef5f08779e63a3cfd5e1b6159f6ba774a041f"
+    },
+    "reports/compatibility_null_validation/association/regression_rank_diagnostics.csv": {
+      "bytes": 34137,
+      "sha256": "42d4da01f25a4f320b289dc146281013c7b87889a4af9df44920f3b258b58e15"
+    },
+    "reports/compatibility_null_validation/association/report.md": {
+      "bytes": 9327,
+      "sha256": "0a970733d5a48214e50549debe6c0a264f1b67cda95c42124f9e03369901fce4"
+    },
+    "reports/compatibility_null_validation/association/run.log": {
+      "bytes": 2764,
+      "sha256": "bf6739935bb67bda916cc51ea22e826f39312d086812b0bbe2db8b466aa34ead"
+    },
+    "reports/compatibility_null_validation/association/run_corrected.log": {
+      "bytes": 4138,
+      "sha256": "ef4f33395277c99d1018d1891e23ab2a2cf9a72da455ad67d2c53b5f4778a4ab"
+    },
+    "reports/compatibility_null_validation/association/synthetic_associations.csv": {
+      "bytes": 558512,
+      "sha256": "f3e18287bc4164183fc620f3f68e194f61d998a3002c91555f578401bc108421"
+    },
+    "reports/compatibility_null_validation/association/synthetic_family_confirmation.csv": {
+      "bytes": 1331,
+      "sha256": "85cc172782b7e118c961c1b537d6ad4037cfe45f0b693a1288a040d6bcf95517"
+    },
+    "reports/compatibility_null_validation/association/synthetic_per_fit.csv": {
+      "bytes": 7687814,
+      "sha256": "bd7e1c8eb9d2cc5d8d4240859d656e77c363351175a66bc3b34387d1c0c207e5"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD001_covariate_final_unweighted.npz": {
+      "bytes": 7947085,
+      "sha256": "4ef14a0aa7cbf26f08e77e1084a05feb3d29903fc21881b8f4c5eca628bb1f08"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD001_covariate_final_weighted_corrected.npz": {
+      "bytes": 7947401,
+      "sha256": "4f4e08b5afb3443b70b6adce205cceead850bc2ae1fa6fc3f73d64d0b9f67d8b"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD001_covariate_final_weighted_raw.npz": {
+      "bytes": 7944274,
+      "sha256": "04f16c33dd11cfc9ebb08f1a50aca627a2013c50ef82b8285f3719d397de361e"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD001_covariate_uniform_unweighted.npz": {
+      "bytes": 36203580,
+      "sha256": "c33e02ef763683c9ab46a97debf57ca8d96f7aaef075933f3fc35af044fa4047"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD001_covariate_uniform_weighted_corrected.npz": {
+      "bytes": 36240018,
+      "sha256": "8afe7cc3d215408334439d59a9cae868197d623e5d1fa7814da396f9e4843725"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD001_covariate_uniform_weighted_raw.npz": {
+      "bytes": 36177818,
+      "sha256": "c6fb0d17be5877ee98c686a1dc06733bc3b56f2b30403b7aedab5a1055419675"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD002_covariate_final_unweighted.npz": {
+      "bytes": 9378372,
+      "sha256": "efbfbd5bac66c47fec9726044ec280f04834d604665d45659eb7ab4b0c6a658e"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD002_covariate_final_weighted_corrected.npz": {
+      "bytes": 9379986,
+      "sha256": "372f5234ee4b855476e67bddd95ef48f26850b0b1658429164f9839d660bc540"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD002_covariate_final_weighted_raw.npz": {
+      "bytes": 9378607,
+      "sha256": "ff2854b767a2372c43e0d3a82d97fb0f26b9510e26c8f6af243884b33919277d"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD002_covariate_uniform_unweighted.npz": {
+      "bytes": 36242231,
+      "sha256": "be41c3f88c1af764eb61862cf931392d67baf18d2ad6281be5cba3609c4eda4e"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD002_covariate_uniform_weighted_corrected.npz": {
+      "bytes": 36195140,
+      "sha256": "56b4a629b97cbf38191f8abb00b6acbcb05d744c34e6adb5a546ee2473d6636d"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD002_covariate_uniform_weighted_raw.npz": {
+      "bytes": 36151709,
+      "sha256": "a29febcd3b4924db99e1086f4756852f88ef42be277806702ed2c97c9c383cb0"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD003_covariate_final_unweighted.npz": {
+      "bytes": 8074568,
+      "sha256": "52b57b8d029b28f3d2e9b52a2a181bf4aacec74c7537c59e11c3f5afd1ada209"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD003_covariate_final_weighted_corrected.npz": {
+      "bytes": 8076884,
+      "sha256": "5901b21706af8d767622d0dc645de213101ede3e807d43498d8440b584b5b389"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD003_covariate_final_weighted_raw.npz": {
+      "bytes": 8074315,
+      "sha256": "ef7154ecaa61e0a3c7139fa72b872ded3b5aa624cdd5db182d4eadf9fbd517b8"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD003_covariate_uniform_unweighted.npz": {
+      "bytes": 36287172,
+      "sha256": "599afe24b613009940205654d4dabd5d488cf1bf66fa1b2d411dda8b52f07117"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD003_covariate_uniform_weighted_corrected.npz": {
+      "bytes": 36321292,
+      "sha256": "b5b343594aec000df7922a9da54938a04f804258c68c5142f701d07dbc4c4395"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD003_covariate_uniform_weighted_raw.npz": {
+      "bytes": 36259696,
+      "sha256": "1b1e57939644871d45d2dbbd105153af0cd1cbeea8f6b80f2a09678fa26f8502"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD004_covariate_final_unweighted.npz": {
+      "bytes": 9705890,
+      "sha256": "528fcedba3ceee044635eaa71b4aafa646487cc8b1caee044dc0465bb664a3a3"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD004_covariate_final_weighted_corrected.npz": {
+      "bytes": 9707324,
+      "sha256": "20893873de2ca120129f405e85a3b553c032c515b77efadc0f2f6f50505be337"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD004_covariate_final_weighted_raw.npz": {
+      "bytes": 9704705,
+      "sha256": "dce79b06cd728db69b40d1f6ad85ab1619e79256349ff93edba8a3fe1d928acb"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD004_covariate_uniform_unweighted.npz": {
+      "bytes": 36399829,
+      "sha256": "34756d61914f9a0b12a9c9b6e07278cbd1235385642ec4e6abc49c4e7ccdd041"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD004_covariate_uniform_weighted_corrected.npz": {
+      "bytes": 36319441,
+      "sha256": "42c94ddc5fcbc2fd9afe73ac559f07a798555aa9e7ee78d5fbb96f93eda444d3"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/covariate_FD004_covariate_uniform_weighted_raw.npz": {
+      "bytes": 36276538,
+      "sha256": "6f75892b50dc77a3817074a0a1eec9865ef9c2ff52646ff43acd96237a731a6e"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_hybrid_final_unweighted.npz": {
+      "bytes": 5180340,
+      "sha256": "f258b41007d5814e9cb0552cbe8def628602b96e844224eebf16a3f4deae986f"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_hybrid_final_weighted_corrected.npz": {
+      "bytes": 5090488,
+      "sha256": "7a2997c815f5d672ce46855ab1be572d6a1b26a44fd851ba00a4327e8cc26e99"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_hybrid_final_weighted_raw.npz": {
+      "bytes": 5078236,
+      "sha256": "492b260d54d84c7a83bad9c257ed93c8b8833f141221ba64c7297b32b7a66d55"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_hybrid_uniform_unweighted.npz": {
+      "bytes": 5382121,
+      "sha256": "296167fabd277d5c1d5ca03b092a7afe17cc7280376e69bac77971a28ec65b83"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_hybrid_uniform_weighted_corrected.npz": {
+      "bytes": 5290811,
+      "sha256": "090e50ce5637605b9e2ebf7d67469b503fb33cb8631df1007165c7fc2f7b0289"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_hybrid_uniform_weighted_raw.npz": {
+      "bytes": 5279629,
+      "sha256": "0f6e1e86d851c5bef959d42086356254a4b383503e96df955f3a51b20b6eed7c"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_lstm_final_unweighted.npz": {
+      "bytes": 5137053,
+      "sha256": "eb9470c918c97c8f33998b93bc9f0630a76c1e492b3eb214d5a84a0fbe779060"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_lstm_final_weighted_corrected.npz": {
+      "bytes": 5011087,
+      "sha256": "373ead172498eecb4a72832cc647f0f86948bedf3157f6fb9962ec1e48aa7e26"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_lstm_final_weighted_raw.npz": {
+      "bytes": 4988131,
+      "sha256": "aed8524f5a382837ee3835a691284063384a6d6ffa7af33c50e661456730839b"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_lstm_uniform_unweighted.npz": {
+      "bytes": 5411434,
+      "sha256": "042d048fbb12cb2fd6a7aed671f3185e867eb09afff9202921536aa59cf8c7be"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_lstm_uniform_weighted_corrected.npz": {
+      "bytes": 5290839,
+      "sha256": "f8589124e4220b634f26b88b37d98734c191dcc8fafa317bcaf4b785089c173f"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD001_lstm_uniform_weighted_raw.npz": {
+      "bytes": 5265758,
+      "sha256": "cb8f32346b71ec3966fee933a10093ff65e34b2d18d4aba3fcdae36c2007ee23"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_hybrid_final_unweighted.npz": {
+      "bytes": 5214504,
+      "sha256": "20cc1bc4e572ae66d97c5bd29e15699724b96391dc765ae4fefd83ca13f708a7"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_hybrid_final_weighted_corrected.npz": {
+      "bytes": 5165705,
+      "sha256": "10637ff09e0d2032c4e811658f9cfe216d760735ee73ff75b01ec573a9dc6556"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_hybrid_final_weighted_raw.npz": {
+      "bytes": 5152261,
+      "sha256": "8737378b87b322731bdaa7db1e57c83be3996d1463fedbcd9ef112247a837746"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_hybrid_uniform_unweighted.npz": {
+      "bytes": 5427481,
+      "sha256": "8ca6058bc6ea64a89b7f9bc0ba28473249031634b2d9616fdaf4426d1e048cfb"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_hybrid_uniform_weighted_corrected.npz": {
+      "bytes": 5372290,
+      "sha256": "d7e7e1acc9712d54d8e726edc00c86e75176cefe850c91d6255c0578d3e6a5cd"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_hybrid_uniform_weighted_raw.npz": {
+      "bytes": 5357928,
+      "sha256": "c6c95833d9284082c519686cfa45abed27af437ed6d0444bf191d9ba4dc15d22"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_lstm_final_unweighted.npz": {
+      "bytes": 5625964,
+      "sha256": "0bb178294c1814ceef35bd96b72b61b6541cd0ac8fa8172eeaa0291a5acf6132"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_lstm_final_weighted_corrected.npz": {
+      "bytes": 5638296,
+      "sha256": "53a2f677cb474184e1bbe1357ea354067fb77c53b887bbe9fde259a82450d3d0"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_lstm_final_weighted_raw.npz": {
+      "bytes": 5632038,
+      "sha256": "d6db85d7a019a47087b0c991aa2c2e0f216515c52e7a9b005325759b6780aaab"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_lstm_uniform_unweighted.npz": {
+      "bytes": 5741949,
+      "sha256": "91c2c37179edfdbfea3aa8d81c38514b751293400c09297a61c4999a3fe8cafe"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_lstm_uniform_weighted_corrected.npz": {
+      "bytes": 5741018,
+      "sha256": "ebd6264e5956ce299c58b56c251e2374aa4a765c6d22c20a005a3952e3128f95"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD002_lstm_uniform_weighted_raw.npz": {
+      "bytes": 5732990,
+      "sha256": "af98917e99442aea5fb60c90eb0d1d28bbe2adad7c2608d2060117fdb5190018"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_hybrid_final_unweighted.npz": {
+      "bytes": 5503276,
+      "sha256": "407372a6517c31a8c3e55df52276e3a93f366786e5fe59481cf066116128f8cd"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_hybrid_final_weighted_corrected.npz": {
+      "bytes": 5514783,
+      "sha256": "52066e29eaad5c42eca021b30abc457857094dd52dfeda689fa539e31a986e76"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_hybrid_final_weighted_raw.npz": {
+      "bytes": 5507671,
+      "sha256": "6c723fde871f80470fe7cbcf5c200527b102c6d7624826b0584b40fd7e8ca030"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_hybrid_uniform_unweighted.npz": {
+      "bytes": 5705488,
+      "sha256": "981f2f5f2608fb6d84471ef78b3dc22c256199795978fb6575541a4ff72e8d19"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_hybrid_uniform_weighted_corrected.npz": {
+      "bytes": 5728399,
+      "sha256": "085e4aa4b296035b4fcf13e31f84dbc5225be3dad349a8216845f38373f82d33"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_hybrid_uniform_weighted_raw.npz": {
+      "bytes": 5720063,
+      "sha256": "fa63c95b38b94b85477d45bdf108e83b06f78d7bf20f3bc254bc7fa8ac9b70a6"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_lstm_final_unweighted.npz": {
+      "bytes": 5481965,
+      "sha256": "2471d10c3128ec70389f286504e8839c080fa11befbeb86e9de9abc9e9f4f0b0"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_lstm_final_weighted_corrected.npz": {
+      "bytes": 5458127,
+      "sha256": "87e382af90606d301665fedba63dd29f1cf0b260eb5de7856a7ea67c88797c6b"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_lstm_final_weighted_raw.npz": {
+      "bytes": 5442356,
+      "sha256": "fe83c04b5e7f25ca2a140749aa828cc020155d367b417b296608f5c74723b478"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_lstm_uniform_unweighted.npz": {
+      "bytes": 5626626,
+      "sha256": "5e666e1d32e5a2ac06062a14cf02402f289b1ba522e50b756a7254f1d60d7341"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_lstm_uniform_weighted_corrected.npz": {
+      "bytes": 5594819,
+      "sha256": "13578132053e53327f50f92dca1ea5a228fc838ca2c7b6c45ea8fab92640b4d0"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD003_lstm_uniform_weighted_raw.npz": {
+      "bytes": 5578543,
+      "sha256": "bef1080ddb09ba3f765f05a85550b127999fb671ef4e020eb2032f0b55f9c50a"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_hybrid_final_unweighted.npz": {
+      "bytes": 5459655,
+      "sha256": "c19ddebf575beb982da78d02d1800fdd7ff88176388ba0b353a60bb35e65a147"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_hybrid_final_weighted_corrected.npz": {
+      "bytes": 5414440,
+      "sha256": "86c48bbd97925d2630fdf77c697226f573c26ce253d2fcd9a6af868f085f70dc"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_hybrid_final_weighted_raw.npz": {
+      "bytes": 5402845,
+      "sha256": "6117e36b0cb872157f72efbebebdc2b956d50d7a59fa98f1e30edb475ccd06c7"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_hybrid_uniform_unweighted.npz": {
+      "bytes": 5642292,
+      "sha256": "f75ff3488a2a3c129f495e95b2d827e25f882376993a99681ce811220dfbe969"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_hybrid_uniform_weighted_corrected.npz": {
+      "bytes": 5592294,
+      "sha256": "e36b7207d472ac6a64c1e560ebedae7764f24b9d0966099c18acdbfaeb909570"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_hybrid_uniform_weighted_raw.npz": {
+      "bytes": 5577323,
+      "sha256": "d57f84fc2a6d1a9169c4f10ee0a256c838d980df0da9267ff2ea0799cb7cf7cc"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_lstm_final_unweighted.npz": {
+      "bytes": 5631175,
+      "sha256": "a869aedb39929f49aefa64b24e2dfa81928aad97d9d311516fdddb434fcfb5df"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_lstm_final_weighted_corrected.npz": {
+      "bytes": 5640500,
+      "sha256": "eab6712dfd5173cbaa15c25e73ce1993ed87558f56d7219f45e7afed50d8b24e"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_lstm_final_weighted_raw.npz": {
+      "bytes": 5633184,
+      "sha256": "099229112bc8d7d47aa273766b27e80ecb1809708481d52902ea6e96e6f223a5"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_lstm_uniform_unweighted.npz": {
+      "bytes": 5708797,
+      "sha256": "e09aa6c7ff906874ed9fdf7310c85ef316475a28d47867628fc9b66cabb22607"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_lstm_uniform_weighted_corrected.npz": {
+      "bytes": 5732997,
+      "sha256": "a744cd6181a8f896cf2a3fadf0ad167265019dc4a7acd3263040d549899def6e"
+    },
+    "reports/compatibility_null_validation/association/engine_arrays/temporal_FD004_lstm_uniform_weighted_raw.npz": {
+      "bytes": 5725563,
+      "sha256": "654308b843d06f9c4d90e6a56c127fe6dec3000a4f19637573fd92ac31e70e02"
+    },
+    "reports/compatibility_null_validation/association/initial_rank_screen/real_associations.csv": {
+      "bytes": 24781,
+      "sha256": "5e1cf3a5bfe5eaf43f1ca3fc8c304933ac8e8d7831b351595d9686b428eaa05a"
+    },
+    "reports/compatibility_null_validation/association/initial_rank_screen/real_engine_run.csv": {
+      "bytes": 1138372,
+      "sha256": "76340af52ede166cdf4ed385411f9ccf8341306710e8cf563dd68496fc813091"
+    },
+    "reports/compatibility_null_validation/association/initial_rank_screen/real_per_seed.csv": {
+      "bytes": 8748,
+      "sha256": "ac29716c7399cf017c4e7bd59150e60b673f77ed62719bbd5cfb828f01ec45ac"
+    },
+    "reports/compatibility_null_validation/association/initial_rank_screen/real_RUL_bins.csv": {
+      "bytes": 8908,
+      "sha256": "72cb8cab011e1ee68dee70bdaceef5f08779e63a3cfd5e1b6159f6ba774a041f"
+    },
+    "reports/compatibility_null_validation/association/initial_rank_screen/run.log": {
+      "bytes": 2764,
+      "sha256": "bf6739935bb67bda916cc51ea22e826f39312d086812b0bbe2db8b466aa34ead"
+    },
+    "reports/compatibility_null_validation/association/initial_rank_screen/synthetic_associations.csv": {
+      "bytes": 353549,
+      "sha256": "ffcc0699596f723041c7b4ca1edb224fa75fa6685dd0fedd537ffb49d22adc2a"
+    },
+    "reports/compatibility_null_validation/association/initial_rank_screen/synthetic_per_fit.csv": {
+      "bytes": 3827428,
+      "sha256": "f283971102dc6989f25a8494419cc4efec0b08ef200f62ab481896e6b7466381"
+    },
+    "scripts/analyze_compatibility_association.py": {
+      "bytes": 15977,
+      "sha256": "298c303fa7f9ff61595b5aeba3de96f9998cb1e71c0c972cf9d533dd580da00c"
+    },
+    "[LOCAL_PROJECT_PATH]": {
+      "bytes": 9987,
+      "sha256": "6698163f9ca88a30e9627a3ab5a87a5e09c4cbb411844bfdf696efb143b21a05"
+    }
+  },
+  "exact_execution_edit_calls_archived": 183
+}

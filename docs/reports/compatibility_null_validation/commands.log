@@ -1,0 +1,125 @@
+# Command log
+1. Get-ChildItem -Force -Name (read-only inspection; before log creation)
+2. Created this log and ran: rg --files -g AGENTS.md -g '*compat*' -g '*protocol*' -g '*joint*'; Get-Content README.md -TotalCount 100
+3. Read-only: locate project instructions; inspect compatibility implementation and current protocol.
+4. Write protocol.md before experimental execution. No training, simulation, prediction evaluation, or result computation has run.
+5. Read-only Get-Location; read protocol tail; search manuscript/scripts/evaluation for incompatibility table. (Logged immediately after inspection.)
+6. Read Table 2 and locate frozen prediction schema and compatibility builder.
+7. Read compatibility analysis and frozen evidence paths; save prerequisite gate protocol amendment.
+8. Write standalone standard-library reproduction gate; independent computation from raw prediction CSVs, without labels.
+9. .venv/Scripts/python.exe scripts/validate_compatibility_gate.py
+10. Inspect model constructors, fitting loop, role metadata, available runtime, and audit skill before synthetic design lock.
+11. Inspect available CUDA runtime paths and fitting target units; no experiments.
+12. Locate isolated GPU interpreter from saved runner sources; read audit routing references.
+13. Locate GPU Python environment and parent instructions.
+14. Search retained compute logs for isolated Torch installation path.
+15. Lock perturbation replication, bootstrap, seed and pass/fail settings before running perturbations.
+16. Write independent frozen-cohort perturbation script, including hand-calculated boundary checks and saved engine bootstrap arrays.
+17. .venv/Scripts/python.exe scripts/validate_compatibility_perturbation.py
+18. Inspect preserved GPU environment candidates, review helper availability, and perturbation output.
+19. Save current progress and audit availability; inspect sensitivity plot visually.
+20. Previous call read protocol, command log, model, selection, and directory inventory before synthetic runs.
+21. Inspect available isolated GPU package location, training target units, fit counts, and AI build provenance.
+22. Read non-secret Codex version and runtime version metadata; locate CUDA installation roots.
+23. Locate remaining GPU packages by metadata filename and query package availability; no synthetic draws/fits.
+24. Save complete synthetic protocol amendment, execution configuration, AI provenance and SHA256 lock before any synthetic draws/fits.
+25. Install isolated CUDA PyTorch without changing the CPU replay environment: .venv/Scripts/python.exe -m pip install --no-deps --target tmp/compatibility_cuda torch==2.14.0+cu130 --index-url https://download.pytorch.org/whl/cu130; stdout/stderr saved to cuda_install.log.
+26. Write synthetic runner and oracle implementation; source will be hashed before execution.
+27. Inspect CUDA installation log; run locked synthetic evaluation preparation with analytic oracles; log stdout/stderr.
+28. Simplify output-path expression before fitting; inspect analytic-oracle generation and CUDA install progress.
+29. Before fits: optimize single-quantile evaluation without changing objective or numerical iterations; allow CPU parametric jobs partitioned by fixed fitting size. Save source hash.
+30. Write and run pre-fit analytical, loss-unit, tensor-shape and independent-head checks. Ensure concurrent jobs use separate execution metadata filenames.
+31. Launch fixed parametric fits in three CPU processes: .venv/Scripts/python.exe scripts/validate_compatibility_synthetic.py parametric --subset FD001 (and FD002, FD004); stdout/stderr in parametric_FDxxx.log. Each has 200 mandatory fitting fleets per policy.
+32. Inspect active fit/install progress and available temporary download sizes; no configuration changes.
+33. Write engine-bootstrap, oracle-noise and final collection program; it refuses a final report with incomplete cohorts.
+34. .venv/Scripts/python.exe scripts/collect_compatibility_synthetic.py oracle-noise; output in oracle_noise.log.
+35. Investigate oracle-noise execution failure before interpretation; inspect progress logs.
+36. Fixed collector broadcasting for 100 oracle-noise replicates (probability array explicitly repeated across replicates); no change to diagnostic/law/config or fitting runner. Preserve failed execution log and rerun same seeds.
+37. Inspect CUDA download byte counts and oracle-noise progress.
+38. Inspect available volumes and active CUDA installer process; decide device before any neural fit.
+39. Read volume-root directory names to locate retained GPU package cache.
+40. Inspect known local tooling/work directories for retained CUDA package; avoid network volume.
+41. Inspect retained CUDA package metadata; no fitting configuration change.
+42. Reuse retained torch2.14.0+cu130 at F:/turbofan-rul-codex-work/gpu_packages. Stop only this task CUDA pip download (matched command line), preserve download log, and create workspace junction to existing package directory.
+43. Launch all480 locked temporal fits on CUDA: .venv/Scripts/python.exe scripts/validate_compatibility_synthetic.py temporal --cuda; stdout/stderr in temporal.log.
+44. Launch all1200 locked covariate-network fits as a separate CUDA process with the same fixed budgets and paired fitting fleets: .venv/Scripts/python.exe scripts/validate_compatibility_synthetic.py covariate --cuda; stdout/stderr in covariate.log.
+45. Inspect first neural fit, control progress, oracle-noise completion and device metadata.
+46. Save active experiment status and inspect neural progress; original protocol and cohort sizes remain unchanged.
+47. Write random-input compute-only covariate timing benchmark; no experimental targets, predictions or scores used.
+48. Read timing benchmark results and cohort completion counts before any device amendment.
+49. Compute-only amendment: CPU random-input benchmark is faster for covariate MLP. Preserve all existing GPU auxiliary states and stop only this task covariate CUDA process by matched command line. Primary temporal fits remain CUDA. All1200 planned secondary fits will run anew as one uniform CPU cohort, with identical data seeds/budgets; auxiliary GPU results retained separately.
+50. Launch CPU secondary fits, three independent worker processes: .venv/Scripts/python.exe scripts/run_compatibility_covariate_cpu.py FD001 (and FD002, FD004); stdout/stderr in covariate_cpu_FDxxx.log.
+51. Update final collector to explicitly use full CPU secondary cohort, never a mixture of devices; prepare fixed n60 FD003 forward replay without refitting or selection.
+52. Read openai-docs skill for recording Codex model/build provenance; inspect only current-session metadata identifiers, not unrelated chats.
+53. Extract only allowlisted provenance fields from this chat session metadata; record requested model alias separately from unexposed served checkpoint.
+54. Update AI provenance from observed current-chat metadata. Configured/requested model is gpt-6.1-sol; exact served checkpoint remains unexposed. Preserve initial provenance record.
+55. Write numerical audit of all final-policy parametric fits using exact integer fraction bounds; no changes to outcomes, estimators, seeds or strict/tolerance definitions.
+56. Inspect completed numerical audit and current run counts; no metric-based selection or stopping.
+57. Prepare completion audit and complete-report writer. These execute only after all fixed cohorts finish; preserve all auxiliary CUDA outputs and interrupted states.
+58. Collect completion statuses of preparation, parametric, oracle-noise, stopped installer and stopped auxiliary CUDA sessions; planned neural jobs continue unchanged.
+59. Prepare fixed completion supervisor. After all480 temporal and1200 CPU secondary fits, it runs FD003 replay, completion audit, complete collection and report generation in that order; all child commands and source hashes are logged.
+60. Verify syntax of new analysis/replay/audit/report/supervisor programs before execution.
+61. .venv/Scripts/python.exe scripts/finish_compatibility_nulls.py (bounded50-second internal progress intervals; no fitting-budget changes).
+62. Strengthen pre-report checks: exact planned replication sets, all model parameter counts, all optimizer boundary/failure notes and engine-ID alignment. Run engine-bootstrap duplication invariance check.
+63. Record exact local Codex runtime executable SHA256, installed app package version if exposed, dependency freeze, and source snapshots. No experimental configuration changes.
+64. Read Canvas skill for an inspectable companion to the final research tables; static scientific plots remain standard exported artifacts.
+65. Locate Canvas managed workspace and SDK declarations; do not create speculative managed directories.
+66. Add explicit empty-probability-interval flags and tiny-distance diagnostics to final tables; no change to previous metrics, definitions, law or seeds. Preserve prior oracle-noise table and recompute same draws to add the missing flag column.
+67. Verify event-label float32 conversion at the30-cycle boundary on every predeclared neural fitting fleet, using only the already locked seeds/law; retain all outcomes. Archive inherited budget configuration.
+68. Refresh active cohort counts and oracle-noise flag completion.
+69. Label real-vs-null output-convention matching explicitly; no rates, thresholds or planned comparisons are changed. Weighted-raw real Table2 means are not presented as a matched corrected/unweighted real cohort.
+70. Correct report-writer string quoting caught by syntax compilation before execution; no experimental result file affected. Re-run syntax check.
+71. Add complete checkpoint/prediction/input/bootstrap/RNG artifact hashes to the final report manifest, and refresh analysis-source snapshots at completion. Syntax check only; fitting programs unchanged.
+72. Check recorded training-weight precision against integer class counts before final audit; no fitted-model or metric changes.
+73. Final audit now compares training class weights with the exact float32 representation used in the paper loss, rather than incorrectly requiring float64 equality. Stored weight1.9829907417297363 matches float32 of count ratio1.9829907866761163. No data, training weight, correction or result changed.
+74. Clarify AI-tool provenance versus fitted research models; retain locked protocol and add a hashed clarification. Remove any outcome-assuming report sentence before results collection.
+75. Run the required FD003 forward replay for all200 completed n60 controls now, independently of remaining temporal fits. The final supervisor verifies and reuses the same complete replay; no refitting or outcome selection.
+76. Allow separately named tables for complete control cohorts while temporal fitting continues. Full final collection still requires every planned cohort; no run filtering or threshold changes.
+77. After the required FD003 control replay marker appears, collect every completed control replication with engine-bootstrap CIs: .venv/Scripts/python.exe scripts/collect_compatibility_synthetic.py controls; output in controls_collection.log. This does not alter or stop temporal fitting.
+78. Verify completed CPU worker exits and inspect fixed control replay/collection progress.
+79. Inspect completed control replay and complete control-table collection logs; no outcome-based configuration change.
+80. Review complete control tables for anomalies and training-replication spread; all variants and engine counts retained. No configuration or stopping rule depends on these outcomes.
+81. Make the comparison statistic explicit: Table2 averages five initializations on one fitting fleet, whereas each synthetic replication uses a fresh fitting fleet and one paired initialization per objective. The locked upper-tail criterion is descriptive, not a matched five-initialization null test; no metrics or thresholds changed.
+
+SUPERVISOR {"utc": "2026-10-31T18:58:47Z", "argv": ["C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\.venv\\Scripts\\python.exe", "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\scripts\\replay_compatibility_fd003_controls.py"], "script_sha256": "3dd2dbf008da225fcb34b89360659d5b665bf55d21a9836b8483292a37042dcd"}
+
+SUPERVISOR {"utc": "2026-10-31T18:58:53Z", "argv": ["C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\.venv\\Scripts\\python.exe", "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\scripts\\audit_compatibility_completion.py"], "script_sha256": "18052911a8eea53ea43dd34270edf32d5f11be06781841604710693880d42fea"}
+82. Export exact current-chat execution/edit tool inputs as an additional reproducibility log; no unrelated chats, tool outputs or message bodies are exported.
+
+SUPERVISOR {"utc": "2026-10-31T18:59:49Z", "argv": ["C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\.venv\\Scripts\\python.exe", "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\scripts\\collect_compatibility_synthetic.py"], "script_sha256": "9a49cc21fb336ea1f00119cd855bd13bc6152f8405cce601789843903660f898"}
+
+SUPERVISOR {"utc": "2026-10-31T19:03:39Z", "argv": ["C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\.venv\\Scripts\\python.exe", "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\scripts\\report_compatibility_nulls.py"], "script_sha256": "57e527b54ab3fc1f05e116b308bf6b22beb5b17466ddedc4252c7fb95e8bbf8f"}
+83. Final read-only QA: inspect report, complete audit, and result-table row counts; review actual groupwise weighted-raw comparison values.
+84. Investigate extreme temporal-null rates before interpretation: retain all480 fits and decompose predicted quantile ranges, horizon-bound conflicts and training-loss histories. No fit or outcome is dropped.
+85. Save and hash post-hoc anomaly-investigation protocol before gradient probes. Original protocol, fits, budgets, results and comparison thresholds remain immutable.
+86. .venv/Scripts/python.exe scripts/probe_compatibility_lower_heads.py; all480 gap summaries and allfour fixed full-training-window gradient probes; no optimization step.
+87. Read all fixed gradient-probe results and full-cohort lower-gap summary; distinguish observed saturation from untested convergence explanations.
+88. Add the complete adverse checkpoint investigation prominently to the report, including mixed probe findings and the absence of any convergence-control refit. Original result tables and thresholds remain unchanged.
+89. Regenerate report/figure/manifests from unchanged complete results, including the adverse post-hoc investigation: .venv/Scripts/python.exe scripts/report_compatibility_nulls.py.
+90. Polish report spacing and clarify that some extreme cases, rather than every case, coincide with lower-quantile collapse. No numerical result or interpretation threshold changed.
+91. Final deliverable checks and exact-command archive refresh. Verify locked protocol/config, report/table/provenance hashes, row counts and all required outputs; update final manifest with the exact execution/edit call archive and readable command log.
+FOLLOWUP1. Read-only inspection of prior protocol/config, original fitting loop and output inventory; no follow-up rates/classification computed.
+FOLLOWUP2. Check availability and schemas of prepared real fitting/calibration/test artifacts; no prediction values or collapse labels inspected.
+FOLLOWUP3. Archive the original locked protocol, append the requested follow-up addendum, save the complete configuration and hash both before any new collapse labels, metrics, probes or fitting.
+FOLLOWUP4. Pre-execution implementation clarification: replay6 baseline factorial cells to log previously unavailable clipping/loss diagnostics; preserve and compare with original states. Update lock before any follow-up calculation or fit.
+FOLLOWUP5. Write locked follow-up training harness; original model modules/checkpoints remain unchanged. All sources archived by execution hash.
+FOLLOWUP6. Preflight: verify follow-up lock, unchanged paper model source, seeded initial-state equality for all10 real refits, and fixed-init gap values/unchanged parameter counts before training.
+FOLLOWUP7. Launch fixed synthetic initialization/factorial campaign on CUDA and the ten CPU unweighted real refits in parallel, after preflight. Exact commands: .venv/Scripts/python.exe scripts/compatibility_followup_train.py synthetic --cuda; .venv/Scripts/python.exe scripts/compatibility_followup_train.py real. Logs in followup/synthetic_training.log and followup/real_training.log.
+FOLLOWUP8. Write stratified null, calibration-only real collapse and paired real attribution analysis. Empty/failing/sparse strata remain explicit; engine resampling preserves all paired variants.
+FOLLOWUP9. Compute all original null strata and real calibration-only collapse labels: .venv/Scripts/python.exe scripts/analyze_compatibility_followup.py baseline; log followup/baseline_analysis.log.
+FOLLOWUP10. Inspect live synthetic/real training and stratification logs and failure files; no outcome-based changes.
+FOLLOWUP11. Inspect completion/error status; no configurations or membership thresholds changed.
+FOLLOWUP12. Archive the completed baseline-analysis source before adding factorial confidence intervals and evaluation-role gap diagnostics. No membership rule or numerical threshold changes.
+FOLLOWUP13. Verify enhanced analysis syntax. Start real attribution only after all ten fixed refits and reconstruction checks complete.
+FOLLOWUP14. Inspect completed calibration-only real collapse and paired attribution tables, and live campaign status. All pre-specified configurations continue unchanged.
+FOLLOWUP15. Archive analysis source used for completed real attribution; add per-quantile quality detail and undefined-ratio bootstrap counts without changing any estimator, threshold or result selection.
+FOLLOWUP16. Reconstruct initial/final Softplus-offset derivatives for all210 completed new synthetic executions, on the same first512 fitting windows; deterministic diagnostic only, no optimizer steps. Engine counts and probe-window counts are explicit.
+FOLLOWUP17. Run completed synthetic intervention/factorial summaries, deterministic checkpoint-derivative reconstruction, and refreshed paired real attribution independently. Commands: analyze_compatibility_followup.py interventions; diagnose_compatibility_followup.py; analyze_compatibility_followup.py real.
+FOLLOWUP18. Read complete initialization safeguard, stratified weighted-raw comparisons and attribution results. All observed directions, sparse/empty strata and failures retained.
+FOLLOWUP19. Record current AI/build provenance from allowlisted current-chat metadata, local runtime version and executable hash; exact served model checkpoint remains unexposed.
+FOLLOWUP20. Build separate comparison tables for each family, full follow-up report, and scientific plots from completed data only.
+FOLLOWUP21. Final checks: unchanged paper source, initialization-only four-tensor intervention/RNG invariance, exact planned counts, all strata/NA cases, fixed budgets, original rate reproduction and bootstrap interval sanity.
+FOLLOWUP22. Correct final-check schema handling for comparison-table null_mean_rate versus summary-table incompatibility_rate; the check failed before any scientific artifact mutation. Re-run checks.
+FOLLOWUP23. Review every fixed-initialization-vs-real comparison, including probability-variant mismatches, before finalizing interpretation.
+FOLLOWUP24. Add all fixed-init-vs-real outcomes and remaining incompatibility prominently; polish units/spacing only. No scientific values or thresholds changed.
+FOLLOWUP25: Final report/final_checks/provenance read-only inspections; exact commands preserved in followup/exact_tool_calls.jsonl. Final archive command: python scripts/archive_compatibility_followup.py

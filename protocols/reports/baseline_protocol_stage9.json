@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-24",
+  "declared_before_implementation_and_training": true,
+  "scope": "FD001, FD002, FD003, FD004, seeds 101/202/303/404/505; 60 model/subset/seed results",
+  "models": {
+    "lstm": "single unidirectional 18->64 LSTM, last-timestep context, Linear64->64/ReLU/Dropout0.2, four independent 64->32->1 heads; no sensor/temporal attention; 34116 parameters",
+    "tcn": "four canonical residual causal TCN blocks 18->32->32->64->64, dilations 1/2/4/8, kernel3, dropout0.15, global mean pooling, Linear64->64/ReLU/Dropout0.2, same four heads; no attention; 69668 parameters",
+    "hybrid": "unchanged canonical dual-attention LSTM-TCN, 115095 parameters"
+  },
+  "outputs": "ordered q05=q50-softplus(delta_lower), q50, q95=q50+softplus(delta_upper), raw near-failure logit",
+  "matching": "identical saved engine split, saved training-only preprocessing, 18 features, 30-cycle windows, capped RUL target125, raw-RUL<=30 risk labels, minibatch order and hyperparameters for each subset/seed",
+  "initialization": "same run seed, fresh model initialization. Different architectures consume initialization/dropout RNG differently; do not claim identical weights or dropout masks across architectures",
+  "training_windows": "all complete windows only; exclude incomplete training histories, matching original benchmark",
+  "loss": "sum of mean pinball at .05/.50/.95 + 0.5*weighted BCE, float32 N_neg_train/N_pos_train",
+  "optimizer": {"name": "AdamW", "lr": 0.0005, "weight_decay": 0.0001, "betas": [0.9, 0.999], "eps": 1e-8},
+  "gradient_aggregation": "unprojected task-gradient sum through the same wrapper for all models, use_pcgrad=false",
+  "batch_size": 128,
+  "epochs": 16,
+  "grad_clip_norm": 1.0,
+  "checkpoint_selection": "final epoch16 only; no validation/test checkpoint selection, no early stopping",
+  "permutation": "torch.randperm(N, generator seed=run_seed*1000+zero_based_epoch), identical index order for all architectures",
+  "reuse": "reuse only the five verified FD001 naive_mt checkpoints from stage78, whose data hashes, initialization, training objective, optimizer, epoch/permutation histories match this protocol. Train the remaining 55 models. Preserve original reused files and document origin hashes",
+  "evaluation_gate": "evaluate official tests only after all 60 final checkpoints are present. Previous test scores are already known; this is retrospective remediation, not pristine confirmatory evaluation",
+  "calibration": "use the original saved held-out calibration engine endpoints, reconstruct targets from raw data; no resampling to optimize scores",
+  "risk_methods": "Raw, training-prior shift, temperature, shift+temperature. Use identical stage3 bounds/fold rules/full-calibration refit; no per-subset best-calibrator selection",
+  "conformal": "nonnegative score; exact finite-sample order statistic; compare fixed power0 and power1 with epsilon1e-6, alpha0.1, projection to [0,125]. Sampling/exchangeability limitations from stage56 remain",
+  "metrics": "capped RMSE/MAE/R2, NASA total/mean, summed pinball, raw-risk F1/AUC/AP, Brier and 10-bin ECE for all four risk methods, coverage/width/Winkler for exact and normalized conformal; parameter counts and descriptive training time",
+  "statistics": "all seeds retained, subset means/sample SD and paired hybrid-minus-each-baseline differences. Report trade-offs and losses; no method/seed selection, no significance claims, no pooled independent-engine claim",
+  "interpretation": "whole-architecture comparison at one common training schedule, not an equal-parameter or individually tuned best-baseline comparison; does not isolate attention from fusion or establish novelty by itself",
+  "compute": "CPU float32; six independent training workers, one intra-op/inter-op thread each; deterministic algorithms; atomic progress checkpoints",
+  "preservation": "new output in results/baselines_stage9; never change stage78 source/artifacts or original benchmark/manuscript tables",
+  "external_review": "no backend available in the current session; deterministic executor verification cannot substitute for independent scientific review"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "earlier_files_checked": 19918,
+  "earlier_files_unchanged": true,
+  "real_groups": 8,
+  "synthetic_settings": 144,
+  "synthetic_rows": 432,
+  "all_raw_flags_and_rates_crosschecked": true,
+  "direct_lstsq_checks_passed": true,
+  "protocol_hash_verified": true,
+  "passing_real_groups": 1,
+  "verdict": "explained by or confounded with threshold proximity"
+}

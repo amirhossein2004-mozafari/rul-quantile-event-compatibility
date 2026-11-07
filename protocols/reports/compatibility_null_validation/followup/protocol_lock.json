@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "145fcf5a3ec9e4c2c0a9658c9f4bbd1fe33ac61dd4a57afd9674deb2af1d157e",
+  "config_sha256": "f7a9d522085da317a3c11d4f80dbe387bef61d1c1eda7f6366ba7730f27e55da",
+  "parent_protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+  "status": "LOCKED_BEFORE_FOLLOWUP_CALCULATIONS",
+  "locked_utc": "2026-10-31T19:56:18.2961551Z"
+}

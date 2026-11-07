@@ -1,0 +1,1 @@
+Per-seed row metadata correction: fixed_fits will be 1 for the individual seed, with cohort_fixed_fits=5 retained separately. The earlier field inherited the group cohort count. No metric, random draw, outcome, threshold, bootstrap, pooling or power definition changes. Primary A/B/C table hashes are checked unchanged after this correction. Protocol hash remains unchanged.

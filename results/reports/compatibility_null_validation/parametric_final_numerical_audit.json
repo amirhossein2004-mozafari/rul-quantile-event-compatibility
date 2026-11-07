@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "fits_checked": 600,
+  "method_evaluations": 1200,
+  "exact_final_control_compatibility": "0 violations certified by integer arithmetic; heads are separate minimizers on same data",
+  "strict_small_positive_method_evaluations": 1,
+  "max_distance": 5.551115123125783e-17,
+  "interpretation": "Any positive strict distance in these corrected/unweighted final controls is floating-point error, not estimation noise. Strict and tolerance results remain unmodified."
+}

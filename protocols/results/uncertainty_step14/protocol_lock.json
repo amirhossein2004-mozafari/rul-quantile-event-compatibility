@@ -1,0 +1,14 @@
+{
+  "created_unix": 1793301043.4737737,
+  "scope": "Retrospective, previously examined C-MAPSS; 15 new plus five verified archived split/seed pairs",
+  "source_sha256": {
+    "scripts/uncertainty_step14_campaign.py": "3a27f07df2ab21e100d803b51fd00b60c607b286e9e535b1686240dec5474ad9",
+    "reports/uncertainty_step14_protocol.md": "6910207851006b9a41ac4b80757471c9ce8fbbd1f72e728e4d523587bab702f8",
+    "src/data/preprocessing.py": "b3a38e8e56b6eab9b76b24f0476ed7f3c0d6b5404ccabb66411a6dacc21e3de1",
+    "src/models/simple_quantile_risk.py": "e5c5502e66813b183628d0515586a21b471236bd31b21aa2f748c4f09f075d51",
+    "src/models/hybrid_lstm_tcn.py": "2c15b5071b70633f5d0d59b349c5665b196339443fe0eea72e0d1e5a8485dba2",
+    "src/training/pcgrad.py": "dbc6831cf129daaddcee15f699c287ba71182668b5e743a1f9013eef9ce7714a",
+    "src/training/pcgrad_ablation.py": "cfe39c0e100d3cf8e6e4d02b719bc86d5c332cc9f819645edfd48b167a3ec389"
+  },
+  "new_models": 135
+}

@@ -1,0 +1,23 @@
+{
+  "auxiliary_cuda_complete_files": [
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD001\\covariate\\rep_000\\unweighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD001\\covariate\\rep_000\\weighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD001\\covariate\\rep_001\\unweighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD001\\covariate\\rep_001\\weighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD002\\covariate\\rep_000\\unweighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD002\\covariate\\rep_000\\weighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD002\\covariate\\rep_001\\unweighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD002\\covariate\\rep_001\\weighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD004\\covariate\\rep_000\\unweighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD004\\covariate\\rep_000\\weighted\\complete.json",
+    "C:\\Users\\Amir Hossein\\Desktop\\turbofan-rul\\reports\\compatibility_null_validation\\synthetic\\covariate\\FD004\\covariate\\rep_001\\weighted\\complete.json"
+  ],
+  "cpu_seconds_100_steps": 0.8739288000001579,
+  "protocol_sha256": "434ee931df6455e2af6273d3ec9590ad19cdd6755cb3e74b39f6cc4fe3a27764",
+  "cuda_seconds_100_steps": 1.5326315000002069,
+  "planned_secondary_device": "CPU",
+  "utc": "2026-10-31T17:34:04.0943848Z",
+  "auxiliary_cuda_partial_states": "Retained without replacement or deletion",
+  "planned_secondary_fits": 1200,
+  "reason": "Random-input timing only, no model performance inspected"
+}

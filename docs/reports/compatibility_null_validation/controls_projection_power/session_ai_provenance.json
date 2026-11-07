@@ -1,0 +1,81 @@
+{
+  "available_identifiers": [
+    {
+      "timestamp": "2026-10-31T17:07:15.844Z",
+      "runtime_version": "0.166.0-alpha.5.1",
+      "originator": "codex_work_desktop"
+    },
+    {
+      "timestamp": "2026-10-31T17:07:20.916Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T17:13:31.680Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T17:19:18.308Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T19:45:04.316Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-10-31T20:56:54.248Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T07:25:41.014Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T07:27:17.098Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T07:47:33.508Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T07:56:11.996Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T08:15:27.866Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T10:35:40.860Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T10:39:47.463Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T11:14:26.414Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    },
+    {
+      "timestamp": "2026-11-01T11:32:04.732Z",
+      "model": "gpt-6.1-sol",
+      "effort": "medium"
+    }
+  ],
+  "served_checkpoint": "UNAVAILABLE",
+  "independent_human_review": "MISSING"
+}

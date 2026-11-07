@@ -1,0 +1,50 @@
+{
+  "FD001/lstm": {
+    "lr": 0.0002,
+    "epochs": 10,
+    "validation_RMSE": 15.332387378598973,
+    "candidate": 0
+  },
+  "FD001/hybrid": {
+    "lr": 0.001,
+    "epochs": 7,
+    "validation_RMSE": 13.966306648679929,
+    "candidate": 2
+  },
+  "FD002/lstm": {
+    "lr": 0.0005,
+    "epochs": 9,
+    "validation_RMSE": 16.58246049258638,
+    "candidate": 1
+  },
+  "FD002/hybrid": {
+    "lr": 0.001,
+    "epochs": 5,
+    "validation_RMSE": 16.567834983110927,
+    "candidate": 2
+  },
+  "FD003/lstm": {
+    "lr": 0.0005,
+    "epochs": 11,
+    "validation_RMSE": 13.998979329430595,
+    "candidate": 1
+  },
+  "FD003/hybrid": {
+    "lr": 0.001,
+    "epochs": 15,
+    "validation_RMSE": 11.767455608493476,
+    "candidate": 2
+  },
+  "FD004/lstm": {
+    "lr": 0.0005,
+    "epochs": 9,
+    "validation_RMSE": 18.788159819826927,
+    "candidate": 1
+  },
+  "FD004/hybrid": {
+    "lr": 0.0005,
+    "epochs": 10,
+    "validation_RMSE": 20.018220484014286,
+    "candidate": 1
+  }
+}

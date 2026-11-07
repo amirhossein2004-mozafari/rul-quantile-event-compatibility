@@ -1,0 +1,61 @@
+# FD003 — per-fit difficulty
+
+`synthetic_noncollapsed`: retained temporal weighted_raw fits, final-window, 10000 engines. `real`: all five frozen real fits per architecture. RMSE uses capped truth and projected median; width uses raw quantiles. Rates/AUC are fractions.
+
+| architecture | cohort | fit_identifier | fitting_engines | evaluation_engines | RMSE_capped | event_AUC | event_base_rate | median_q95_minus_q05_width |
+|---|---|---|---|---|---|---|---|---|
+| lstm | synthetic_noncollapsed | 0 | 60 | 10000 | 41.592689 | 0.653232 | 0.408000 | 123.912180 |
+| lstm | synthetic_noncollapsed | 1 | 60 | 10000 | 42.732047 | 0.605508 | 0.408000 | 136.680647 |
+| lstm | synthetic_noncollapsed | 2 | 60 | 10000 | 44.050121 | 0.367174 | 0.408000 | 124.414452 |
+| lstm | synthetic_noncollapsed | 3 | 60 | 10000 | 39.934183 | 0.654099 | 0.408000 | 113.739254 |
+| lstm | synthetic_noncollapsed | 4 | 60 | 10000 | 42.173878 | 0.653868 | 0.408000 | 130.451488 |
+| lstm | synthetic_noncollapsed | 5 | 60 | 10000 | 42.252627 | 0.648748 | 0.408000 | 125.231462 |
+| lstm | synthetic_noncollapsed | 6 | 60 | 10000 | 41.321769 | 0.651551 | 0.408000 | 116.522909 |
+| lstm | synthetic_noncollapsed | 7 | 60 | 10000 | 40.699883 | 0.656477 | 0.408000 | 131.781786 |
+| lstm | synthetic_noncollapsed | 8 | 60 | 10000 | 40.723947 | 0.640693 | 0.408000 | 129.206110 |
+| lstm | synthetic_noncollapsed | 9 | 60 | 10000 | 39.667868 | 0.647266 | 0.408000 | 129.157394 |
+| lstm | synthetic_noncollapsed | 10 | 60 | 10000 | 40.476265 | 0.654240 | 0.408000 | 111.019503 |
+| lstm | synthetic_noncollapsed | 11 | 60 | 10000 | 39.938117 | 0.656205 | 0.408000 | 128.425636 |
+| lstm | synthetic_noncollapsed | 12 | 60 | 10000 | 44.112659 | 0.373762 | 0.408000 | 126.281300 |
+| lstm | synthetic_noncollapsed | 14 | 60 | 10000 | 39.309065 | 0.655992 | 0.408000 | 136.223759 |
+| lstm | synthetic_noncollapsed | 15 | 60 | 10000 | 41.142735 | 0.654917 | 0.408000 | 132.916317 |
+| lstm | synthetic_noncollapsed | 16 | 60 | 10000 | 40.626496 | 0.654715 | 0.408000 | 90.264816 |
+| lstm | synthetic_noncollapsed | 17 | 60 | 10000 | 45.281393 | 0.654830 | 0.408000 | 114.797340 |
+| lstm | synthetic_noncollapsed | 18 | 60 | 10000 | 39.931535 | 0.655229 | 0.408000 | 119.212824 |
+| lstm | synthetic_noncollapsed | 19 | 60 | 10000 | 43.713521 | 0.622473 | 0.408000 | 129.489531 |
+| lstm | synthetic_noncollapsed | 20 | 60 | 10000 | 40.302089 | 0.654709 | 0.408000 | 129.854401 |
+| lstm | synthetic_noncollapsed | 21 | 60 | 10000 | 40.096616 | 0.655043 | 0.408000 | 108.306656 |
+| lstm | synthetic_noncollapsed | 22 | 60 | 10000 | 40.524738 | 0.618995 | 0.408000 | 129.121868 |
+| lstm | synthetic_noncollapsed | 23 | 60 | 10000 | 40.494107 | 0.655291 | 0.408000 | 116.509151 |
+| lstm | synthetic_noncollapsed | 24 | 60 | 10000 | 40.927178 | 0.655598 | 0.408000 | 121.299770 |
+| lstm | synthetic_noncollapsed | 26 | 60 | 10000 | 42.760312 | 0.629315 | 0.408000 | 131.634104 |
+| lstm | synthetic_noncollapsed | 27 | 60 | 10000 | 42.189360 | 0.656059 | 0.408000 | 125.236139 |
+| lstm | synthetic_noncollapsed | 28 | 60 | 10000 | 50.115709 | 0.379198 | 0.408000 | 128.959835 |
+| lstm | synthetic_noncollapsed | 29 | 60 | 10000 | 41.505401 | 0.656169 | 0.408000 | 124.461651 |
+| lstm | real | 1101 | 60 | 100 | 17.642417 | 0.990625 | 0.200000 | 49.317932 |
+| lstm | real | 1202 | 60 | 100 | 16.341004 | 0.994375 | 0.200000 | 42.673800 |
+| lstm | real | 1303 | 60 | 100 | 17.793121 | 0.997500 | 0.200000 | 46.021120 |
+| lstm | real | 1404 | 60 | 100 | 18.678372 | 0.995000 | 0.200000 | 45.059902 |
+| lstm | real | 1505 | 60 | 100 | 19.113883 | 0.990625 | 0.200000 | 50.890293 |
+| hybrid | synthetic_noncollapsed | 2 | 60 | 10000 | 43.588024 | 0.631133 | 0.408000 | 102.060230 |
+| hybrid | synthetic_noncollapsed | 3 | 60 | 10000 | 44.354092 | 0.643094 | 0.408000 | 96.672171 |
+| hybrid | synthetic_noncollapsed | 4 | 60 | 10000 | 48.003408 | 0.627756 | 0.408000 | 67.229908 |
+| hybrid | synthetic_noncollapsed | 7 | 60 | 10000 | 42.098214 | 0.650906 | 0.408000 | 63.985497 |
+| hybrid | synthetic_noncollapsed | 10 | 60 | 10000 | 43.819763 | 0.654172 | 0.408000 | 54.522182 |
+| hybrid | synthetic_noncollapsed | 15 | 60 | 10000 | 41.986836 | 0.656168 | 0.408000 | 81.820681 |
+| hybrid | synthetic_noncollapsed | 16 | 60 | 10000 | 45.628813 | 0.656474 | 0.408000 | 100.921925 |
+| hybrid | synthetic_noncollapsed | 17 | 60 | 10000 | 46.818569 | 0.635551 | 0.408000 | 54.020357 |
+| hybrid | synthetic_noncollapsed | 19 | 60 | 10000 | 49.593758 | 0.547727 | 0.408000 | 112.352192 |
+| hybrid | synthetic_noncollapsed | 20 | 60 | 10000 | 40.086215 | 0.653901 | 0.408000 | 128.809662 |
+| hybrid | synthetic_noncollapsed | 21 | 60 | 10000 | 45.836689 | 0.653898 | 0.408000 | 83.007884 |
+| hybrid | synthetic_noncollapsed | 22 | 60 | 10000 | 39.424755 | 0.656982 | 0.408000 | 128.478073 |
+| hybrid | synthetic_noncollapsed | 23 | 60 | 10000 | 52.075056 | 0.650920 | 0.408000 | 38.926368 |
+| hybrid | synthetic_noncollapsed | 24 | 60 | 10000 | 41.632681 | 0.654955 | 0.408000 | 67.493212 |
+| hybrid | synthetic_noncollapsed | 26 | 60 | 10000 | 40.837435 | 0.654610 | 0.408000 | 105.342472 |
+| hybrid | synthetic_noncollapsed | 27 | 60 | 10000 | 42.501710 | 0.639832 | 0.408000 | 90.893251 |
+| hybrid | synthetic_noncollapsed | 29 | 60 | 10000 | 44.078657 | 0.654791 | 0.408000 | 58.891588 |
+| hybrid | real | 1101 | 60 | 100 | 15.869642 | 1.000000 | 0.200000 | 34.851009 |
+| hybrid | real | 1202 | 60 | 100 | 14.132515 | 0.997500 | 0.200000 | 31.730463 |
+| hybrid | real | 1303 | 60 | 100 | 16.070807 | 0.996875 | 0.200000 | 30.370975 |
+| hybrid | real | 1404 | 60 | 100 | 14.858080 | 0.996875 | 0.200000 | 29.292889 |
+| hybrid | real | 1505 | 60 | 100 | 15.258486 | 0.993125 | 0.200000 | 29.989012 |

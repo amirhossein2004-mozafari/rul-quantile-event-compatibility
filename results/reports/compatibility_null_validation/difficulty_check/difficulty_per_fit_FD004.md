@@ -1,0 +1,64 @@
+# FD004 — per-fit difficulty
+
+`synthetic_noncollapsed`: retained temporal weighted_raw fits, final-window, 10000 engines. `real`: all five frozen real fits per architecture. RMSE uses capped truth and projected median; width uses raw quantiles. Rates/AUC are fractions.
+
+| architecture | cohort | fit_identifier | fitting_engines | evaluation_engines | RMSE_capped | event_AUC | event_base_rate | median_q95_minus_q05_width |
+|---|---|---|---|---|---|---|---|---|
+| lstm | synthetic_noncollapsed | 0 | 149 | 10000 | 42.525828 | 0.654165 | 0.403000 | 102.856657 |
+| lstm | synthetic_noncollapsed | 1 | 149 | 10000 | 39.174851 | 0.654963 | 0.403000 | 106.444201 |
+| lstm | synthetic_noncollapsed | 2 | 149 | 10000 | 40.808560 | 0.648706 | 0.403000 | 97.161373 |
+| lstm | synthetic_noncollapsed | 3 | 149 | 10000 | 40.330701 | 0.657896 | 0.403000 | 102.093081 |
+| lstm | synthetic_noncollapsed | 4 | 149 | 10000 | 41.326465 | 0.648631 | 0.403000 | 85.892569 |
+| lstm | synthetic_noncollapsed | 5 | 149 | 10000 | 40.094466 | 0.641142 | 0.403000 | 132.057686 |
+| lstm | synthetic_noncollapsed | 6 | 149 | 10000 | 39.109800 | 0.657810 | 0.403000 | 109.785652 |
+| lstm | synthetic_noncollapsed | 7 | 149 | 10000 | 40.799144 | 0.630992 | 0.403000 | 129.944939 |
+| lstm | synthetic_noncollapsed | 8 | 149 | 10000 | 40.950998 | 0.659329 | 0.403000 | 100.613180 |
+| lstm | synthetic_noncollapsed | 9 | 149 | 10000 | 39.775951 | 0.648891 | 0.403000 | 115.513977 |
+| lstm | synthetic_noncollapsed | 10 | 149 | 10000 | 40.167769 | 0.651344 | 0.403000 | 127.682356 |
+| lstm | synthetic_noncollapsed | 11 | 149 | 10000 | 40.789794 | 0.653304 | 0.403000 | 122.596010 |
+| lstm | synthetic_noncollapsed | 12 | 149 | 10000 | 39.530508 | 0.657494 | 0.403000 | 115.503170 |
+| lstm | synthetic_noncollapsed | 13 | 149 | 10000 | 42.929454 | 0.634775 | 0.403000 | 125.623167 |
+| lstm | synthetic_noncollapsed | 14 | 149 | 10000 | 39.621849 | 0.656848 | 0.403000 | 110.440969 |
+| lstm | synthetic_noncollapsed | 15 | 149 | 10000 | 41.849445 | 0.654296 | 0.403000 | 116.523849 |
+| lstm | synthetic_noncollapsed | 16 | 149 | 10000 | 39.497463 | 0.647248 | 0.403000 | 93.618763 |
+| lstm | synthetic_noncollapsed | 17 | 149 | 10000 | 42.077507 | 0.656949 | 0.403000 | 110.408846 |
+| lstm | synthetic_noncollapsed | 18 | 149 | 10000 | 41.408357 | 0.632280 | 0.403000 | 127.677404 |
+| lstm | synthetic_noncollapsed | 19 | 149 | 10000 | 40.747747 | 0.657172 | 0.403000 | 112.313286 |
+| lstm | synthetic_noncollapsed | 20 | 149 | 10000 | 41.453242 | 0.637755 | 0.403000 | 129.409269 |
+| lstm | synthetic_noncollapsed | 21 | 149 | 10000 | 41.102792 | 0.647240 | 0.403000 | 122.230541 |
+| lstm | synthetic_noncollapsed | 22 | 149 | 10000 | 39.655083 | 0.651512 | 0.403000 | 120.157204 |
+| lstm | synthetic_noncollapsed | 23 | 149 | 10000 | 39.937060 | 0.654650 | 0.403000 | 123.371010 |
+| lstm | synthetic_noncollapsed | 24 | 149 | 10000 | 39.621273 | 0.653477 | 0.403000 | 110.612219 |
+| lstm | synthetic_noncollapsed | 25 | 149 | 10000 | 42.707969 | 0.656256 | 0.403000 | 93.965851 |
+| lstm | synthetic_noncollapsed | 26 | 149 | 10000 | 40.442200 | 0.658399 | 0.403000 | 98.419310 |
+| lstm | synthetic_noncollapsed | 27 | 149 | 10000 | 40.580632 | 0.654655 | 0.403000 | 106.130686 |
+| lstm | synthetic_noncollapsed | 28 | 149 | 10000 | 41.756577 | 0.657068 | 0.403000 | 101.699236 |
+| lstm | synthetic_noncollapsed | 29 | 149 | 10000 | 45.412032 | 0.653490 | 0.403000 | 130.113747 |
+| lstm | real | 1101 | 149 | 248 | 16.889086 | 0.989453 | 0.213710 | 47.079948 |
+| lstm | real | 1202 | 149 | 248 | 16.182553 | 0.987325 | 0.213710 | 45.974827 |
+| lstm | real | 1303 | 149 | 248 | 16.223456 | 0.990227 | 0.213710 | 44.117435 |
+| lstm | real | 1404 | 149 | 248 | 16.863734 | 0.988582 | 0.213710 | 46.053093 |
+| lstm | real | 1505 | 149 | 248 | 16.645615 | 0.987712 | 0.213710 | 48.869740 |
+| hybrid | synthetic_noncollapsed | 0 | 149 | 10000 | 41.248222 | 0.655310 | 0.403000 | 78.573975 |
+| hybrid | synthetic_noncollapsed | 1 | 149 | 10000 | 39.617485 | 0.651249 | 0.403000 | 104.087696 |
+| hybrid | synthetic_noncollapsed | 2 | 149 | 10000 | 39.971271 | 0.654923 | 0.403000 | 91.320433 |
+| hybrid | synthetic_noncollapsed | 3 | 149 | 10000 | 40.496472 | 0.398778 | 0.403000 | 102.596312 |
+| hybrid | synthetic_noncollapsed | 5 | 149 | 10000 | 39.485384 | 0.655795 | 0.403000 | 113.908693 |
+| hybrid | synthetic_noncollapsed | 9 | 149 | 10000 | 39.065285 | 0.649828 | 0.403000 | 87.037621 |
+| hybrid | synthetic_noncollapsed | 10 | 149 | 10000 | 40.241549 | 0.497859 | 0.403000 | 105.301437 |
+| hybrid | synthetic_noncollapsed | 14 | 149 | 10000 | 39.361042 | 0.650692 | 0.403000 | 97.197794 |
+| hybrid | synthetic_noncollapsed | 16 | 149 | 10000 | 39.608442 | 0.370025 | 0.403000 | 103.170563 |
+| hybrid | synthetic_noncollapsed | 17 | 149 | 10000 | 43.739385 | 0.657076 | 0.403000 | 77.896793 |
+| hybrid | synthetic_noncollapsed | 18 | 149 | 10000 | 41.846749 | 0.653260 | 0.403000 | 93.057501 |
+| hybrid | synthetic_noncollapsed | 19 | 149 | 10000 | 41.687435 | 0.656687 | 0.403000 | 98.790703 |
+| hybrid | synthetic_noncollapsed | 20 | 149 | 10000 | 39.585049 | 0.650846 | 0.403000 | 112.171225 |
+| hybrid | synthetic_noncollapsed | 21 | 149 | 10000 | 42.787375 | 0.653903 | 0.403000 | 109.392668 |
+| hybrid | synthetic_noncollapsed | 22 | 149 | 10000 | 39.832369 | 0.462007 | 0.403000 | 108.152925 |
+| hybrid | synthetic_noncollapsed | 23 | 149 | 10000 | 39.425169 | 0.654686 | 0.403000 | 83.190262 |
+| hybrid | synthetic_noncollapsed | 25 | 149 | 10000 | 43.492838 | 0.654073 | 0.403000 | 90.973133 |
+| hybrid | synthetic_noncollapsed | 29 | 149 | 10000 | 41.937243 | 0.471059 | 0.403000 | 115.774063 |
+| hybrid | real | 1101 | 149 | 248 | 16.818576 | 0.991388 | 0.213710 | 44.955349 |
+| hybrid | real | 1202 | 149 | 248 | 16.297869 | 0.983745 | 0.213710 | 38.905766 |
+| hybrid | real | 1303 | 149 | 248 | 16.988267 | 0.989550 | 0.213710 | 47.926113 |
+| hybrid | real | 1404 | 149 | 248 | 16.288625 | 0.982003 | 0.213710 | 43.809986 |
+| hybrid | real | 1505 | 149 | 248 | 16.315449 | 0.982777 | 0.213710 | 42.521038 |

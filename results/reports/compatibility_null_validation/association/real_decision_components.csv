@@ -1,0 +1,9 @@
+subset,architecture,evaluation_engines,fitting_engines,both_outcomes_pass
+FD001,lstm,100,60,False
+FD001,hybrid,100,60,False
+FD002,lstm,259,156,False
+FD002,hybrid,259,156,False
+FD003,lstm,100,60,False
+FD003,hybrid,100,60,False
+FD004,lstm,248,149,False
+FD004,hybrid,248,149,False

@@ -1,0 +1,9 @@
+subset,architecture,fitting_engines,calibration_engines,test_engines,fits,collapsed_fits,collapsed_fraction,fraction_ci_low,fraction_ci_high,ci_scope
+FD001,lstm,60,20,100,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling
+FD001,hybrid,60,20,100,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling
+FD002,lstm,156,52,259,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling
+FD002,hybrid,156,52,259,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling
+FD003,lstm,60,20,100,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling
+FD003,hybrid,60,20,100,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling
+FD004,lstm,149,50,248,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling
+FD004,hybrid,149,50,248,5,0,0.0,0.0,0.0,Calibration-engine bootstrap conditional on frozen fits; no model resampling

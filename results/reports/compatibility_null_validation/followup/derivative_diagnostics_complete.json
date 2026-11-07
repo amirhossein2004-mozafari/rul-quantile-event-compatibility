@@ -1,0 +1,6 @@
+{
+  "rows": 210,
+  "optimizer_steps": 0,
+  "source_sha256": "3ecacaf234f02e1449b7423a17c0919f056d74e542d36734c5394d935f331b48",
+  "scope": "Deterministic fitting-window checkpoint probes; windows are not independent engines"
+}

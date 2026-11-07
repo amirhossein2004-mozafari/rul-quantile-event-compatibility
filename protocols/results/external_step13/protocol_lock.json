@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "630a37139be21fcfcb4f84d3e0b83895d27e7b7311ff088f18e283c5cf6a8ffa",
+  "locked_unix": 1793284940.6138353,
+  "version": 2,
+  "previous_lock": "protocol_lock_v1.json",
+  "scope": "Local prospective specification amended before any HDF5 arrays opened; not public preregistration"
+}

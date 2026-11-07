@@ -1,0 +1,520 @@
+{
+  "subset": "FD001",
+  "seed": 505,
+  "model_engines": [
+    75,
+    64,
+    71,
+    26,
+    83,
+    28,
+    96,
+    40,
+    11,
+    58,
+    81,
+    53,
+    19,
+    33,
+    13,
+    63,
+    20,
+    66,
+    32,
+    87,
+    38,
+    94,
+    61,
+    3,
+    93,
+    46,
+    17,
+    49,
+    27,
+    82,
+    30,
+    52,
+    97,
+    100,
+    92,
+    23,
+    56,
+    55,
+    41,
+    21,
+    18,
+    43,
+    77,
+    65,
+    73,
+    47,
+    50,
+    89,
+    90,
+    45,
+    7,
+    34,
+    48,
+    91,
+    60,
+    76,
+    79,
+    51,
+    72,
+    12,
+    86,
+    84,
+    59,
+    95,
+    6,
+    5,
+    85,
+    36,
+    98,
+    57,
+    44,
+    74,
+    37,
+    62,
+    68,
+    8,
+    31,
+    22,
+    29,
+    10
+  ],
+  "calibration_engines": [
+    24,
+    70,
+    42,
+    16,
+    88,
+    9,
+    25,
+    78,
+    4,
+    99,
+    54,
+    14,
+    1,
+    15,
+    2,
+    67,
+    39,
+    35,
+    69,
+    80
+  ],
+  "window_size": 30,
+  "risk_threshold": 30,
+  "n_positive": 2480,
+  "n_negative": 11601,
+  "w_pos_train": 4.677822580645161,
+  "w_pos_train_float32": 4.677822589874268,
+  "per_engine": [
+    {
+      "engine_id": 3,
+      "n_positive": 31,
+      "n_negative": 119
+    },
+    {
+      "engine_id": 5,
+      "n_positive": 31,
+      "n_negative": 209
+    },
+    {
+      "engine_id": 6,
+      "n_positive": 31,
+      "n_negative": 128
+    },
+    {
+      "engine_id": 7,
+      "n_positive": 31,
+      "n_negative": 199
+    },
+    {
+      "engine_id": 8,
+      "n_positive": 31,
+      "n_negative": 90
+    },
+    {
+      "engine_id": 10,
+      "n_positive": 31,
+      "n_negative": 162
+    },
+    {
+      "engine_id": 11,
+      "n_positive": 31,
+      "n_negative": 180
+    },
+    {
+      "engine_id": 12,
+      "n_positive": 31,
+      "n_negative": 110
+    },
+    {
+      "engine_id": 13,
+      "n_positive": 31,
+      "n_negative": 103
+    },
+    {
+      "engine_id": 17,
+      "n_positive": 31,
+      "n_negative": 216
+    },
+    {
+      "engine_id": 18,
+      "n_positive": 31,
+      "n_negative": 135
+    },
+    {
+      "engine_id": 19,
+      "n_positive": 31,
+      "n_negative": 98
+    },
+    {
+      "engine_id": 20,
+      "n_positive": 31,
+      "n_negative": 174
+    },
+    {
+      "engine_id": 21,
+      "n_positive": 31,
+      "n_negative": 135
+    },
+    {
+      "engine_id": 22,
+      "n_positive": 31,
+      "n_negative": 142
+    },
+    {
+      "engine_id": 23,
+      "n_positive": 31,
+      "n_negative": 108
+    },
+    {
+      "engine_id": 26,
+      "n_positive": 31,
+      "n_negative": 139
+    },
+    {
+      "engine_id": 27,
+      "n_positive": 31,
+      "n_negative": 96
+    },
+    {
+      "engine_id": 28,
+      "n_positive": 31,
+      "n_negative": 105
+    },
+    {
+      "engine_id": 29,
+      "n_positive": 31,
+      "n_negative": 103
+    },
+    {
+      "engine_id": 30,
+      "n_positive": 31,
+      "n_negative": 134
+    },
+    {
+      "engine_id": 31,
+      "n_positive": 31,
+      "n_negative": 174
+    },
+    {
+      "engine_id": 32,
+      "n_positive": 31,
+      "n_negative": 131
+    },
+    {
+      "engine_id": 33,
+      "n_positive": 31,
+      "n_negative": 140
+    },
+    {
+      "engine_id": 34,
+      "n_positive": 31,
+      "n_negative": 135
+    },
+    {
+      "engine_id": 36,
+      "n_positive": 31,
+      "n_negative": 98
+    },
+    {
+      "engine_id": 37,
+      "n_positive": 31,
+      "n_negative": 110
+    },
+    {
+      "engine_id": 38,
+      "n_positive": 31,
+      "n_negative": 134
+    },
+    {
+      "engine_id": 40,
+      "n_positive": 31,
+      "n_negative": 128
+    },
+    {
+      "engine_id": 41,
+      "n_positive": 31,
+      "n_negative": 156
+    },
+    {
+      "engine_id": 43,
+      "n_positive": 31,
+      "n_negative": 147
+    },
+    {
+      "engine_id": 44,
+      "n_positive": 31,
+      "n_negative": 132
+    },
+    {
+      "engine_id": 45,
+      "n_positive": 31,
+      "n_negative": 98
+    },
+    {
+      "engine_id": 46,
+      "n_positive": 31,
+      "n_negative": 196
+    },
+    {
+      "engine_id": 47,
+      "n_positive": 31,
+      "n_negative": 154
+    },
+    {
+      "engine_id": 48,
+      "n_positive": 31,
+      "n_negative": 171
+    },
+    {
+      "engine_id": 49,
+      "n_positive": 31,
+      "n_negative": 155
+    },
+    {
+      "engine_id": 50,
+      "n_positive": 31,
+      "n_negative": 138
+    },
+    {
+      "engine_id": 51,
+      "n_positive": 31,
+      "n_negative": 153
+    },
+    {
+      "engine_id": 52,
+      "n_positive": 31,
+      "n_negative": 153
+    },
+    {
+      "engine_id": 53,
+      "n_positive": 31,
+      "n_negative": 135
+    },
+    {
+      "engine_id": 55,
+      "n_positive": 31,
+      "n_negative": 133
+    },
+    {
+      "engine_id": 56,
+      "n_positive": 31,
+      "n_negative": 215
+    },
+    {
+      "engine_id": 57,
+      "n_positive": 31,
+      "n_negative": 77
+    },
+    {
+      "engine_id": 58,
+      "n_positive": 31,
+      "n_negative": 87
+    },
+    {
+      "engine_id": 59,
+      "n_positive": 31,
+      "n_negative": 171
+    },
+    {
+      "engine_id": 60,
+      "n_positive": 31,
+      "n_negative": 112
+    },
+    {
+      "engine_id": 61,
+      "n_positive": 31,
+      "n_negative": 125
+    },
+    {
+      "engine_id": 62,
+      "n_positive": 31,
+      "n_negative": 120
+    },
+    {
+      "engine_id": 63,
+      "n_positive": 31,
+      "n_negative": 114
+    },
+    {
+      "engine_id": 64,
+      "n_positive": 31,
+      "n_negative": 223
+    },
+    {
+      "engine_id": 65,
+      "n_positive": 31,
+      "n_negative": 93
+    },
+    {
+      "engine_id": 66,
+      "n_positive": 31,
+      "n_negative": 142
+    },
+    {
+      "engine_id": 68,
+      "n_positive": 31,
+      "n_negative": 139
+    },
+    {
+      "engine_id": 71,
+      "n_positive": 31,
+      "n_negative": 148
+    },
+    {
+      "engine_id": 72,
+      "n_positive": 31,
+      "n_negative": 153
+    },
+    {
+      "engine_id": 73,
+      "n_positive": 31,
+      "n_negative": 153
+    },
+    {
+      "engine_id": 74,
+      "n_positive": 31,
+      "n_negative": 106
+    },
+    {
+      "engine_id": 75,
+      "n_positive": 31,
+      "n_negative": 169
+    },
+    {
+      "engine_id": 76,
+      "n_positive": 31,
+      "n_negative": 150
+    },
+    {
+      "engine_id": 77,
+      "n_positive": 31,
+      "n_negative": 94
+    },
+    {
+      "engine_id": 79,
+      "n_positive": 31,
+      "n_negative": 139
+    },
+    {
+      "engine_id": 81,
+      "n_positive": 31,
+      "n_negative": 180
+    },
+    {
+      "engine_id": 82,
+      "n_positive": 31,
+      "n_negative": 154
+    },
+    {
+      "engine_id": 83,
+      "n_positive": 31,
+      "n_negative": 233
+    },
+    {
+      "engine_id": 84,
+      "n_positive": 31,
+      "n_negative": 207
+    },
+    {
+      "engine_id": 85,
+      "n_positive": 31,
+      "n_negative": 128
+    },
+    {
+      "engine_id": 86,
+      "n_positive": 31,
+      "n_negative": 218
+    },
+    {
+      "engine_id": 87,
+      "n_positive": 31,
+      "n_negative": 118
+    },
+    {
+      "engine_id": 89,
+      "n_positive": 31,
+      "n_negative": 157
+    },
+    {
+      "engine_id": 90,
+      "n_positive": 31,
+      "n_negative": 94
+    },
+    {
+      "engine_id": 91,
+      "n_positive": 31,
+      "n_negative": 75
+    },
+    {
+      "engine_id": 92,
+      "n_positive": 31,
+      "n_negative": 281
+    },
+    {
+      "engine_id": 93,
+      "n_positive": 31,
+      "n_negative": 95
+    },
+    {
+      "engine_id": 94,
+      "n_positive": 31,
+      "n_negative": 198
+    },
+    {
+      "engine_id": 95,
+      "n_positive": 31,
+      "n_negative": 223
+    },
+    {
+      "engine_id": 96,
+      "n_positive": 31,
+      "n_negative": 276
+    },
+    {
+      "engine_id": 97,
+      "n_positive": 31,
+      "n_negative": 142
+    },
+    {
+      "engine_id": 98,
+      "n_positive": 31,
+      "n_negative": 96
+    },
+    {
+      "engine_id": 100,
+      "n_positive": 31,
+      "n_negative": 140
+    }
+  ],
+  "checkpoint_sha256": "202cc29752606e2984b877ff9b3c73e071a0c314294a9affe4bd7bba858f1bdb",
+  "preprocessing_sha256": "d77346d840ae9eb4cdd4cfab40a18f167f1a460f4dd38887621e3c11899a8f25",
+  "training_data_sha256": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+  "weight_provenance": "reconstructed from saved split/config and historical notebook loss; not stored in checkpoint"
+}

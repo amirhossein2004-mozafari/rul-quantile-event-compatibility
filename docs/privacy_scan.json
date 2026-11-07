@@ -1,0 +1,177 @@
+{
+  "status": "PASS_WITH_FIVE_APPROVED_RECORDS",
+  "text_files_scanned": 1311,
+  "approved_path_records": [
+    "docs/reports/compatibility_null_validation/commands.log",
+    "protocols/reports/compatibility_null_validation/compute_amendment.json",
+    "protocols/reports/compatibility_null_validation/compute_amendment_lock.json",
+    "protocols/reports/compatibility_null_validation/investigation_protocol_lock.json",
+    "protocols/reports/compatibility_null_validation/synthetic_source_lock.json"
+  ],
+  "findings": [
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 43,
+      "kind": "absolute local path",
+      "matched_string_sha256": "a4c9ee3dfb6032761d60db1e46dc50af3ed647dc86bc57965ebfd7ff1f5e9043",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 84,
+      "kind": "absolute local path",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 84,
+      "kind": "absolute local path",
+      "matched_string_sha256": "53bc0b8313aa56d658d7a9ef8e5459151910fd12c2a25f4edd05e1b91b5fee39",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 86,
+      "kind": "absolute local path",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 86,
+      "kind": "absolute local path",
+      "matched_string_sha256": "f2888cf5e9b9edc152ddd45dda1c79cb3157f65debb687bf283a1cb12e5a6532",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 89,
+      "kind": "absolute local path",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 89,
+      "kind": "absolute local path",
+      "matched_string_sha256": "76fa2ca02a10397fe6bb8759d4d4b94985b8f3ee91a0662cfee407deffbda515",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 91,
+      "kind": "absolute local path",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 91,
+      "kind": "absolute local path",
+      "matched_string_sha256": "c52e134073c01e60a56c2e0ada26358d05163bb58351a8e66ae26feac3550975",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 3,
+      "kind": "absolute local path",
+      "matched_string_sha256": "f48b5132945d1f12952fdbdd5b62dfe67cf9e2f778416fa64e821d6aeeaece10",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "matched_string_sha256": "01958bfe548a61bded5fd8f97e30eca91f37a3284f02152f177f535af684f9b0",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 5,
+      "kind": "absolute local path",
+      "matched_string_sha256": "ffec2f33738424c8271345d316fd2ca78b40216bb905b45db6226b0b20a80269",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 6,
+      "kind": "absolute local path",
+      "matched_string_sha256": "7d27b9d772795043cefb7740509d988eac5898b91d34cca190af5afc4b11c929",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 7,
+      "kind": "absolute local path",
+      "matched_string_sha256": "3371e63bbadfe4e82ee1f52e30b96bf7a770b18420a578bea14ce04ecc608344",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 8,
+      "kind": "absolute local path",
+      "matched_string_sha256": "0eab05d540da3d46881cda7796055f69744d981c31890e255db930972751837f",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 9,
+      "kind": "absolute local path",
+      "matched_string_sha256": "5d70fc2c22b62d31e9b847187be5574f290f98a89fdae360cc8d2a652c4fcff0",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 10,
+      "kind": "absolute local path",
+      "matched_string_sha256": "a9242306baeb92e4fee79769cdeecda005ddedde6f6080ff44e4e32abccc80b7",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 11,
+      "kind": "absolute local path",
+      "matched_string_sha256": "ceef2c66d278e1b5b3149efd162dee83810e524e8012351562bdc2de98944707",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 12,
+      "kind": "absolute local path",
+      "matched_string_sha256": "899bfad828c985cdc72172bd139eedf2a33d23cde52a9bf222bbb3c7f116c4ff",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 13,
+      "kind": "absolute local path",
+      "matched_string_sha256": "95e5bca2e8301f0bde50443448cd3cb80fab6763e0ec62d26030c6d7b5fc053e",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment_lock.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "matched_string_sha256": "091efcd60d8b03f25aa2b3c32bff6c94fd28dbcbbce3bba1f144153b28c0c944",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/investigation_protocol_lock.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "matched_string_sha256": "8cff5c2e0481aa98d709f8bc6595643e12e90c180a5f6162ee1ae919db807e40",
+      "status": "Approved verbatim local-path record"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/synthetic_source_lock.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "matched_string_sha256": "62608ab5fb16570aec64eef3e7189e337a63f200c4ea60024cb16b7c0a85756b",
+      "status": "Approved verbatim local-path record"
+    }
+  ],
+  "unexpected_findings": [],
+  "private_inventory_excluded": "docs/phase1_inventory/",
+  "notes": "Known matrix multiplication syntax is excluded from email matches. The corresponding-author address is allowed in the manuscript. Pattern scanning cannot prove absence of all possible secret formats."
+}

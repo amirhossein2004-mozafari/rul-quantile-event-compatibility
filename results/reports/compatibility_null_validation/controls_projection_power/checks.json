@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "A_rows": 65,
+  "B_rows": 130,
+  "C_rows": 26,
+  "uniform_draw_seed_rows": 4000,
+  "test_engines": 707,
+  "calibration_engines": 142,
+  "source_files_unchanged": 89,
+  "projection_incompatibility_exactly_zero": true,
+  "raw_flags_distances_Brier_reproduced": true,
+  "prior_coefficients_CIs_reproduced": true,
+  "ECE_direct_checks_passed": true,
+  "training": false,
+  "inference": false,
+  "protocol": {
+    "locked_utc": "2026-11-01T11:36:07.5629861Z",
+    "status": "LOCKED_BEFORE_CALCULATIONS",
+    "protocol_sha256": "940943607cfd3cd971a17e9d5dcd3f94474a93724a717f391af1dda374a950ff"
+  },
+  "source_sha256": "33c268fd8a416ee6a208dabe02103535f80d76cfe4e35c486a2ca8b9a2eb3d3c"
+}
