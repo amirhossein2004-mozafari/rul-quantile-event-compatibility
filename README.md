@@ -1,6 +1,6 @@
 # Quantile and event-probability compatibility
 
-This release accompanies the manuscript on compatibility between quantile and event-probability outputs in remaining useful life prediction. It includes the diagnostic and analysis code, original protocols, result tables, calibration/test predictions, manuscript sources and the S0-S14 supplement. Repository and archive identifiers remain [REPO_URL] and [ZENODO_DOI].
+This release accompanies the manuscript on compatibility between quantile and event-probability outputs in remaining useful life prediction. It includes the diagnostic and analysis code, original protocols, result tables, calibration/test predictions, manuscript sources and the S0-S14 supplement. The repository is https://github.com/amirhossein2004-mozafari/rul-quantile-event-compatibility.
 
 ## Folder map
 
@@ -82,7 +82,7 @@ Forward inference requires the omitted checkpoints/preprocessors and sensor data
 
 Copyright (c) 2026 Amir Hossein Mozafari.
 
-Code is released under MIT; see LICENSE. Derived result CSVs and saved predictions are released under CC BY 4.0; see docs/DATA_LICENSE.md. Existing third-party notices continue to apply. CITATION.cff provides citation metadata without an invented repository URL or DOI.
+Code is released under MIT; see LICENSE. Derived result CSVs and saved predictions are released under CC BY 4.0; see docs/DATA_LICENSE.md. Existing third-party notices continue to apply. CITATION.cff provides citation metadata and the repository URL; no DOI is assigned.
 
 NASA raw data are not redistributed and remain under NASA's terms. docs/NASA_DOWNLOAD.md gives download instructions, and docs/NASA_EXPECTED_SHA256.csv lists known project-recorded raw-file hashes.
 
@@ -94,4 +94,4 @@ This is a single benchmark. The analyses are exploratory and use examined data, 
 
 CHECKSUMS.sha256 covers every distributable payload file except itself. It excludes .git/, ignored private inventory, build intermediates and Python caches. .gitattributes preserves input bytes across Git checkout because lock hashes depend on line endings.
 
-GitHub currently warns above 50 MiB and blocks regular Git files above 100 MiB: https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github . The build checks for files above the requested 50 MB and 100 MB thresholds before committing. The new repository has one initial local commit and has not been pushed.
+GitHub currently warns above 50 MiB and blocks regular Git files above 100 MiB: https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github . The build checks for files above the requested 50 MB and 100 MB thresholds before committing. The repository has local commits only and has not been pushed.

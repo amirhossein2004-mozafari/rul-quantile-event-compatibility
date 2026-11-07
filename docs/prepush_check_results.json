@@ -1,0 +1,172 @@
+{
+  "csv": {
+    "status": "pass",
+    "python": "3.11.9",
+    "manifest_entries_checked": 1281,
+    "validation_history_rows": 384,
+    "validation_candidate_minima": 24,
+    "frozen_selections": 8,
+    "equal_search_point_runs": 40,
+    "probability_method_results": 240,
+    "positive_Brier_skill": 240,
+    "monitoring_method_run_counts": 160,
+    "scope": "CSV/JSON arithmetic and input checks only; no training, forward replay, full table-by-table verification, scientific validation or independent review",
+    "public_release_adaptations": [
+      "Original input names resolved through docs/file_index.csv",
+      "Input manifest checks verify the indexed release bytes",
+      "Saved-label consistency replaces comparison with excluded official NASA labels"
+    ],
+    "independent_official_label_verification": false
+  },
+  "cross_head": {
+    "status": "pass",
+    "models": 40,
+    "method_runs": 160,
+    "engine_method_records": 28280,
+    "summary_groups": 32,
+    "boundary_cases": 10,
+    "raw_mean_fraction_range": [
+      0.0888030888030888,
+      0.20400000000000001
+    ],
+    "Temp_increases_group_mean": 8,
+    "max_fraction_change_at_1e_4": 0.010000000000000009,
+    "scope": "Arithmetic and nominal implications only; no fitting, selection, full distribution validation, scientific novelty assessment or independent review",
+    "public_release_adaptations": [
+      "Original input names resolved through docs/file_index.csv",
+      "Input manifest checks verify the indexed release bytes",
+      "Saved-label consistency replaces comparison with excluded official NASA labels"
+    ],
+    "independent_official_label_verification": false,
+    "optional_extremal_example_verification": "Not run: example CSV was not in the approved copy list"
+  },
+  "documents": {
+    "prose_blocks_checked": 79,
+    "missing_prose": [],
+    "main_table_rows_checked": 40,
+    "table_issues": [],
+    "supplement_families": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "main_supplement_references": [
+      "S0",
+      "S0a",
+      "S0b",
+      "S0d",
+      "S1",
+      "S11",
+      "S13a",
+      "S13b",
+      "S14",
+      "S3",
+      "S4a",
+      "S4c",
+      "S5",
+      "S6a",
+      "S6b",
+      "S9a",
+      "S9b"
+    ],
+    "unresolved_supplement_references": [],
+    "supplement_labels_absent_from_pdf": [],
+    "scope": "Prose normalized for line numbers, page furniture and typography; table numeric tokens checked by row. Table renderer independently matches all displayed cells from CSVs. Visual review is separate.",
+    "status": "PASS"
+  },
+  "previous_documents": {
+    "prose_blocks_checked": 79,
+    "missing_prose": [],
+    "main_table_rows_checked": 40,
+    "table_issues": [],
+    "supplement_families": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "main_supplement_references": [
+      "S0",
+      "S0a",
+      "S0b",
+      "S0d",
+      "S1",
+      "S11",
+      "S13a",
+      "S13b",
+      "S14",
+      "S3",
+      "S4a",
+      "S4c",
+      "S5",
+      "S6a",
+      "S6b",
+      "S9a",
+      "S9b"
+    ],
+    "unresolved_supplement_references": [],
+    "supplement_labels_absent_from_pdf": [],
+    "scope": "Prose normalized for line numbers, page furniture and typography; table numeric tokens checked by row. Table renderer independently matches all displayed cells from CSVs. Visual review is separate.",
+    "status": "PASS"
+  },
+  "readability": {
+    "original_sha256": "78069355a292d8d0daadc2141c771b0eadf86d2678e6625a83a61c4070d1057c",
+    "readable_sha256": "8b5701586144d541efe2943caeee118af5594215c151f830a75bb4349e766ea5",
+    "numeric_literals_identical_in_order": false,
+    "numeric_literals": 674,
+    "table_lines_unchanged": true,
+    "equations_unchanged": true,
+    "citations_unchanged": true,
+    "headings_unchanged": true,
+    "figure_caption_unchanged": true,
+    "protocol_hash_unchanged": true,
+    "AI_declaration_verbatim": true,
+    "changed_sentences": 56,
+    "claim_review": "Editorial comparison preserved effect directions, roster scope, uncertainty qualifications, hypotheses and conclusions; no new statistical analysis.",
+    "abstract_words": 164,
+    "phase3_only_source_change": "This is a single-benchmark, exploratory study that uses examined data and has not had independent human review.",
+    "phase3_source_edit_is_exact_single_insertion": true,
+    "previous_672_numeric_literals_preserved_in_order": true,
+    "authorized_new_numeric_literals": [
+      "185 (availability exclusion count)",
+      "4.0 (CC BY license version)"
+    ],
+    "only_availability_paragraph_changed": true,
+    "prepush_previous_manuscript_sha256": "59bf091baf52ef33c214464ff160c3fe90af5b6f5808a90b6e3d455f8c8af3df",
+    "prepush_preserved_prose_outside_availability": true,
+    "readability_scope_note": "Original readability keys describe the earlier editorial revision. Pre-push fields compare against the prior release and allow only the requested availability paragraph, adding 185 and license version 4.0. All other prose and AI disclosure are verbatim."
+  },
+  "locks": {
+    "status": "PASS",
+    "immutable_files": 333,
+    "omitted_digest_records": 185,
+    "scope": "Included immutable bytes only; full verification requires omitted archive files."
+  },
+  "checksums": {
+    "status": "PASS",
+    "note": "Manifest regenerated and checked before and after the additional commit."
+  }
+}

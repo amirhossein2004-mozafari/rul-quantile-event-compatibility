@@ -1,0 +1,407 @@
+{
+  "emails": [
+    {
+      "file": "paper/manuscript_v4.md",
+      "line": 10,
+      "email": "amir.mozafari04@sharif.edu"
+    },
+    {
+      "file": "paper/manuscript_v4_readable.pdf",
+      "line": 10,
+      "email": "amir.mozafari04@sharif.edu"
+    }
+  ],
+  "matches": [
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 43,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "a4c9ee3dfb6032761d60db1e46dc50af3ed647dc86bc57965ebfd7ff1f5e9043"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 84,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 84,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "53bc0b8313aa56d658d7a9ef8e5459151910fd12c2a25f4edd05e1b91b5fee39"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 86,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 86,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "f2888cf5e9b9edc152ddd45dda1c79cb3157f65debb687bf283a1cb12e5a6532"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 89,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 89,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "76fa2ca02a10397fe6bb8759d4d4b94985b8f3ee91a0662cfee407deffbda515"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 91,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "235eba6fc78b993c6f7165c5f63d505c2b6b08c53ef07666cf53c63af34ca7f2"
+    },
+    {
+      "file": "docs/reports/compatibility_null_validation/commands.log",
+      "line": 91,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "c52e134073c01e60a56c2e0ada26358d05163bb58351a8e66ae26feac3550975"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 3,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "f48b5132945d1f12952fdbdd5b62dfe67cf9e2f778416fa64e821d6aeeaece10"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "01958bfe548a61bded5fd8f97e30eca91f37a3284f02152f177f535af684f9b0"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 5,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "ffec2f33738424c8271345d316fd2ca78b40216bb905b45db6226b0b20a80269"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 6,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "7d27b9d772795043cefb7740509d988eac5898b91d34cca190af5afc4b11c929"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 7,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "3371e63bbadfe4e82ee1f52e30b96bf7a770b18420a578bea14ce04ecc608344"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 8,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "0eab05d540da3d46881cda7796055f69744d981c31890e255db930972751837f"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 9,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "5d70fc2c22b62d31e9b847187be5574f290f98a89fdae360cc8d2a652c4fcff0"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 10,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "a9242306baeb92e4fee79769cdeecda005ddedde6f6080ff44e4e32abccc80b7"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 11,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "ceef2c66d278e1b5b3149efd162dee83810e524e8012351562bdc2de98944707"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 12,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "899bfad828c985cdc72172bd139eedf2a33d23cde52a9bf222bbb3c7f116c4ff"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment.json",
+      "line": 13,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "95e5bca2e8301f0bde50443448cd3cb80fab6763e0ec62d26030c6d7b5fc053e"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/compute_amendment_lock.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "091efcd60d8b03f25aa2b3c32bff6c94fd28dbcbbce3bba1f144153b28c0c944"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/investigation_protocol_lock.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "8cff5c2e0481aa98d709f8bc6595643e12e90c180a5f6162ee1ae919db807e40"
+    },
+    {
+      "file": "protocols/reports/compatibility_null_validation/synthetic_source_lock.json",
+      "line": 4,
+      "kind": "absolute local path",
+      "expected": true,
+      "match": "[preserved approved local path]",
+      "matched_string_sha256": "62608ab5fb16570aec64eef3e7189e337a63f200c4ea60024cb16b7c0a85756b"
+    }
+  ],
+  "files_over_5_MB": [
+    {
+      "file": "results/reports/compatibility_null_validation/controls_per_replication.csv",
+      "bytes": 6386322
+    },
+    {
+      "file": "results/reports/compatibility_null_validation/synthetic_per_replication.csv",
+      "bytes": 7372974
+    },
+    {
+      "file": "results/reports/compatibility_null_validation/association/synthetic_per_fit.csv",
+      "bytes": 7687814
+    },
+    {
+      "file": "results/reports/compatibility_null_validation/followup/null_per_replication.csv",
+      "bytes": 7366214
+    }
+  ],
+  "commit_authors_before_prepush_commit": [
+    "6bab9e9\tAmir Hossein Mozafari\tamir.mozafari04@sharif.edu",
+    "ff06948\tAmir Hossein Mozafari\tamir.mozafari04@sharif.edu"
+  ],
+  "README_script_paths_exist": [
+    "code/render_manuscript.py",
+    "code/render_manuscript.py",
+    "code/build_pdfs.py",
+    "code/verify_documents.py",
+    "code/reproduce_public.py",
+    "code/reproduce_public.py",
+    "code/verify_release.py",
+    "code/verify_release.py"
+  ],
+  "previous_PDF_verification": "PASS: 79 blocks and 40 rows",
+  "new_PDF_verification": "PASS: 79 blocks and 40 rows",
+  "numeric_preservation": "Previous 672 values preserved; authorized availability text adds 185 and 4.0",
+  "abstract_words": 164,
+  "abstract_final_sentence": "This is a single-benchmark, exploratory study that uses examined data and has not had independent human review.",
+  "private_audit": ".build/prepush_audit_private.json (ignored)",
+  "scope": "Distributable repository files including PDF extracted text; private ignored inventory/build material and Git internals excluded. Commit identities audited separately.",
+  "rendered_PDF_numeric_multisets_unchanged_excluding_two_authorized_additions": true,
+  "rendered_PDF_numeric_comparison_note": "PDF includes rendered citation/reference numbers. Raw token order shifts at a DOI page wrap; both PDFs independently pass all prose blocks and table rows against their matching source. All 672 source numeric literals remain in order after excluding the two authorized additions.",
+  "visual_review": "First page, changed availability/AI page and supplement first page inspected; no clipping or overlap observed.",
+  "supplement_PDF_text_identical_to_previous_release": true,
+  "README_existing_paths_checked": [
+    "code/render_manuscript.py",
+    "code/build_pdfs.py",
+    "code/verify_documents.py",
+    "code/reproduce_public.py",
+    "code/verify_release.py",
+    "docs/requirements-lock-win-py311.txt",
+    "docs/file_index.csv",
+    "docs/excluded_hash_referenced.csv",
+    "docs/locked_files.csv",
+    "docs/protocol_lineage.md",
+    "docs/path_replacements.csv",
+    "predictions_index/predictions.csv",
+    "docs/DATA_LICENSE.md",
+    "docs/NASA_DOWNLOAD.md",
+    "docs/NASA_EXPECTED_SHA256.csv",
+    "paper/readability_changes.md",
+    "docs/readability_verification.json",
+    "docs/checks/csv/summary.json",
+    "docs/checks/cross_head/summary.json",
+    "LICENSE",
+    "CITATION.cff",
+    "CHECKSUMS.sha256"
+  ],
+  "README_original_input_names_resolved": {
+    "controls_projection_power/C_effect_sizes_power.csv": "results/reports/compatibility_null_validation/controls_projection_power/C_effect_sizes_power.csv",
+    "contribution_step12/summary.csv": "results/results/contribution_step12/summary.csv",
+    "fair_comparison_step2/per_run.csv": "results/results/fair_comparison_step2/per_run.csv",
+    "risk_context_step8/per_run.csv": "results/results/risk_context_step8/per_run.csv"
+  },
+  "README_command_checks": "PDF build, document verification, table regeneration and all portable checks executed. Figure entry point and its indexed A_all_scores input exist. Package installation instruction not executed.",
+  "gitignore_effectiveness": [
+    "docs/phase1_inventory/private.csv",
+    ".build/test.tmp",
+    ".venv/test",
+    ".vscode/settings.json",
+    "data/raw/test.txt",
+    "example.pt"
+  ],
+  "private_inventory_and_build_tracked_files": [],
+  "gitattributes_effectiveness": "git check-attr confirms text unset for an immutable JSON and text unset/binary set for PDF; checkout will preserve bytes.",
+  "email_inventory_note": "This audit also repeats the one corresponding-author address listed here.",
+  "binary_false_positive_matches": [
+    {
+      "file": "paper/figures/projection_brier_44_groups.png",
+      "line": 4093,
+      "reason": "Random binary pixel payload, not a text path",
+      "match_sha256": "4093e8382e6049785aa8c20cf6d0fef7e4bd120770689acdfbda451660d67e5b"
+    },
+    {
+      "file": "paper/figures/projection_brier_44_groups.png",
+      "line": 6827,
+      "reason": "Random binary pixel payload, not a text path",
+      "match_sha256": "079c830b32c09d5417827fb9a0d72f4e07131301bab1dcd47431b63cd81a1b4a"
+    },
+    {
+      "file": "paper/figures/projection_brier_44_groups_regenerated.png",
+      "line": 2239,
+      "reason": "Random binary pixel payload, not a text path",
+      "match_sha256": "5492ffff2caf8aa6997a493ad374c684f002f610e471d9f3c803048ad7659a2e"
+    }
+  ],
+  "credential_matches": 0,
+  "absolute_path_matches": 23,
+  "privacy_scope_note": "All distributable files, PDF extracted text; Git internals and intentionally ignored private build/inventory excluded. Generated public audit repeats this email inventory.",
+  "numeric_literal_definition": "\\b\\d+(?:\\.\\d+)?\\b",
+  "email_pattern_false_positives": [
+    {
+      "file": "code/scripts/analyze_calibrator_extension.py",
+      "line": 103,
+      "email": "w@mask.mean",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_calibrator_extension.py",
+      "line": 106,
+      "email": "w@y.astype",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_calibrator_extension.py",
+      "line": 106,
+      "email": "w@p.mean",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_calibrator_extension.py",
+      "line": 106,
+      "email": "w@proj.mean",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_calibrator_extension.py",
+      "line": 115,
+      "email": "ww@sec.reshape",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_calibrator_extension.py",
+      "line": 115,
+      "email": "ww@z.transpose",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_compatibility_association.py",
+      "line": 69,
+      "email": "wa@second.reshape",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_compatibility_association.py",
+      "line": 107,
+      "email": "wa@mask.astype",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_compatibility_association.py",
+      "line": 115,
+      "email": "wa@sec.reshape",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_compatibility_association.py",
+      "line": 116,
+      "email": "wa@z.transpose",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_compatibility_followup.py",
+      "line": 31,
+      "email": "weights@v.transpose",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/analyze_compatibility_followup.py",
+      "line": 192,
+      "email": "factorial_weights@np.stack",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/collect_compatibility_synthetic.py",
+      "line": 26,
+      "email": "weights@values.transpose",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/threshold_compatibility_followup.py",
+      "line": 44,
+      "email": "w@np.einsum",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/threshold_compatibility_followup.py",
+      "line": 44,
+      "email": "w@z.transpose",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    },
+    {
+      "file": "code/scripts/threshold_compatibility_followup.py",
+      "line": 65,
+      "email": "w@mask.astype",
+      "reason": "Python matrix multiplication followed by an array method, not an email address"
+    }
+  ]
+}

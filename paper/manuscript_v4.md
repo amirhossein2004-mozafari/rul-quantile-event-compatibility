@@ -201,7 +201,7 @@ The flag detects the tested gross corruptions, with a response that depends on c
 
 ## Data and code availability
 
-The repository [REPO_URL] contains code, protocols, result CSVs, saved predictions, reports and manuscript sources. The separate archive [ZENODO_DOI] is intended for excluded checkpoints and other full-reproduction materials. The validation supplement contains Tables S1–S14 with source-file labels and full-precision companion tables. The repository also includes the added-model comparisons. Monitoring, PCGrad, component ablations, path-maximum CV+ and multi-study comparisons remain supplementary.
+The repository https://github.com/amirhossein2004-mozafari/rul-quantile-event-compatibility contains code, protocols, result CSVs, saved predictions, reports, manuscript sources and the supplement. It excludes 185 hash-referenced files, including checkpoints, tensors, raw NASA data and other inputs, so the public release cannot support full retraining or full lock verification. NASA data can be downloaded from the NASA Prognostics Center of Excellence repository (https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/). Code is licensed under MIT, and derived results and saved predictions are licensed under CC BY 4.0. The validation supplement contains Tables S1–S14 with source-file labels and full-precision companion tables. The repository also includes the added-model comparisons. Monitoring, PCGrad, component ablations, path-maximum CV+ and multi-study comparisons remain supplementary.
 
 ## Authorship, funding and competing interests
 
