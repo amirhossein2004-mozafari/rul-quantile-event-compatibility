@@ -15,7 +15,7 @@ In the original eight C-MAPSS groups on 707 test engines, compatibility flags de
 
 Flags concentrate near the event threshold: 49.7% within RUL 20–40 versus 8.2% elsewhere in this original roster. RUL-adjusted Brier associations are positive overall but vary in sign after probability-and-band adjustment. The pooled point-error association is undetected, with an approximate 80%-power MDE of 162 cycles squared.
 
-In the expanded 44-group roster, TrainOff has lower pooled Brier and NLL than projection alone, largely driven by FD002. TrainOff has worse Brier than projection alone in 17 groups, including all 11 FD001 groups, and worse NLL than projection alone in 15 by point estimate. No paired CI compares these paths. Projection guarantees structural compatibility, with inconsistent scoring gains. Its pooled Brier gain is resolved in FD002 and FD004 and unresolved in FD001 and FD003. 
+In the expanded 44-group roster, TrainOff has lower pooled Brier and NLL than projection alone, largely driven by FD002. TrainOff has worse Brier than projection alone in 17 groups, including all 11 FD001 groups, and worse NLL than projection alone in 15 by point estimate. No paired CI compares these paths. Projection guarantees structural compatibility, with inconsistent scoring gains. Its pooled Brier gain is resolved in FD002 and FD004 and unresolved in FD001 and FD003. This is a single-benchmark, exploratory study that uses examined data and has not had independent human review. 
 
 **Keywords:** remaining useful life; C-MAPSS; quantile–probability compatibility; calibration; label-free projection.
 
