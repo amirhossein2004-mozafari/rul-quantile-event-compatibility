@@ -1,0 +1,383 @@
+{
+  "2": {
+    "rows": [
+      [
+        "Subset",
+        "Model",
+        "Test engines",
+        "Raw incompatible (%)",
+        "Temp incompatible (%)",
+        "Raw mean distance"
+      ],
+      [
+        "FD001",
+        "LSTM",
+        "100",
+        "20.4 \u00b1 4.6",
+        "31.4 \u00b1 2.3",
+        "0.0210 \u00b1 0.0061"
+      ],
+      [
+        "FD001",
+        "Hybrid",
+        "100",
+        "13.6 \u00b1 3.9",
+        "18.6 \u00b1 5.0",
+        "0.0138 \u00b1 0.0075"
+      ],
+      [
+        "FD002",
+        "LSTM",
+        "259",
+        "9.6 \u00b1 1.4",
+        "11.2 \u00b1 0.9",
+        "0.0067 \u00b1 0.0021"
+      ],
+      [
+        "FD002",
+        "Hybrid",
+        "259",
+        "8.9 \u00b1 2.7",
+        "13.4 \u00b1 6.9",
+        "0.0072 \u00b1 0.0040"
+      ],
+      [
+        "FD003",
+        "LSTM",
+        "100",
+        "12.8 \u00b1 4.1",
+        "25.0 \u00b1 5.8",
+        "0.0150 \u00b1 0.0081"
+      ],
+      [
+        "FD003",
+        "Hybrid",
+        "100",
+        "11.8 \u00b1 3.3",
+        "36.2 \u00b1 12.4",
+        "0.0149 \u00b1 0.0113"
+      ],
+      [
+        "FD004",
+        "LSTM",
+        "248",
+        "16.6 \u00b1 2.1",
+        "16.7 \u00b1 2.8",
+        "0.0137 \u00b1 0.0029"
+      ],
+      [
+        "FD004",
+        "Hybrid",
+        "248",
+        "12.7 \u00b1 2.5",
+        "15.3 \u00b1 6.6",
+        "0.0086 \u00b1 0.0031"
+      ]
+    ],
+    "caption": "Frozen C-MAPSS compatibility results, mean \u00b1 sample SD. Rates use the retained tolerance convention; distance is in probability units. Temp changes the probability while nominal quantiles remain fixed. Engine counts are per fit, not multiplied by seeds."
+  },
+  "1": {
+    "rows": [
+      [
+        "Group / outcome",
+        "Fit / test engines",
+        "Flag coefficient [95% CI]",
+        "Own mean MSE",
+        "Upper CI / mean",
+        "Approx. MDE (MDE / mean)"
+      ],
+      [
+        "FD001 lstm median error",
+        "60/100",
+        "69.7 [-167, 405]",
+        "217",
+        "187.0%",
+        "429 (198.1%)"
+      ],
+      [
+        "FD001 lstm Brier",
+        "60/100",
+        "0.0426 [-0.0369, 0.124]",
+        "0.0356",
+        "348.9%",
+        "0.115 (324.3%)"
+      ],
+      [
+        "FD001 hybrid median error",
+        "60/100",
+        "-250 [-415, -95.3]",
+        "259",
+        "-36.8%",
+        "227 (87.6%)"
+      ],
+      [
+        "FD001 hybrid Brier",
+        "60/100",
+        "-0.0143 [-0.0887, 0.055]",
+        "0.0348",
+        "158.1%",
+        "0.105 (301.0%)"
+      ],
+      [
+        "FD002 lstm median error",
+        "156/259",
+        "-138 [-240, -51]",
+        "205",
+        "-24.8%",
+        "136 (66.3%)"
+      ],
+      [
+        "FD002 lstm Brier",
+        "156/259",
+        "0.0908 [0.0332, 0.155]",
+        "0.0251",
+        "615.7%",
+        "0.0889 (354.4%)"
+      ],
+      [
+        "FD002 hybrid median error",
+        "156/259",
+        "-149 [-311, -4.99]",
+        "241",
+        "-2.1%",
+        "214 (88.7%)"
+      ],
+      [
+        "FD002 hybrid Brier",
+        "156/259",
+        "0.103 [0.0365, 0.171]",
+        "0.0333",
+        "513.2%",
+        "0.0945 (283.6%)"
+      ],
+      [
+        "FD003 lstm median error",
+        "60/100",
+        "-320 [-595, -71]",
+        "323",
+        "-22.0%",
+        "380 (117.6%)"
+      ],
+      [
+        "FD003 lstm Brier",
+        "60/100",
+        "0.0822 [0.0155, 0.179]",
+        "0.0267",
+        "672.7%",
+        "0.12 (450.5%)"
+      ],
+      [
+        "FD003 hybrid median error",
+        "60/100",
+        "-99.9 [-230, 29]",
+        "234",
+        "12.4%",
+        "186 (79.3%)"
+      ],
+      [
+        "FD003 hybrid Brier",
+        "60/100",
+        "0.129 [0.0524, 0.209]",
+        "0.0291",
+        "716.3%",
+        "0.113 (387.4%)"
+      ],
+      [
+        "FD004 lstm median error",
+        "149/248",
+        "-36.3 [-276, 258]",
+        "275",
+        "93.8%",
+        "384 (139.6%)"
+      ],
+      [
+        "FD004 lstm Brier",
+        "149/248",
+        "0.124 [0.0554, 0.202]",
+        "0.0529",
+        "382.0%",
+        "0.106 (200.6%)"
+      ],
+      [
+        "FD004 hybrid median error",
+        "149/248",
+        "90.2 [-147, 429]",
+        "274",
+        "156.5%",
+        "430 (157.0%)"
+      ],
+      [
+        "FD004 hybrid Brier",
+        "149/248",
+        "0.103 [0.0247, 0.187]",
+        "0.0448",
+        "416.7%",
+        "0.117 (260.6%)"
+      ]
+    ],
+    "caption": "Adjusted effects and approximate power. Point-error units are cycles squared; Brier is event-probability MSE. Each ratio uses its outcome's own observed mean. MDE is (normal 97.5th percentile + normal 80th percentile) times the engine-bootstrap coefficient SD, for a two-sided 0.05 Wald approximation. It is not an exact power simulation. Signed upper bounds are retained. Table S14 gives full results, including pooled estimates."
+  },
+  "3": {
+    "rows": [
+      [
+        "Subset",
+        "Model",
+        "Fit/test engines",
+        "RMSE (cycles)",
+        "MAE (cycles)",
+        "Raw Brier"
+      ],
+      [
+        "FD001",
+        "LSTM",
+        "60/100",
+        "14.7 \u00b1 0.639",
+        "10.9 \u00b1 0.448",
+        "0.03561"
+      ],
+      [
+        "FD001",
+        "Hybrid",
+        "60/100",
+        "15.9 \u00b1 1.25",
+        "11.8 \u00b1 0.716",
+        "0.03477"
+      ],
+      [
+        "FD002",
+        "LSTM",
+        "156/259",
+        "14.3 \u00b1 0.528",
+        "9.87 \u00b1 0.445",
+        "0.02510"
+      ],
+      [
+        "FD002",
+        "Hybrid",
+        "156/259",
+        "15.4 \u00b1 1.44",
+        "10.8 \u00b1 1.42",
+        "0.03333"
+      ],
+      [
+        "FD003",
+        "LSTM",
+        "60/100",
+        "17.9 \u00b1 1.07",
+        "12.5 \u00b1 0.810",
+        "0.02666"
+      ],
+      [
+        "FD003",
+        "Hybrid",
+        "60/100",
+        "15.2 \u00b1 0.784",
+        "11.0 \u00b1 0.961",
+        "0.02915"
+      ],
+      [
+        "FD004",
+        "LSTM",
+        "149/248",
+        "16.6 \u00b1 0.340",
+        "11.1 \u00b1 0.429",
+        "0.05290"
+      ],
+      [
+        "FD004",
+        "Hybrid",
+        "149/248",
+        "16.5 \u00b1 0.336",
+        "11.6 \u00b1 0.518",
+        "0.04484"
+      ]
+    ],
+    "caption": "Secondary architecture comparison. RMSE and MAE show mean \u00b1 sample SD to three significant figures; Brier retains source precision. Fitting and test engines are explicit for each row. Seeds reuse the same engines."
+  },
+  "4": {
+    "rows": [
+      [
+        "Subset",
+        "Model",
+        "Test engines",
+        "Raw Brier",
+        "TrainOff Brier",
+        "Temp Brier",
+        "TrainOff+Temp Brier"
+      ],
+      [
+        "FD001",
+        "LSTM",
+        "100",
+        "0.03561 \u00b1 0.00429",
+        "0.05276 \u00b1 0.00569",
+        "0.04191 \u00b1 0.00368",
+        "0.05722 \u00b1 0.00906"
+      ],
+      [
+        "FD001",
+        "Hybrid",
+        "100",
+        "0.03477 \u00b1 0.00728",
+        "0.04555 \u00b1 0.00874",
+        "0.03656 \u00b1 0.00793",
+        "0.05030 \u00b1 0.01049"
+      ],
+      [
+        "FD002",
+        "LSTM",
+        "259",
+        "0.02510 \u00b1 0.00343",
+        "0.01361 \u00b1 0.00301",
+        "0.03357 \u00b1 0.00673",
+        "0.01507 \u00b1 0.00702"
+      ],
+      [
+        "FD002",
+        "Hybrid",
+        "259",
+        "0.03333 \u00b1 0.01419",
+        "0.02090 \u00b1 0.00967",
+        "0.03598 \u00b1 0.01190",
+        "0.02314 \u00b1 0.00930"
+      ],
+      [
+        "FD003",
+        "LSTM",
+        "100",
+        "0.02666 \u00b1 0.00860",
+        "0.02669 \u00b1 0.00261",
+        "0.03403 \u00b1 0.00747",
+        "0.02708 \u00b1 0.00329"
+      ],
+      [
+        "FD003",
+        "Hybrid",
+        "100",
+        "0.02915 \u00b1 0.01492",
+        "0.02207 \u00b1 0.00476",
+        "0.03750 \u00b1 0.01141",
+        "0.03268 \u00b1 0.01069"
+      ],
+      [
+        "FD004",
+        "LSTM",
+        "248",
+        "0.05290 \u00b1 0.00297",
+        "0.03499 \u00b1 0.00236",
+        "0.05904 \u00b1 0.00580",
+        "0.04141 \u00b1 0.00720"
+      ],
+      [
+        "FD004",
+        "Hybrid",
+        "248",
+        "0.04484 \u00b1 0.00384",
+        "0.03787 \u00b1 0.00415",
+        "0.05017 \u00b1 0.00972",
+        "0.04513 \u00b1 0.00622"
+      ]
+    ],
+    "caption": "Secondary calibration comparison for the original eight groups, showing Raw, TrainOff, Temp and TrainOff+Temp Brier mean \u00b1 sample SD at source precision. These paths use the same test engines within each row. Section 5.4 and the expanded-calibrator supplementary file A_all_scores.csv contain Platt, Isotonic, Beta and projection paths; Table S6b gives the original compatibility-by-method source table."
+  }
+}

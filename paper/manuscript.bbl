@@ -1,0 +1,347 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Arias~Chao%
+, Kulkarni%
+, Goebel%
+\BCBL {}\ \BBA {} Fink%
+}{%
+Arias~Chao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+ariaschao2021ncmapss}
+\APACinsertmetastar {%
+ariaschao2021ncmapss}%
+\begin{APACrefauthors}%
+Arias~Chao, M.%
+, Kulkarni, C.%
+, Goebel, K.%
+\BCBL {}\ \BBA {} Fink, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Aircraft Engine Run-to-Failure Dataset under Real Flight
+  Conditions for Prognostics and Diagnostics} {Aircraft engine run-to-failure
+  dataset under real flight conditions for prognostics and diagnostics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Data}{6}{1}{5}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/data6010005} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chernozhukov%
+, Fernández-Val%
+\BCBL {}\ \BBA {} Galichon%
+}{%
+Chernozhukov%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+chernozhukov2010crossing}
+\APACinsertmetastar {%
+chernozhukov2010crossing}%
+\begin{APACrefauthors}%
+Chernozhukov, V.%
+, Fernández-Val, I.%
+\BCBL {}\ \BBA {} Galichon, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Quantile and Probability Curves Without Crossing}
+  {Quantile and probability curves without crossing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Econometrica}{78}{3}{1093--1125}.
+\newblock
+\begin{APACrefDOI} \doi{10.3982/ECTA7880} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gneiting%
+, Balabdaoui%
+\BCBL {}\ \BBA {} Raftery%
+}{%
+Gneiting%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+gneiting2007calibrationsharpness}
+\APACinsertmetastar {%
+gneiting2007calibrationsharpness}%
+\begin{APACrefauthors}%
+Gneiting, T.%
+, Balabdaoui, F.%
+\BCBL {}\ \BBA {} Raftery, A\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Probabilistic forecasts, calibration and sharpness}
+  {Probabilistic forecasts, calibration and sharpness}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the Royal Statistical Society: Series B
+  (Statistical Methodology)}{69}{2}{243--268}.
+\newblock
+\begin{APACrefURL}
+  \url{https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jrssb.pdf}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1467-9868.2007.00587.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gneiting%
+\ \BBA {} Raftery%
+}{%
+Gneiting%
+\ \BBA {} Raftery%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+gneiting2007scoring}
+\APACinsertmetastar {%
+gneiting2007scoring}%
+\begin{APACrefauthors}%
+Gneiting, T.%
+\BCBT {}\ \BBA {} Raftery, A\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Strictly Proper Scoring Rules, Prediction, and
+  Estimation} {Strictly proper scoring rules, prediction, and
+  estimation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American Statistical
+  Association}{102}{477}{359--378}.
+\newblock
+\begin{APACrefDOI} \doi{10.1198/016214506000001437} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gneiting%
+\ \BBA {} Ranjan%
+}{%
+Gneiting%
+\ \BBA {} Ranjan%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+gneiting2013combining}
+\APACinsertmetastar {%
+gneiting2013combining}%
+\begin{APACrefauthors}%
+Gneiting, T.%
+\BCBT {}\ \BBA {} Ranjan, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Combining predictive distributions} {Combining
+  predictive distributions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Electronic Journal of Statistics}{7}{}{1747--1782}.
+\newblock
+\begin{APACrefDOI} \doi{10.1214/13-EJS823} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Guo%
+, Pleiss%
+, Sun%
+\BCBL {}\ \BBA {} Weinberger%
+}{%
+Guo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+guo2017calibration}
+\APACinsertmetastar {%
+guo2017calibration}%
+\begin{APACrefauthors}%
+Guo, C.%
+, Pleiss, G.%
+, Sun, Y.%
+\BCBL {}\ \BBA {} Weinberger, K\BPBI Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On Calibration of Modern Neural Networks} {On
+  calibration of modern neural networks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Machine Learning (ICML)}
+  {International conference on machine learning (icml)}\ (\BVOL~70, \BPGS\
+  1321--1330).
+\newblock
+\begin{APACrefURL} \url{https://proceedings.mlr.press/v70/guo17a.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Javanmardi%
+\ \BBA {} H{\"u}llermeier%
+}{%
+Javanmardi%
+\ \BBA {} H{\"u}llermeier%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+javanmardi2023conformal}
+\APACinsertmetastar {%
+javanmardi2023conformal}%
+\begin{APACrefauthors}%
+Javanmardi, A.%
+\BCBT {}\ \BBA {} H{\"u}llermeier, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Conformal Prediction Intervals for Remaining Useful
+  Lifetime Estimation} {Conformal prediction intervals for remaining useful
+  lifetime estimation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Prognostics and Health
+  Management}{14}{2}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.36001/ijphm.2023.v14i2.3417} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Koenker%
+\ \BBA {} Bassett%
+}{%
+Koenker%
+\ \BBA {} Bassett%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+koenker1978regression}
+\APACinsertmetastar {%
+koenker1978regression}%
+\begin{APACrefauthors}%
+Koenker, R.%
+\BCBT {}\ \BBA {} Bassett, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Regression Quantiles} {Regression quantiles}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Econometrica}{46}{1}{33--50}.
+\newblock
+\begin{APACrefDOI} \doi{10.2307/1913643} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saxena%
+\ \BBA {} Goebel%
+}{%
+Saxena%
+\ \BBA {} Goebel%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+saxena2008cmapss}
+\APACinsertmetastar {%
+saxena2008cmapss}%
+\begin{APACrefauthors}%
+Saxena, A.%
+\BCBT {}\ \BBA {} Goebel, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {Turbofan Engine Degradation Simulation Data Set.} {Turbofan
+  engine degradation simulation data set.}
+\newblock
+\APAChowpublished {NASA Prognostics Data Repository, NASA Ames Research
+  Center}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Moffett Field, CA}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saxena%
+, Goebel%
+, Simon%
+\BCBL {}\ \BBA {} Eklund%
+}{%
+Saxena%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+saxena2008damage}
+\APACinsertmetastar {%
+saxena2008damage}%
+\begin{APACrefauthors}%
+Saxena, A.%
+, Goebel, K.%
+, Simon, D.%
+\BCBL {}\ \BBA {} Eklund, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Damage Propagation Modeling for Aircraft Engine
+  Run-to-Failure Simulation} {Damage propagation modeling for aircraft engine
+  run-to-failure simulation}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2008 International Conference on Prognostics and Health
+  Management} {2008 international conference on prognostics and health
+  management}\ (\BPGS\ 1--9).
+\newblock
+\APACaddressPublisher{Denver, CO, USA}{IEEE}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/PHM.2008.4711414} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Silva Filho}%
+\ \protect \BOthers {.}}{%
+{Silva Filho}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+silvafilho2023calibration}
+\APACinsertmetastar {%
+silvafilho2023calibration}%
+\begin{APACrefauthors}%
+{Silva Filho}, T.%
+, Song, H.%
+, Perello-Nieto, M.%
+, Santos-Rodriguez, R.%
+, Kull, M.%
+\BCBL {}\ \BBA {} Flach, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Classifier calibration: a survey on how to assess and
+  improve predicted class probabilities} {Classifier calibration: a survey on
+  how to assess and improve predicted class probabilities}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Machine Learning}{112}{}{3211--3260}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s10994-023-06336-7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

@@ -21,9 +21,14 @@ def tables():
     diagnostic = read('results/contribution_step12/summary.csv')
     point = read('results/fair_comparison_step2/per_run.csv')
     probability = read('results/risk_context_step8/per_run.csv')
-    manuscript = (ROOT / 'paper/manuscript_v4.md').read_text(encoding='utf-8')
+    manuscript = (ROOT / 'paper/manuscript.md').read_text(encoding='utf-8')
     existing = [block.splitlines() for block in manuscript.split('\n\n') if block.startswith('|') and '| FD' in block]
     assert len(existing) == 4
+    # The IJPHM narrative presents Table 2 before Table 1; match by table identity.
+    def table_number(lines):
+        header = lines[0]
+        return 1 if 'Group / outcome' in header else 2 if 'Raw incompatible' in header else 3 if 'Fit/test' in header else 4
+    existing.sort(key=table_number)
     rows = [[], [], [], []]
     for subset in ['FD001', 'FD002', 'FD003', 'FD004']:
         for model in ['lstm', 'hybrid']:
